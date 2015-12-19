@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>eu.ubitech</groupId>
+    <artifactId>fail2bananalyzer</artifactId>
+    <version>0.0.1</version>
+
+    <properties>
+        <project.source.charset>UTF-8</project.source.charset>
+        <project.source.encoding>UTF-8</project.source.encoding>
+        <java.version.source>1.8</java.version.source>
+        <java.version.target>1.8</java.version.target>
+    </properties>
+
+    <dependencies>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- JAVA compatibility-->  
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <charset>${project.source.charset}</charset>
+                    <encoding>${project.source.encoding}</encoding>
+                    <source>${java.version.source}</source>
+                    <target>${java.version.target}</target>
+                </configuration>
+            </plugin>                         
+        </plugins>
+    </build>
+
+</project>

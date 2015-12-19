@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2014 sp1 (http://www.altova.com) by Panagiotis Gouvas (UBITECH LTD) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:element name="Attack">
+		<xs:annotation>
+			<xs:documentation>Basic element that represents an attack</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="IPDescriptor">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IPAddress" type="xs:string">
+								<xs:annotation>
+									<xs:documentation>e.g. 93.174.95.32</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="LocationDescriptor" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="CountryName" type="xs:string"/>
+										<xs:element name="CountryCode" type="xs:string"/>
+										<xs:element name="RegionName"/>
+										<xs:element name="RegionCode" type="xs:string"/>
+										<xs:element name="City"/>
+										<xs:element name="ZipCode"/>
+										<xs:element name="TimeZone"/>
+										<xs:element name="Latitude"/>
+										<xs:element name="Longitude"/>
+										<xs:element name="MetroCode"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="BlacklistingDescriptor" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="ThreatLevel" minOccurs="0" maxOccurs="100"/>
+										<xs:element name="VisitorClassification" type="xs:string" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>e.g. Harvester, SearchEngine</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="AdversaryHostDescriptor" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="NetworkRange" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>e.g. 113.96.0.0 - 113.111.255.255</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="NetworkSize" type="xs:int"/>
+										<xs:element name="NetworkName" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>e.g. CHINANET-GD</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="NetworkDescription" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>e.g. CHINANET Guangdong province network
+</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="NetworkCategory" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>e.g. SME, Institution</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="AdversarySystemDescriptor" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="OSDescriptor" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>combine CVE</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:attribute name="AmountOfOSVulnerabilities" type="xs:int"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PortsDescriptor" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="PortDescriptor" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="ProgramName" type="xs:string"/>
+																<xs:element name="Port" type="xs:int"/>
+															</xs:sequence>
+															<xs:attribute name="AmountOfPortVulnerabilities" type="xs:int"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="ReverseIPDescriptor" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="VirtualHost" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="VirtualHostname" type="xs:string"/>
+												</xs:sequence>
+												<xs:attribute name="AmountOfDisclosedVulnerabilties" type="xs:int"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="AmountOfVirtualHosts"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DateDescriptor">
+					<xs:annotation>
+						<xs:documentation>The timestamp of the cyber-attack based on GMT+2</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Fulldate">
+								<xs:annotation>
+									<xs:documentation>e.g. 2015-12-19 08:27:54,548</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Year">
+								<xs:annotation>
+									<xs:documentation>e.g. 2015</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Month">
+								<xs:annotation>
+									<xs:documentation>e.g. 12</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Day">
+								<xs:annotation>
+									<xs:documentation>e.g. 19</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Time">
+								<xs:annotation>
+									<xs:documentation>e.g. 08:27:54,548</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="MaliciousActionDescriptor" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AttackType">
+								<xs:annotation>
+									<xs:documentation>e.g. https://capec.mitre.org/data/definitions/114.html</xs:documentation>
+								</xs:annotation>
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="AuthenticationAbuse"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="AttackContext" type="xs:string" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>e.g. user=ubuntu</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
