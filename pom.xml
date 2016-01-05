@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>eu.ubitech</groupId>
-    <artifactId>fail2bananalyzer</artifactId>
+    <artifactId>cyberattackanalyzer</artifactId>
     <version>0.0.1</version>
 
     <properties>
@@ -12,6 +12,7 @@
         <project.source.encoding>UTF-8</project.source.encoding>
         <java.version.source>1.8</java.version.source>
         <java.version.target>1.8</java.version.target>
+        <maven.jaxb.plugin>0.13.1</maven.jaxb.plugin>
     </properties>
 
     <dependencies>
@@ -30,7 +31,27 @@
                     <source>${java.version.source}</source>
                     <target>${java.version.target}</target>
                 </configuration>
-            </plugin>                         
+            </plugin>   
+            
+            <!-- JAXB Plugin -->
+            <plugin>
+                <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb2-plugin</artifactId>
+                <version>${maven.jaxb.plugin}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <generateDirectory>${project.basedir}/src/main/java</generateDirectory>
+                    <generatePackage>eu.ubitech.cyberattackanalyzer.model</generatePackage>
+                    <addCompileSourceRoot>true</addCompileSourceRoot>
+                </configuration>
+            </plugin>                                  
+                                                                              
         </plugins>
     </build>
 

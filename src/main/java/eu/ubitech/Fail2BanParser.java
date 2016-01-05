@@ -15,6 +15,9 @@
  */
 package eu.ubitech;
 
+import eu.ubitech.cyberattackanalyzer.parser.AttackLogParser;
+import eu.ubitech.cyberattackanalyzer.service.location.freegeoip.LocationRetriever;
+
 
 /**
  *
@@ -23,8 +26,11 @@ package eu.ubitech;
 public class Fail2BanParser {
 
     public static void main(String[] args) {
-
-    }
+        AttackLogParser.parseFile("inputdata/attacks.log");
+        LocationRetriever locretr = new LocationRetriever();
+        locretr.inferLocation("43.229.53.56");
+    }//EoMain
+    
     //whois
     
     //Geolocation
