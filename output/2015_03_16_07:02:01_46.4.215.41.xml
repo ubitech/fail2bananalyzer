@@ -16,7 +16,7 @@
         </LocationDescriptor>
         <AdversaryHostDescriptor>
             <NetworkRange>46.4.215.32 - 46.4.215.63</NetworkRange>
-            <NetworkSize>0</NetworkSize>
+            <NetworkSize>31</NetworkSize>
             <NetworkName>PROKOPIOU-A-TOULKARIDIS-X-OE</NetworkName>
             <NetworkDescription>Hetzner Online GmbH</NetworkDescription>
         </AdversaryHostDescriptor>

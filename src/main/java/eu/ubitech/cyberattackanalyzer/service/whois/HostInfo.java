@@ -25,6 +25,17 @@ public class HostInfo {
     private String netname;
     private String descr;
     private String orgname;
+    private int netsize;
+
+    public int getNetsize() {
+        return netsize;
+    }
+
+    public void setNetsize(int netsize) {
+        this.netsize = netsize;
+    }
+
+
 
     public String getOrgname() {
         return orgname;

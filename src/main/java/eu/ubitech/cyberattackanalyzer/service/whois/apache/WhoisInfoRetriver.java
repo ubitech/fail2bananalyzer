@@ -29,6 +29,7 @@ import java.net.ProtocolException;
 import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.regex.Pattern;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
@@ -89,9 +90,12 @@ public class WhoisInfoRetriver implements IWhoisInfoRetriever {
             hinfo.setInetnum(inetnum);
             hinfo.setNetname(netname);
             hinfo.setDescr(descr); 
-            hinfo.setOrgname(orgname);
-            
+            hinfo.setOrgname(orgname);            
+            String[] ips = inetnum.split("-");
+            int range = calculateRange(ips[0].trim(), ips[1].trim());
+            hinfo.setNetsize(range);
 //            logger.info("inetnum:"+inetnum);
+//            logger.info("range:"+range);
 //            logger.info("netname:"+netname);
 //            logger.info("descr:"+descr);
 //            logger.info("orgname:"+orgname);
@@ -109,4 +113,24 @@ public class WhoisInfoRetriver implements IWhoisInfoRetriever {
         return hinfo;
     }//EoM
 
+    public static int calculateRange(String address1,String address2){
+        int result=0;
+        result = parseIp(address2)-parseIp(address1);
+        return result;
+    }//EoM
+    
+    public static int parseIp(String address) {
+        int result = 0;
+
+        // iterate over each octet
+        for(String part : address.split(Pattern.quote("."))) {
+            // shift the previously parsed bits over by 1 byte
+            result = result << 8;
+            // set the low order bits to the current octet
+            result |= Integer.parseInt(part);
+        }
+        return result;
+    }//EoM    
+    
+    
 }

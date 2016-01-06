@@ -127,7 +127,9 @@ public class AttackLogParser {
         //fill xml element
         adversaryHostDescriptor.setNetworkRange(hostInfo.getInetnum());
         adversaryHostDescriptor.setNetworkName(hostInfo.getNetname());
-        adversaryHostDescriptor.setNetworkDescription(hostInfo.getOrgname());         
+        adversaryHostDescriptor.setNetworkDescription(hostInfo.getOrgname()); 
+        adversaryHostDescriptor.setNetworkSize(hostInfo.getNetsize()); 
+        
         //add it to ipdescr
         ipdescr.setAdversaryHostDescriptor(adversaryHostDescriptor);
         
