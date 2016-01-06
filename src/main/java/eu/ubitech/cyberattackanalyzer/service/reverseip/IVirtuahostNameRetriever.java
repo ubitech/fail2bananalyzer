@@ -13,14 +13,15 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package eu.ubitech.cyberattackanalyzer.service.location;
+package eu.ubitech.cyberattackanalyzer.service.reverseip;
+
+import java.util.ArrayList;
 
 /**
  *
  * @author Panagiotis Gouvas (pgouvas@ubitech.eu)
  */
-public interface ILocationRetriever {
-    
-    public Location inferLocation(String ipaddress);
-    
+public interface IVirtuahostNameRetriever {
+
+    public ArrayList<VirtualHostname> retriverVirtualHosts(String ipaddr);
 }

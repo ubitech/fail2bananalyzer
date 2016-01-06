@@ -16,7 +16,13 @@
 package eu.ubitech;
 
 import eu.ubitech.cyberattackanalyzer.parser.AttackLogParser;
+import eu.ubitech.cyberattackanalyzer.service.location.Location;
 import eu.ubitech.cyberattackanalyzer.service.location.freegeoip.LocationRetriever;
+import eu.ubitech.cyberattackanalyzer.service.reverseip.VirtualHostname;
+import eu.ubitech.cyberattackanalyzer.service.reverseip.hackertarget.VirtuahostNameRetriever;
+import java.util.ArrayList;
+import java.util.logging.Logger;
+import javax.xml.xpath.XPathExpressionException;
 
 
 /**
@@ -25,10 +31,19 @@ import eu.ubitech.cyberattackanalyzer.service.location.freegeoip.LocationRetriev
  */
 public class Fail2BanParser {
 
-    public static void main(String[] args) {
+    private static final Logger logger = Logger.getLogger(AttackLogParser.class.getName());    
+    
+    public static void main(String[] args) throws XPathExpressionException {
+        //main
         AttackLogParser.parseFile("inputdata/attacks.log");
-        LocationRetriever locretr = new LocationRetriever();
-        locretr.inferLocation("43.229.53.56");
+        //service1 - location
+//        LocationRetriever locretriever = new LocationRetriever();
+//        Location location = locretriever.inferLocation("43.229.53.56");        
+        //service2 - reverse ip
+//        VirtuahostNameRetriever vhostretriver = new VirtuahostNameRetriever();
+//        ArrayList<VirtualHostname> vhosts = vhostretriver.retriverVirtualHosts("46.4.215.41");
+//        logger.info("size:"+vhosts.size());
+        
     }//EoMain
     
     //whois

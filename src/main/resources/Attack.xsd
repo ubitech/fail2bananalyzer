@@ -20,14 +20,14 @@
 									<xs:sequence>
 										<xs:element name="CountryName" type="xs:string"/>
 										<xs:element name="CountryCode" type="xs:string"/>
-										<xs:element name="RegionName"/>
+										<xs:element name="RegionName" type="xs:string"/>
 										<xs:element name="RegionCode" type="xs:string"/>
-										<xs:element name="City"/>
-										<xs:element name="ZipCode"/>
-										<xs:element name="TimeZone"/>
-										<xs:element name="Latitude"/>
-										<xs:element name="Longitude"/>
-										<xs:element name="MetroCode"/>
+										<xs:element name="City" type="xs:string"/>
+										<xs:element name="ZipCode" type="xs:string"/>
+										<xs:element name="TimeZone" type="xs:string"/>
+										<xs:element name="Latitude" type="xs:string"/>
+										<xs:element name="Longitude" type="xs:string"/>
+										<xs:element name="MetroCode" type="xs:string"/>
 									</xs:sequence>
 								</xs:complexType>
 							</xs:element>
@@ -112,7 +112,7 @@
 											</xs:complexType>
 										</xs:element>
 									</xs:sequence>
-									<xs:attribute name="AmountOfVirtualHosts"/>
+									<xs:attribute name="AmountOfVirtualHosts" type="xs:int"/>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
@@ -124,27 +124,27 @@
 					</xs:annotation>
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="Fulldate">
+							<xs:element name="Fulldate" type="xs:string">
 								<xs:annotation>
 									<xs:documentation>e.g. 2015-12-19 08:27:54,548</xs:documentation>
 								</xs:annotation>
 							</xs:element>
-							<xs:element name="Year">
+							<xs:element name="Year" type="xs:string">
 								<xs:annotation>
 									<xs:documentation>e.g. 2015</xs:documentation>
 								</xs:annotation>
 							</xs:element>
-							<xs:element name="Month">
+							<xs:element name="Month" type="xs:string">
 								<xs:annotation>
 									<xs:documentation>e.g. 12</xs:documentation>
 								</xs:annotation>
 							</xs:element>
-							<xs:element name="Day">
+							<xs:element name="Day" type="xs:string">
 								<xs:annotation>
 									<xs:documentation>e.g. 19</xs:documentation>
 								</xs:annotation>
 							</xs:element>
-							<xs:element name="Time">
+							<xs:element name="Time" type="xs:string">
 								<xs:annotation>
 									<xs:documentation>e.g. 08:27:54,548</xs:documentation>
 								</xs:annotation>

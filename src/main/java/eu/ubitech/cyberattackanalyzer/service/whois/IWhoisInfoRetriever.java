@@ -13,14 +13,13 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package eu.ubitech.cyberattackanalyzer.service.location;
+package eu.ubitech.cyberattackanalyzer.service.whois;
 
 /**
  *
  * @author Panagiotis Gouvas (pgouvas@ubitech.eu)
  */
-public interface ILocationRetriever {
-    
-    public Location inferLocation(String ipaddress);
-    
+public interface IWhoisInfoRetriever {
+
+    public HostInfo getHostInfo(String ipaddr);
 }

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>77.236.97.26</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Germany</CountryName>
+            <CountryCode>DE</CountryCode>
+            <RegionName>North Rhine-Westphalia</RegionName>
+            <RegionCode>NW</RegionCode>
+            <City>Sonsbeck</City>
+            <ZipCode>47665</ZipCode>
+            <TimeZone>Europe/Berlin</TimeZone>
+            <Latitude>51.6167</Latitude>
+            <Longitude>6.3667</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-03-16</Fulldate>
+        <Year>2015</Year>
+        <Month>03</Month>
+        <Day>16</Day>
+        <Time>07:02:01</Time>
+    </DateDescriptor>
+</Attack>

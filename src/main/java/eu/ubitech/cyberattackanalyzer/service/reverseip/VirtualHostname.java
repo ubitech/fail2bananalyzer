@@ -13,14 +13,26 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package eu.ubitech.cyberattackanalyzer.service.location;
+package eu.ubitech.cyberattackanalyzer.service.reverseip;
 
 /**
  *
  * @author Panagiotis Gouvas (pgouvas@ubitech.eu)
  */
-public interface ILocationRetriever {
+public class VirtualHostname {
+
+    public VirtualHostname(String url) {
+        this.url = url;
+    }
     
-    public Location inferLocation(String ipaddress);
-    
+    private String url;
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
 }
