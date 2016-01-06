@@ -13,9 +13,11 @@
         <java.version.source>1.8</java.version.source>
         <java.version.target>1.8</java.version.target>
         <maven.jaxb.plugin>0.13.1</maven.jaxb.plugin>
+        
     </properties>
 
-    <dependencies>
+    <dependencies>  
+         
     </dependencies>
 
     <build>

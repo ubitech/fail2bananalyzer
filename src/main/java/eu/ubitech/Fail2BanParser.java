@@ -20,6 +20,7 @@ import eu.ubitech.cyberattackanalyzer.service.location.Location;
 import eu.ubitech.cyberattackanalyzer.service.location.freegeoip.LocationRetriever;
 import eu.ubitech.cyberattackanalyzer.service.reverseip.VirtualHostname;
 import eu.ubitech.cyberattackanalyzer.service.reverseip.hackertarget.VirtuahostNameRetriever;
+import eu.ubitech.cyberattackanalyzer.service.whois.apache.WhoisInfoRetriver;
 import java.util.ArrayList;
 import java.util.logging.Logger;
 import javax.xml.xpath.XPathExpressionException;
@@ -43,6 +44,9 @@ public class Fail2BanParser {
 //        VirtuahostNameRetriever vhostretriver = new VirtuahostNameRetriever();
 //        ArrayList<VirtualHostname> vhosts = vhostretriver.retriverVirtualHosts("46.4.215.41");
 //        logger.info("size:"+vhosts.size());
+        //service3 - whois
+//        WhoisInfoRetriver whoisretriver = new WhoisInfoRetriver();
+//        whoisretriver.getHostInfo("46.4.215.41");
         
     }//EoMain
     

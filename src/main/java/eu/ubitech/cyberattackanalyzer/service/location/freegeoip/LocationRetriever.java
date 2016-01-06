@@ -15,7 +15,6 @@
  */
 package eu.ubitech.cyberattackanalyzer.service.location.freegeoip;
 
-import eu.ubitech.cyberattackanalyzer.parser.AttackLogParser;
 import eu.ubitech.cyberattackanalyzer.service.location.ILocationRetriever;
 import eu.ubitech.cyberattackanalyzer.service.location.Location;
 import java.io.BufferedReader;

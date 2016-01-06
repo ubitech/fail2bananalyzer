@@ -20,5 +20,42 @@ package eu.ubitech.cyberattackanalyzer.service.whois;
  * @author Panagiotis Gouvas (pgouvas@ubitech.eu)
  */
 public class HostInfo {
+    
+    private String inetnum;
+    private String netname;
+    private String descr;
+    private String orgname;
 
+    public String getOrgname() {
+        return orgname;
+    }
+
+    public void setOrgname(String orgname) {
+        this.orgname = orgname;
+    }
+    
+    public String getNetname() {
+        return netname;
+    }
+
+    public void setNetname(String netname) {
+        this.netname = netname;
+    }
+
+    public String getDescr() {
+        return descr;
+    }
+
+    public void setDescr(String descr) {
+        this.descr = descr;
+    }
+    
+    public String getInetnum() {
+        return inetnum;
+    }
+
+    public void setInetnum(String inetnum) {
+        this.inetnum = inetnum;
+    }
+        
 }

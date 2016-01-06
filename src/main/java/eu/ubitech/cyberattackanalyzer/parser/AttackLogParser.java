@@ -23,6 +23,8 @@ import eu.ubitech.cyberattackanalyzer.service.location.Location;
 import eu.ubitech.cyberattackanalyzer.service.location.freegeoip.LocationRetriever;
 import eu.ubitech.cyberattackanalyzer.service.reverseip.VirtualHostname;
 import eu.ubitech.cyberattackanalyzer.service.reverseip.hackertarget.VirtuahostNameRetriever;
+import eu.ubitech.cyberattackanalyzer.service.whois.HostInfo;
+import eu.ubitech.cyberattackanalyzer.service.whois.apache.WhoisInfoRetriver;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -62,7 +64,6 @@ public class AttackLogParser {
      */
     public static void handleAttack(String attackdescr) {
         
-
         //parse attack descriptor
         String[] parts = attackdescr.split(" ");        
         String datestr = parts[0].trim();
@@ -80,6 +81,7 @@ public class AttackLogParser {
         
         //STEP-2 create IP descriptor
         ipdescr.setIPAddress(ipstr);
+        
         //---location
         //define retriever
         LocationRetriever locretriever = new LocationRetriever();
@@ -112,10 +114,24 @@ public class AttackLogParser {
             IPDescriptor.ReverseIPDescriptor.VirtualHost xmlVirtualHost = factory.createAttackIPDescriptorReverseIPDescriptorVirtualHost();
             xmlVirtualHost.setVirtualHostname(vhost.getUrl());
             reverseIPDescriptor.getVirtualHost().add(xmlVirtualHost);
-        }//for
-        
+        }//for        
         //add it to ipdescr
         ipdescr.setReverseIPDescriptor(reverseIPDescriptor);
+        
+        //--whois data
+        //define retriver
+        WhoisInfoRetriver whoisretriver = new WhoisInfoRetriver();
+        HostInfo hostInfo = whoisretriver.getHostInfo(ipstr);
+        //define xml element
+        IPDescriptor.AdversaryHostDescriptor adversaryHostDescriptor = factory.createAttackIPDescriptorAdversaryHostDescriptor();
+        //fill xml element
+        adversaryHostDescriptor.setNetworkRange(hostInfo.getInetnum());
+        adversaryHostDescriptor.setNetworkName(hostInfo.getNetname());
+        adversaryHostDescriptor.setNetworkDescription(hostInfo.getOrgname());         
+        //add it to ipdescr
+        ipdescr.setAdversaryHostDescriptor(adversaryHostDescriptor);
+        
+        //--blacklisting               
         
         //STEP-3 handle data 
         datedescriptor.setFulldate(datestr);

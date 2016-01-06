@@ -14,6 +14,12 @@
             <Longitude>9</Longitude>
             <MetroCode>0</MetroCode>
         </LocationDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>46.4.215.32 - 46.4.215.63</NetworkRange>
+            <NetworkSize>0</NetworkSize>
+            <NetworkName>PROKOPIOU-A-TOULKARIDIS-X-OE</NetworkName>
+            <NetworkDescription>Hetzner Online GmbH</NetworkDescription>
+        </AdversaryHostDescriptor>
         <ReverseIPDescriptor AmountOfVirtualHosts="20">
             <VirtualHost>
                 <VirtualHostname>alcmene.iphost.gr</VirtualHostname>
