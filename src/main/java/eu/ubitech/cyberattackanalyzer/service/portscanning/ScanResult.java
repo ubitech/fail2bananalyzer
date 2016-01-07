@@ -25,7 +25,16 @@ public class ScanResult {
 
     private int amount;
     private ArrayList<Port> ports;
+    private String os;
 
+    public String getOs() {
+        return os;
+    }
+
+    public void setOs(String os) {
+        this.os = os;
+    }
+    
     public int getAmount() {
         return amount;
     }

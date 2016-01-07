@@ -21,19 +21,19 @@ package eu.ubitech.cyberattackanalyzer.service.portscanning;
  */
 public class Port {
     
-    private int portnumber;
+    private String portnumber;
     private String service;
 
-    public Port(int portnumber, String service) {
+    public Port(String portnumber, String service) {
         this.portnumber = portnumber;
         this.service = service;
     }
 
-    public int getPortnumber() {
+    public String getPortnumber() {
         return portnumber;
     }
 
-    public void setPortnumber(int portnumber) {
+    public void setPortnumber(String portnumber) {
         this.portnumber = portnumber;
     }
 

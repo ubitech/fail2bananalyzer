@@ -22,6 +22,9 @@ import eu.ubitech.cyberattackanalyzer.model.ObjectFactory;
 import eu.ubitech.cyberattackanalyzer.service.blacklist.ipvoid.BlacklistRetriver;
 import eu.ubitech.cyberattackanalyzer.service.location.Location;
 import eu.ubitech.cyberattackanalyzer.service.location.freegeoip.LocationRetriever;
+import eu.ubitech.cyberattackanalyzer.service.portscanning.Port;
+import eu.ubitech.cyberattackanalyzer.service.portscanning.ScanResult;
+import eu.ubitech.cyberattackanalyzer.service.portscanning.nmap.NMapScannerExecutor;
 import eu.ubitech.cyberattackanalyzer.service.reverseip.VirtualHostname;
 import eu.ubitech.cyberattackanalyzer.service.reverseip.hackertarget.VirtuahostNameRetriever;
 import eu.ubitech.cyberattackanalyzer.service.whois.HostInfo;
@@ -185,6 +188,27 @@ public class AttackLogParser {
                 //add it to ipdescr
                 ipdescr.setBlacklistingDescriptor(blacklistingDescriptor);
 
+                //--port scanning
+                //define retriver
+                NMapScannerExecutor nMapScannerExecutor = new NMapScannerExecutor();
+                ScanResult scanres = nMapScannerExecutor.scanTarget(ipstr);                
+                //define xml element
+                IPDescriptor.AdversarySystemDescriptor systemDescriptor = factory.createAttackIPDescriptorAdversarySystemDescriptor();
+                //fill xml element
+                IPDescriptor.AdversarySystemDescriptor.PortsDescriptor portsDescriptor = factory.createAttackIPDescriptorAdversarySystemDescriptorPortsDescriptor();
+                portsDescriptor.setAmount(""+scanres.getAmount());
+                if (scanres.getPorts()!=null)
+                for (Port port : scanres.getPorts()) {
+                    IPDescriptor.AdversarySystemDescriptor.PortsDescriptor.PortDescriptor xmlport = factory.createAttackIPDescriptorAdversarySystemDescriptorPortsDescriptorPortDescriptor();
+                    xmlport.setPort(port.getPortnumber());
+                    xmlport.setProgramName(port.getService());
+                    portsDescriptor.getPortDescriptor().add(xmlport);
+                }                
+                systemDescriptor.setPortsDescriptor(portsDescriptor);                
+                systemDescriptor.setOSDescriptor(scanres.getOs());
+                //add it to ipdescr
+                ipdescr.setAdversarySystemDescriptor(systemDescriptor);
+                
                 //STEP-3 handle data 
                 datedescriptor.setFulldate(datestr);
                 datedescriptor.setYear(year);

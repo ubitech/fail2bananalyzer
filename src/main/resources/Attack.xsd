@@ -74,13 +74,10 @@
 							<xs:element name="AdversarySystemDescriptor" minOccurs="0">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element name="OSDescriptor" minOccurs="0">
+										<xs:element name="OSDescriptor" type="xs:string" minOccurs="0">
 											<xs:annotation>
 												<xs:documentation>combine CVE</xs:documentation>
 											</xs:annotation>
-											<xs:complexType>
-												<xs:attribute name="AmountOfOSVulnerabilities" type="xs:int"/>
-											</xs:complexType>
 										</xs:element>
 										<xs:element name="PortsDescriptor" minOccurs="0">
 											<xs:complexType>
@@ -89,12 +86,12 @@
 														<xs:complexType>
 															<xs:sequence>
 																<xs:element name="ProgramName" type="xs:string"/>
-																<xs:element name="Port" type="xs:int"/>
+																<xs:element name="Port" type="xs:string"/>
 															</xs:sequence>
-															<xs:attribute name="AmountOfPortVulnerabilities" type="xs:int"/>
 														</xs:complexType>
 													</xs:element>
 												</xs:sequence>
+												<xs:attribute name="amount"/>
 											</xs:complexType>
 										</xs:element>
 									</xs:sequence>

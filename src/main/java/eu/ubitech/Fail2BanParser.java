@@ -42,8 +42,8 @@ public class Fail2BanParser {
     
     public static void main(String[] args) throws XPathExpressionException {
         //main
-//        AttackLogParser.parseFile("inputdata/attacks.log");
-        //service1 - location
+        AttackLogParser.parseFile("inputdata/attacks.log");
+          //service1 - location
 //        LocationRetriever locretriever = new LocationRetriever();
 //        Location location = locretriever.inferLocation("43.229.53.56");        
         //service2 - reverse ip
@@ -56,11 +56,13 @@ public class Fail2BanParser {
         //service4 - scan result
 //        CustomPortScanExecutor portscanner = new CustomPortScanExecutor();
 //        portscanner.scanTarget("43.229.53.56");
-//          BlacklistRetriver blr = new BlacklistRetriver();         
-//          blr.getBlacklistStatus("213.249.38.66");
-//          blr.getBlacklistStatus("43.229.53.56");
-        NMapScannerExecutor nMapScannerExecutor = new NMapScannerExecutor();
-        nMapScannerExecutor.scanTarget("95.163.107.202");
+//        BlacklistRetriver blr = new BlacklistRetriver();         
+//        blr.getBlacklistStatus("213.249.38.66");
+//        blr.getBlacklistStatus("43.229.53.56");
+//        NMapScannerExecutor nMapScannerExecutor = new NMapScannerExecutor();
+//        nMapScannerExecutor.scanTarget("77.236.97.26");
+//        nMapScannerExecutor.scanTarget("95.163.107.202");
+        
     }//EoMain
     
     //whois
