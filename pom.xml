@@ -16,8 +16,13 @@
         
     </properties>
 
-    <dependencies>  
-         
+    <dependencies>
+        <dependency>
+            <groupId>ant</groupId>
+            <artifactId>ant</artifactId>
+            <version>1.6.5</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
 
     <build>

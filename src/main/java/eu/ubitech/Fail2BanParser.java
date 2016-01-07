@@ -16,12 +16,13 @@
 package eu.ubitech;
 
 import eu.ubitech.cyberattackanalyzer.parser.AttackLogParser;
+import eu.ubitech.cyberattackanalyzer.service.blacklist.ipvoid.BlacklistRetriver;
 import eu.ubitech.cyberattackanalyzer.service.location.Location;
 import eu.ubitech.cyberattackanalyzer.service.location.freegeoip.LocationRetriever;
 import eu.ubitech.cyberattackanalyzer.service.portscanning.custom.CustomPortScanExecutor;
 import eu.ubitech.cyberattackanalyzer.service.reverseip.VirtualHostname;
 import eu.ubitech.cyberattackanalyzer.service.reverseip.hackertarget.VirtuahostNameRetriever;
-import eu.ubitech.cyberattackanalyzer.service.whois.apache.WhoisInfoRetriver;
+import eu.ubitech.cyberattackanalyzer.service.whois.ripe.WhoisInfoRetriver;
 import java.util.ArrayList;
 import java.util.logging.Logger;
 import javax.xml.xpath.XPathExpressionException;
@@ -33,11 +34,11 @@ import javax.xml.xpath.XPathExpressionException;
  */
 public class Fail2BanParser {
 
-    private static final Logger logger = Logger.getLogger(AttackLogParser.class.getName());    
+    private static final Logger logger = Logger.getLogger(Fail2BanParser.class.getName());    
     
     public static void main(String[] args) throws XPathExpressionException {
         //main
-//        AttackLogParser.parseFile("inputdata/attacks.log");
+        AttackLogParser.parseFile("inputdata/attacks.log");
         //service1 - location
 //        LocationRetriever locretriever = new LocationRetriever();
 //        Location location = locretriever.inferLocation("43.229.53.56");        
@@ -49,8 +50,11 @@ public class Fail2BanParser {
 //        WhoisInfoRetriver whoisretriver = new WhoisInfoRetriver();
 //        whoisretriver.getHostInfo("46.4.215.41");
         //service4 - scan result
-        CustomPortScanExecutor portscanner = new CustomPortScanExecutor();
-        portscanner.scanTarget("213.249.38.66");
+//        CustomPortScanExecutor portscanner = new CustomPortScanExecutor();
+//        portscanner.scanTarget("43.229.53.56");
+//          BlacklistRetriver blr = new BlacklistRetriver();         
+//          blr.getBlacklistStatus("213.249.38.66");
+//          blr.getBlacklistStatus("43.229.53.56");
         
     }//EoMain
     

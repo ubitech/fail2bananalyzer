@@ -65,8 +65,8 @@ public class LocationRetriever implements ILocationRetriever {
             con.setRequestMethod("GET");
 
             int responseCode = con.getResponseCode();
-            logger.info("\nSending 'GET' request to URL : " + url);
-            logger.info("Response Code : " + responseCode);
+//            logger.info("\nSending 'GET' request to URL : " + url);
+//            logger.info("Response Code : " + responseCode);
 
             BufferedReader in = new BufferedReader(
                     new InputStreamReader(con.getInputStream()));

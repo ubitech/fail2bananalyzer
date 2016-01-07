@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package eu.ubitech.cyberattackanalyzer.service.whois.apache;
+package eu.ubitech.cyberattackanalyzer.service.whois.ripe;
 
 import eu.ubitech.cyberattackanalyzer.service.location.freegeoip.LocationRetriever;
 import eu.ubitech.cyberattackanalyzer.service.reverseip.hackertarget.VirtuahostNameRetriever;
@@ -62,8 +62,8 @@ public class WhoisInfoRetriver implements IWhoisInfoRetriever {
             con.setRequestMethod("GET");
 
             int responseCode = con.getResponseCode();
-            logger.info("\nSending 'GET' request to URL : " + url);
-            logger.info("Response Code : " + responseCode);
+//            logger.info("\nSending 'GET' request to URL : " + url);
+//            logger.info("Response Code : " + responseCode);
 
             BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
             String inputLine;
