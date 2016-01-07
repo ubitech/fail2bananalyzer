@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>198.101.8.253</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Florida</RegionName>
+            <RegionCode>FL</RegionCode>
+            <City>West Palm Beach</City>
+            <ZipCode>33405</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>26.6693</Latitude>
+            <Longitude>-80.0593</Longitude>
+            <MetroCode>548</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <VisitorClassification>0</VisitorClassification>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>198.99.223.0 - 198.133.79.255</NetworkRange>
+            <NetworkSize>2191615</NetworkSize>
+            <NetworkName>NON-RIPE-NCC-MANAGED-ADDRESS-BLOCK</NetworkName>
+            <NetworkDescription></NetworkDescription>
+        </AdversaryHostDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>API count exceeded</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-01</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>01</Day>
+        <Time>14:10:31</Time>
+    </DateDescriptor>
+</Attack>

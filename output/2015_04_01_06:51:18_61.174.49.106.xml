@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>61.174.49.106</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Zhejiang Sheng</RegionName>
+            <RegionCode>33</RegionCode>
+            <City>Huzhou</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>30.8703</Latitude>
+            <Longitude>120.0933</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <VisitorClassification>2</VisitorClassification>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>61.0.0.0 - 61.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>NON-RIPE-NCC-MANAGED-ADDRESS-BLOCK</NetworkName>
+            <NetworkDescription></NetworkDescription>
+        </AdversaryHostDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>API count exceeded</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-01</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>01</Day>
+        <Time>06:51:18</Time>
+    </DateDescriptor>
+</Attack>

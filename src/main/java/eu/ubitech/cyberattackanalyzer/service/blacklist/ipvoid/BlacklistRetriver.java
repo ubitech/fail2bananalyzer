@@ -84,7 +84,9 @@ public class BlacklistRetriver implements IBlacklistStatusRetriver {
             Logger.getLogger(VirtuahostNameRetriever.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             Logger.getLogger(VirtuahostNameRetriever.class.getName()).log(Level.SEVERE, null, ex);
-        } 
+        } catch (IllegalStateException ise){
+            ret = -1;
+        }
         return ret;
     }//EoM
 

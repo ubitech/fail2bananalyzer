@@ -29,7 +29,10 @@ import javax.xml.xpath.XPathExpressionException;
 
 
 /**
- *
+ * while inside the input folder
+ * scp ubuntu@192.168.3.200:/var/log/fail2ban.log .
+ * cat fail2ban.log | grep Ban | cut -d" " -f1,2,7 > attacks.log
+ * 
  * @author Panagiotis Gouvas (pgouvas@ubitech.eu)
  */
 public class Fail2BanParser {

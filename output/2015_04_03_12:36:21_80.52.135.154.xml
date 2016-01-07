@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>80.52.135.154</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Poland</CountryName>
+            <CountryCode>PL</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Warsaw</TimeZone>
+            <Latitude>52.2333</Latitude>
+            <Longitude>21.0167</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <VisitorClassification>0</VisitorClassification>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>80.52.135.152 - 80.52.135.155</NetworkRange>
+            <NetworkSize>3</NetworkSize>
+            <NetworkName>CUSTOMER-IDSL-194812</NetworkName>
+            <NetworkDescription></NetworkDescription>
+        </AdversaryHostDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>API count exceeded</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-03</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>03</Day>
+        <Time>12:36:21</Time>
+    </DateDescriptor>
+</Attack>

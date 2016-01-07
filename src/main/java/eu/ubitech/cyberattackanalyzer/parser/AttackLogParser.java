@@ -102,99 +102,107 @@ public class AttackLogParser {
             if (files != null && files.length > 0 && reuseipanalysis) {
                 logger.info("IP has already bean analyzed: " + ipstr);
                 //load existing attack from first file
-                Attack existingattack = loadAttackFromFile( new File(files[0]) );
+                Attack existingattack = loadAttackFromFile(new File(savefolder+"/"+files[0]));
+                //change only the date
+                existingattack.getDateDescriptor().setFulldate(datestr);
+                existingattack.getDateDescriptor().setYear(year);
+                existingattack.getDateDescriptor().setMonth(month);
+                existingattack.getDateDescriptor().setDay(day);
+                existingattack.getDateDescriptor().setTime(time);
+                //persist the changes
+                saveAttackFile(existingattack);
                 
             } else {
                 //run everything
+                //STEP-1 create the attack object and its root elements
+                ObjectFactory factory = new ObjectFactory();
+                Attack attack = factory.createAttack();
+                IPDescriptor ipdescr = factory.createAttackIPDescriptor();
+                DateDescriptor datedescriptor = factory.createAttackDateDescriptor();
+                Attack.MaliciousActionDescriptor maliciousActionDescriptor = factory.createAttackMaliciousActionDescriptor();
 
-            }
-            //STEP-1 create the attack object and its root elements
-            ObjectFactory factory = new ObjectFactory();
-            Attack attack = factory.createAttack();
-            IPDescriptor ipdescr = factory.createAttackIPDescriptor();
-            DateDescriptor datedescriptor = factory.createAttackDateDescriptor();
-            Attack.MaliciousActionDescriptor maliciousActionDescriptor = factory.createAttackMaliciousActionDescriptor();
+                //STEP-2 create IP descriptor
+                ipdescr.setIPAddress(ipstr);
 
-            //STEP-2 create IP descriptor
-            ipdescr.setIPAddress(ipstr);
+                //---location
+                //define retriever
+                LocationRetriever locretriever = new LocationRetriever();
+                Location location = locretriever.inferLocation(ipstr);
+                //define xml element
+                IPDescriptor.LocationDescriptor locationDescriptor = factory.createAttackIPDescriptorLocationDescriptor();
+                //fill xml element
+                locationDescriptor.setCountryName(location.getCountryName());
+                locationDescriptor.setCountryCode(location.getCountryCode());
+                locationDescriptor.setRegionName(location.getRegionName());
+                locationDescriptor.setRegionCode(location.getRegionCode());
+                locationDescriptor.setCity(location.getCity());
+                locationDescriptor.setZipCode(location.getZipCode());
+                locationDescriptor.setTimeZone(location.getTimeZone());
+                locationDescriptor.setLatitude(location.getLatitude());
+                locationDescriptor.setLongitude(location.getLongitude());
+                locationDescriptor.setMetroCode(location.getMetroCode());
+                //add it to ipdescr
+                ipdescr.setLocationDescriptor(locationDescriptor);
 
-            //---location
-            //define retriever
-            LocationRetriever locretriever = new LocationRetriever();
-            Location location = locretriever.inferLocation(ipstr);
-            //define xml element
-            IPDescriptor.LocationDescriptor locationDescriptor = factory.createAttackIPDescriptorLocationDescriptor();
-            //fill xml element
-            locationDescriptor.setCountryName(location.getCountryName());
-            locationDescriptor.setCountryCode(location.getCountryCode());
-            locationDescriptor.setRegionName(location.getRegionName());
-            locationDescriptor.setRegionCode(location.getRegionCode());
-            locationDescriptor.setCity(location.getCity());
-            locationDescriptor.setZipCode(location.getZipCode());
-            locationDescriptor.setTimeZone(location.getTimeZone());
-            locationDescriptor.setLatitude(location.getLatitude());
-            locationDescriptor.setLongitude(location.getLongitude());
-            locationDescriptor.setMetroCode(location.getMetroCode());
-            //add it to ipdescr
-            ipdescr.setLocationDescriptor(locationDescriptor);
+                //--reverse ip
+                //define retriver
+                VirtuahostNameRetriever vhostretriver = new VirtuahostNameRetriever();
+                ArrayList<VirtualHostname> vhosts = vhostretriver.retriverVirtualHosts(ipstr);
+                //define xml element
+                IPDescriptor.ReverseIPDescriptor reverseIPDescriptor = factory.createAttackIPDescriptorReverseIPDescriptor();
+                //fill xml element
+                reverseIPDescriptor.setAmountOfVirtualHosts(vhosts.size());
+                for (VirtualHostname vhost : vhosts) {
+                    IPDescriptor.ReverseIPDescriptor.VirtualHost xmlVirtualHost = factory.createAttackIPDescriptorReverseIPDescriptorVirtualHost();
+                    xmlVirtualHost.setVirtualHostname(vhost.getUrl());
+                    reverseIPDescriptor.getVirtualHost().add(xmlVirtualHost);
+                }//for        
+                //add it to ipdescr
+                ipdescr.setReverseIPDescriptor(reverseIPDescriptor);
 
-            //--reverse ip
-            //define retriver
-            VirtuahostNameRetriever vhostretriver = new VirtuahostNameRetriever();
-            ArrayList<VirtualHostname> vhosts = vhostretriver.retriverVirtualHosts(ipstr);
-            //define xml element
-            IPDescriptor.ReverseIPDescriptor reverseIPDescriptor = factory.createAttackIPDescriptorReverseIPDescriptor();
-            //fill xml element
-            reverseIPDescriptor.setAmountOfVirtualHosts(vhosts.size());
-            for (VirtualHostname vhost : vhosts) {
-                IPDescriptor.ReverseIPDescriptor.VirtualHost xmlVirtualHost = factory.createAttackIPDescriptorReverseIPDescriptorVirtualHost();
-                xmlVirtualHost.setVirtualHostname(vhost.getUrl());
-                reverseIPDescriptor.getVirtualHost().add(xmlVirtualHost);
-            }//for        
-            //add it to ipdescr
-            ipdescr.setReverseIPDescriptor(reverseIPDescriptor);
+                //--whois data
+                //define retriver
+                WhoisInfoRetriver whoisretriver = new WhoisInfoRetriver();
+                HostInfo hostInfo = whoisretriver.getHostInfo(ipstr);
+                //define xml element
+                IPDescriptor.AdversaryHostDescriptor adversaryHostDescriptor = factory.createAttackIPDescriptorAdversaryHostDescriptor();
+                //fill xml element
+                adversaryHostDescriptor.setNetworkRange(hostInfo.getInetnum());
+                adversaryHostDescriptor.setNetworkName(hostInfo.getNetname());
+                adversaryHostDescriptor.setNetworkDescription(hostInfo.getOrgname());
+                adversaryHostDescriptor.setNetworkSize(hostInfo.getNetsize());
+                //add it to ipdescr
+                ipdescr.setAdversaryHostDescriptor(adversaryHostDescriptor);
 
-            //--whois data
-            //define retriver
-            WhoisInfoRetriver whoisretriver = new WhoisInfoRetriver();
-            HostInfo hostInfo = whoisretriver.getHostInfo(ipstr);
-            //define xml element
-            IPDescriptor.AdversaryHostDescriptor adversaryHostDescriptor = factory.createAttackIPDescriptorAdversaryHostDescriptor();
-            //fill xml element
-            adversaryHostDescriptor.setNetworkRange(hostInfo.getInetnum());
-            adversaryHostDescriptor.setNetworkName(hostInfo.getNetname());
-            adversaryHostDescriptor.setNetworkDescription(hostInfo.getOrgname());
-            adversaryHostDescriptor.setNetworkSize(hostInfo.getNetsize());
-            //add it to ipdescr
-            ipdescr.setAdversaryHostDescriptor(adversaryHostDescriptor);
+                //--blacklisting               
+                //define retriver
+                BlacklistRetriver blr = new BlacklistRetriver();
+                int blackliststatus = blr.getBlacklistStatus(ipstr);
+                //define xml element
+                IPDescriptor.BlacklistingDescriptor blacklistingDescriptor = factory.createAttackIPDescriptorBlacklistingDescriptor();
+                //fill xml element
+                blacklistingDescriptor.setVisitorClassification("" + blackliststatus);
+                //add it to ipdescr
+                ipdescr.setBlacklistingDescriptor(blacklistingDescriptor);
 
-            //--blacklisting               
-            //define retriver
-            BlacklistRetriver blr = new BlacklistRetriver();
-            int blackliststatus = blr.getBlacklistStatus(ipstr);
-            //define xml element
-            IPDescriptor.BlacklistingDescriptor blacklistingDescriptor = factory.createAttackIPDescriptorBlacklistingDescriptor();
-            //fill xml element
-            blacklistingDescriptor.setVisitorClassification("" + blackliststatus);
-            //add it to ipdescr
-            ipdescr.setBlacklistingDescriptor(blacklistingDescriptor);
+                //STEP-3 handle data 
+                datedescriptor.setFulldate(datestr);
+                datedescriptor.setYear(year);
+                datedescriptor.setMonth(month);
+                datedescriptor.setDay(day);
+                datedescriptor.setTime(time);
 
-            //STEP-3 handle data 
-            datedescriptor.setFulldate(datestr);
-            datedescriptor.setYear(year);
-            datedescriptor.setMonth(month);
-            datedescriptor.setDay(day);
-            datedescriptor.setTime(time);
+                //STEP-4 handle malicious action
+                
+                //STEP-5 fill object
+                attack.setIPDescriptor(ipdescr);
+                attack.setDateDescriptor(datedescriptor);
+                //attack.setMaliciousActionDescriptor(maliciousActionDescriptor);
 
-            //STEP-4 handle malicious action
-            //STEP-5 fill object
-            attack.setIPDescriptor(ipdescr);
-            attack.setDateDescriptor(datedescriptor);
-        //attack.setMaliciousActionDescriptor(maliciousActionDescriptor);
-
-            //STEP-6 savefile
-            saveAttackFile(attack);
-        }
+                //STEP-6 savefile
+                saveAttackFile(attack);
+            }// IP not analyzed
+        }//Attack not existing  
 
     }//EoM
 
