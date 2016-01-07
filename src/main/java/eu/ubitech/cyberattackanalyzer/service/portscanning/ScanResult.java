@@ -15,35 +15,33 @@
  */
 package eu.ubitech.cyberattackanalyzer.service.portscanning;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Panagiotis Gouvas (pgouvas@ubitech.eu)
  */
-public  class ScanResult {
-    private int port;
+public class ScanResult {
 
-    private boolean isOpen;
+    private int amount;
+    private ArrayList<Port> ports;
 
-    public ScanResult(int port, boolean isOpen) {
-        super();
-        this.port = port;
-        this.isOpen = isOpen;
+    public int getAmount() {
+        return amount;
     }
 
-    public int getPort() {
-        return port;
+    public void setAmount(int amount) {
+        this.amount = amount;
     }
 
-    public void setPort(int port) {
-        this.port = port;
+    public ArrayList<Port> getPorts() {
+        return ports;
     }
 
-    public boolean isOpen() {
-        return isOpen;
+    public void setPorts(ArrayList<Port> ports) {
+        this.ports = ports;
     }
 
-    public void setOpen(boolean isOpen) {
-        this.isOpen = isOpen;
-    }
-
+    
+    
 }

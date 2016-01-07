@@ -19,6 +19,32 @@ package eu.ubitech.cyberattackanalyzer.service.portscanning;
  *
  * @author Panagiotis Gouvas (pgouvas@ubitech.eu)
  */
-public interface IPortScanExecutor {
-    public ScanResult scanTarget(String ipaddr);
+public class Port {
+    
+    private int portnumber;
+    private String service;
+
+    public Port(int portnumber, String service) {
+        this.portnumber = portnumber;
+        this.service = service;
+    }
+
+    public int getPortnumber() {
+        return portnumber;
+    }
+
+    public void setPortnumber(int portnumber) {
+        this.portnumber = portnumber;
+    }
+
+    public String getService() {
+        return service;
+    }
+
+    public void setService(String service) {
+        this.service = service;
+    }
+
+    
+    
 }

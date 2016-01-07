@@ -20,6 +20,7 @@ import eu.ubitech.cyberattackanalyzer.service.blacklist.ipvoid.BlacklistRetriver
 import eu.ubitech.cyberattackanalyzer.service.location.Location;
 import eu.ubitech.cyberattackanalyzer.service.location.freegeoip.LocationRetriever;
 import eu.ubitech.cyberattackanalyzer.service.portscanning.custom.CustomPortScanExecutor;
+import eu.ubitech.cyberattackanalyzer.service.portscanning.nmap.NMapScannerExecutor;
 import eu.ubitech.cyberattackanalyzer.service.reverseip.VirtualHostname;
 import eu.ubitech.cyberattackanalyzer.service.reverseip.hackertarget.VirtuahostNameRetriever;
 import eu.ubitech.cyberattackanalyzer.service.whois.ripe.WhoisInfoRetriver;
@@ -41,7 +42,7 @@ public class Fail2BanParser {
     
     public static void main(String[] args) throws XPathExpressionException {
         //main
-        AttackLogParser.parseFile("inputdata/attacks.log");
+//        AttackLogParser.parseFile("inputdata/attacks.log");
         //service1 - location
 //        LocationRetriever locretriever = new LocationRetriever();
 //        Location location = locretriever.inferLocation("43.229.53.56");        
@@ -58,7 +59,8 @@ public class Fail2BanParser {
 //          BlacklistRetriver blr = new BlacklistRetriver();         
 //          blr.getBlacklistStatus("213.249.38.66");
 //          blr.getBlacklistStatus("43.229.53.56");
-        
+        NMapScannerExecutor nMapScannerExecutor = new NMapScannerExecutor();
+        nMapScannerExecutor.scanTarget("95.163.107.202");
     }//EoMain
     
     //whois

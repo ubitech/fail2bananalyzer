@@ -16,6 +16,7 @@
 package eu.ubitech.cyberattackanalyzer.service.portscanning.custom;
 
 import eu.ubitech.cyberattackanalyzer.service.portscanning.IPortScanExecutor;
+import eu.ubitech.cyberattackanalyzer.service.portscanning.ScanResult;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.util.ArrayList;
@@ -38,19 +39,21 @@ public class CustomPortScanExecutor implements IPortScanExecutor {
     private static final Logger logger = Logger.getLogger(CustomPortScanExecutor.class.getName());
 
     @Override
-    public void scanTarget(String ip) {
+    public ScanResult scanTarget(String ip) {
+        ScanResult sres = new ScanResult();
+        //TODO fill scan results
         try {
             final ExecutorService es = Executors.newFixedThreadPool(20);
 
             final int timeout = 200;
-            final List<Future<ScanResult>> futures = new ArrayList<>();
+            final List<Future<PortResult>> futures = new ArrayList<>();
             for (int port = 1; port <= 65535; port++) {
                 // for (int port = 1; port <= 80; port++) {
                 futures.add(portIsOpen(es, ip, port, timeout));
             }
             es.awaitTermination(200L, TimeUnit.MILLISECONDS);
             int openPorts = 0;
-            for (final Future<ScanResult> f : futures) {
+            for (final Future<PortResult> f : futures) {
                 if (f.get().isOpen()) {
                     openPorts++;
                     //logger.info(""+f.get().getPort());
@@ -63,32 +66,33 @@ public class CustomPortScanExecutor implements IPortScanExecutor {
         } catch (ExecutionException ex) {
             Logger.getLogger(CustomPortScanExecutor.class.getName()).log(Level.SEVERE, null, ex);
         }
-    }
+        return sres;
+    }//EoM
 
-    public static Future<ScanResult> portIsOpen(final ExecutorService es, final String ip, final int port,
+    public static Future<PortResult> portIsOpen(final ExecutorService es, final String ip, final int port,
             final int timeout) {
-        return es.submit(new Callable<ScanResult>() {
+        return es.submit(new Callable<PortResult>() {
             @Override
-            public ScanResult call() {
+            public PortResult call() {
                 try {
                     Socket socket = new Socket();
                     socket.connect(new InetSocketAddress(ip, port), timeout);
                     socket.close();
-                    return new ScanResult(port, true);
+                    return new PortResult(port, true);
                 } catch (Exception ex) {
-                    return new ScanResult(port, false);
+                    return new PortResult(port, false);
                 }
             }
         });
     }//EoM
 
-    public static class ScanResult {
+    public static class PortResult {
 
         private int port;
 
         private boolean isOpen;
 
-        public ScanResult(int port, boolean isOpen) {
+        public PortResult(int port, boolean isOpen) {
             super();
             this.port = port;
             this.isOpen = isOpen;
