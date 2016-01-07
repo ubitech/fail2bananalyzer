@@ -105,7 +105,6 @@
 												<xs:sequence>
 													<xs:element name="VirtualHostname" type="xs:string"/>
 												</xs:sequence>
-												<xs:attribute name="AmountOfDisclosedVulnerabilties" type="xs:int"/>
 											</xs:complexType>
 										</xs:element>
 									</xs:sequence>

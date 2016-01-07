@@ -23,7 +23,9 @@ import eu.ubitech.cyberattackanalyzer.service.portscanning.custom.CustomPortScan
 import eu.ubitech.cyberattackanalyzer.service.portscanning.nmap.NMapScannerExecutor;
 import eu.ubitech.cyberattackanalyzer.service.reverseip.VirtualHostname;
 import eu.ubitech.cyberattackanalyzer.service.reverseip.hackertarget.VirtuahostNameRetriever;
-import eu.ubitech.cyberattackanalyzer.service.whois.ripe.WhoisInfoRetriver;
+import eu.ubitech.cyberattackanalyzer.service.whois.apnic.ApnicRetriver;
+import eu.ubitech.cyberattackanalyzer.service.whois.raw.RawWhoisRetriever;
+import eu.ubitech.cyberattackanalyzer.service.whois.ripe.RipeRetriver;
 import java.util.ArrayList;
 import java.util.logging.Logger;
 import javax.xml.xpath.XPathExpressionException;
@@ -53,6 +55,13 @@ public class Fail2BanParser {
         //service3 - whois
 //        WhoisInfoRetriver whoisretriver = new WhoisInfoRetriver();
 //        whoisretriver.getHostInfo("46.4.215.41");
+//          RawWhoisRetriever rawWhoisRetriever = new RawWhoisRetriever();
+//          rawWhoisRetriever.getHostInfo("95.163.107.202");
+//        ApnicRetriver apnicretriever = new ApnicRetriver();
+//        apnicretriever.getHostInfo("95.163.107.202");
+        
+        
+        
         //service4 - scan result
 //        CustomPortScanExecutor portscanner = new CustomPortScanExecutor();
 //        portscanner.scanTarget("43.229.53.56");

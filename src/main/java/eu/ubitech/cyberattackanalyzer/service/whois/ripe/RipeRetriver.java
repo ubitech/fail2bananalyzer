@@ -40,9 +40,9 @@ import org.xml.sax.InputSource;
  *
  * @author Panagiotis Gouvas (pgouvas@ubitech.eu)
  */
-public class WhoisInfoRetriver implements IWhoisInfoRetriever {
+public class RipeRetriver implements IWhoisInfoRetriever {
 
-    private static final Logger logger = Logger.getLogger(WhoisInfoRetriver.class.getName());        
+    private static final Logger logger = Logger.getLogger(RipeRetriver.class.getName());        
     
     /**
      *
@@ -107,7 +107,7 @@ public class WhoisInfoRetriver implements IWhoisInfoRetriever {
         } catch (IOException ex) {
             Logger.getLogger(VirtuahostNameRetriever.class.getName()).log(Level.SEVERE, null, ex);
         } catch (XPathExpressionException ex) {
-            Logger.getLogger(WhoisInfoRetriver.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(RipeRetriver.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         return hinfo;

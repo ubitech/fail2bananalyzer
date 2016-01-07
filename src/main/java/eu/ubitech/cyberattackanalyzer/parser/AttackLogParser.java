@@ -28,7 +28,7 @@ import eu.ubitech.cyberattackanalyzer.service.portscanning.nmap.NMapScannerExecu
 import eu.ubitech.cyberattackanalyzer.service.reverseip.VirtualHostname;
 import eu.ubitech.cyberattackanalyzer.service.reverseip.hackertarget.VirtuahostNameRetriever;
 import eu.ubitech.cyberattackanalyzer.service.whois.HostInfo;
-import eu.ubitech.cyberattackanalyzer.service.whois.ripe.WhoisInfoRetriver;
+import eu.ubitech.cyberattackanalyzer.service.whois.ripe.RipeRetriver;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -165,7 +165,7 @@ public class AttackLogParser {
 
                 //--whois data
                 //define retriver
-                WhoisInfoRetriver whoisretriver = new WhoisInfoRetriver();
+                RipeRetriver whoisretriver = new RipeRetriver();
                 HostInfo hostInfo = whoisretriver.getHostInfo(ipstr);
                 //define xml element
                 IPDescriptor.AdversaryHostDescriptor adversaryHostDescriptor = factory.createAttackIPDescriptorAdversaryHostDescriptor();
