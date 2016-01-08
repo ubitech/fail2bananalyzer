@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>113.105.224.111</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Guangdong</RegionName>
+            <RegionCode>44</RegionCode>
+            <City>Guangzhou</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>23.1167</Latitude>
+            <Longitude>113.25</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>113.0.0.0 - 113.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.32 - 2.6.33</OSDescriptor>
+            <PortsDescriptor amount="5">
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cisco-sccp</ProgramName>
+                    <Port>2000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>krb524</ProgramName>
+                    <Port>4444</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>8291</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2016-01-07</Fulldate>
+        <Year>2016</Year>
+        <Month>01</Month>
+        <Day>07</Day>
+        <Time>04:33:25</Time>
+    </DateDescriptor>
+</Attack>

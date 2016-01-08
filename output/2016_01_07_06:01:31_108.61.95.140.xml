@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>108.61.95.140</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>New Jersey</RegionName>
+            <RegionCode>NJ</RegionCode>
+            <City>Matawan</City>
+            <ZipCode>07747</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>40.4169</Latitude>
+            <Longitude>-74.258</Longitude>
+            <MetroCode>501</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>108.0.0.0 - 108.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>IPFire firewall 2.11 (Linux 2.6.32)</OSDescriptor>
+            <PortsDescriptor amount="2">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pptp</ProgramName>
+                    <Port>1723</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2016-01-07</Fulldate>
+        <Year>2016</Year>
+        <Month>01</Month>
+        <Day>07</Day>
+        <Time>06:01:31</Time>
+    </DateDescriptor>
+</Attack>

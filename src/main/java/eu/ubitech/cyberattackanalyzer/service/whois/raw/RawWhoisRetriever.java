@@ -30,7 +30,8 @@ import org.apache.commons.net.whois.WhoisClient;
 public class RawWhoisRetriever implements IWhoisInfoRetriever {
 
     private static final Logger logger = Logger.getLogger(RawWhoisRetriever.class.getName());
-    public static final String WHOIS_SERVER = "whois.apnic.net";
+//    public static final String WHOIS_SERVER = "whois.apnic.net";
+    public static final String WHOIS_SERVER = "whois.arin.net";
     public static final int WHOIS_PORT = 43;
 
     @Override
