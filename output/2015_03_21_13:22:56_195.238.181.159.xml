@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>195.238.181.159</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Ukraine</CountryName>
+            <CountryCode>UA</CountryCode>
+            <RegionName>Ternopil's'ka Oblast'</RegionName>
+            <RegionCode>61</RegionCode>
+            <City>Ternopil</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Kiev</TimeZone>
+            <Latitude>49.5559</Latitude>
+            <Longitude>25.6056</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>195.238.180.0 - 195.238.183.255</NetworkRange>
+            <NetworkSize>1023</NetworkSize>
+            <NetworkName>TERNOPILINFOCOM LLC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>API count exceeded</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-03-21</Fulldate>
+        <Year>2015</Year>
+        <Month>03</Month>
+        <Day>21</Day>
+        <Time>13:22:56</Time>
+    </DateDescriptor>
+</Attack>
