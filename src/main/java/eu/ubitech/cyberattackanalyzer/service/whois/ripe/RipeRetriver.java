@@ -19,6 +19,7 @@ import eu.ubitech.cyberattackanalyzer.service.location.freegeoip.LocationRetriev
 import eu.ubitech.cyberattackanalyzer.service.reverseip.hackertarget.VirtuahostNameRetriever;
 import eu.ubitech.cyberattackanalyzer.service.whois.HostInfo;
 import eu.ubitech.cyberattackanalyzer.service.whois.IWhoisInfoRetriever;
+import eu.ubitech.cyberattackanalyzer.service.whois.Util;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -84,15 +85,14 @@ public class RipeRetriver implements IWhoisInfoRetriever {
             Object responseobject = xpath.evaluate("/whois-resources", xmlsource, XPathConstants.NODE);
             //inetnum
             String inetnum = xpath.evaluate("//objects/object[@type='inetnum']/primary-key/attribute[@name='inetnum']/@value", responseobject);                
-            String netname = xpath.evaluate("//objects/object[@type='inetnum']/attributes/attribute[@name='netname']/@value", responseobject);    
+            //String netname = xpath.evaluate("//objects/object[@type='inetnum']/attributes/attribute[@name='netname']/@value", responseobject);    
             String descr = xpath.evaluate("//objects/object[@type='inetnum']/attributes/attribute[@name='descr']/@value", responseobject);  
-            String orgname = xpath.evaluate("//objects/object[@type='organisation']/attributes/attribute[@name='org-name']/@value", responseobject);  
+            //String orgname = xpath.evaluate("//objects/object[@type='organisation']/attributes/attribute[@name='org-name']/@value", responseobject);  
             hinfo.setInetnum(inetnum);
-            hinfo.setNetname(netname);
-            hinfo.setDescr(descr); 
-            hinfo.setOrgname(orgname);            
+            hinfo.setNetname(descr);
+            //TODO fetch provname through route
             String[] ips = inetnum.split("-");
-            int range = calculateRange(ips[0].trim(), ips[1].trim());
+            int range = Util.calculateRange(ips[0].trim(), ips[1].trim());
             hinfo.setNetsize(range);
 //            logger.info("inetnum:"+inetnum);
 //            logger.info("range:"+range);
@@ -113,24 +113,4 @@ public class RipeRetriver implements IWhoisInfoRetriever {
         return hinfo;
     }//EoM
 
-    public static int calculateRange(String address1,String address2){
-        int result=0;
-        result = parseIp(address2)-parseIp(address1);
-        return result;
-    }//EoM
-    
-    public static int parseIp(String address) {
-        int result = 0;
-
-        // iterate over each octet
-        for(String part : address.split(Pattern.quote("."))) {
-            // shift the previously parsed bits over by 1 byte
-            result = result << 8;
-            // set the low order bits to the current octet
-            result |= Integer.parseInt(part);
-        }
-        return result;
-    }//EoM    
-    
-    
 }

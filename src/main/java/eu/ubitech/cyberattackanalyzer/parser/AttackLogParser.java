@@ -171,9 +171,10 @@ public class AttackLogParser {
                 IPDescriptor.AdversaryHostDescriptor adversaryHostDescriptor = factory.createAttackIPDescriptorAdversaryHostDescriptor();
                 //fill xml element
                 adversaryHostDescriptor.setNetworkRange(hostInfo.getInetnum());
+                adversaryHostDescriptor.setNetworkSize(hostInfo.getNetsize());                
                 adversaryHostDescriptor.setNetworkName(hostInfo.getNetname());
-                adversaryHostDescriptor.setNetworkDescription(hostInfo.getOrgname());
-                adversaryHostDescriptor.setNetworkSize(hostInfo.getNetsize());
+                adversaryHostDescriptor.setProvName(hostInfo.getProvname());
+
                 //add it to ipdescr
                 ipdescr.setAdversaryHostDescriptor(adversaryHostDescriptor);
 
@@ -184,7 +185,7 @@ public class AttackLogParser {
                 //define xml element
                 IPDescriptor.BlacklistingDescriptor blacklistingDescriptor = factory.createAttackIPDescriptorBlacklistingDescriptor();
                 //fill xml element
-                blacklistingDescriptor.setVisitorClassification("" + blackliststatus);
+                blacklistingDescriptor.setBlacklistingLevel("" + blackliststatus);
                 //add it to ipdescr
                 ipdescr.setBlacklistingDescriptor(blacklistingDescriptor);
 

@@ -34,10 +34,9 @@
 							<xs:element name="BlacklistingDescriptor" minOccurs="0">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element name="ThreatLevel" minOccurs="0" maxOccurs="100"/>
-										<xs:element name="VisitorClassification" type="xs:string" minOccurs="0">
+										<xs:element name="BlacklistingLevel" type="xs:string" minOccurs="0">
 											<xs:annotation>
-												<xs:documentation>e.g. Harvester, SearchEngine</xs:documentation>
+												<xs:documentation>from 0 to 40</xs:documentation>
 											</xs:annotation>
 										</xs:element>
 									</xs:sequence>
@@ -57,7 +56,7 @@
 												<xs:documentation>e.g. CHINANET-GD</xs:documentation>
 											</xs:annotation>
 										</xs:element>
-										<xs:element name="NetworkDescription" type="xs:string">
+										<xs:element name="ProvName" type="xs:string">
 											<xs:annotation>
 												<xs:documentation>e.g. CHINANET Guangdong province network
 </xs:documentation>

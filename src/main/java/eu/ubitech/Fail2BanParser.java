@@ -58,9 +58,9 @@ public class Fail2BanParser {
 //          RawWhoisRetriever rawWhoisRetriever = new RawWhoisRetriever();
 //          rawWhoisRetriever.getHostInfo("95.163.107.202");
 //        ApnicRetriver apnicretriever = new ApnicRetriver();
+//        apnicretriever.getHostInfo("147.102.23.108");
 //        apnicretriever.getHostInfo("95.163.107.202");
-        
-        
+//        apnicretriever.getHostInfo("213.249.38.66");        
         
         //service4 - scan result
 //        CustomPortScanExecutor portscanner = new CustomPortScanExecutor();

@@ -22,11 +22,18 @@ package eu.ubitech.cyberattackanalyzer.service.whois;
 public class HostInfo {
     
     private String inetnum;
+    private int netsize;    
     private String netname;
-    private String descr;
-    private String orgname;
-    private int netsize;
+    private String provname;
 
+    public String getProvname() {
+        return provname;
+    }
+
+    public void setProvname(String provname) {
+        this.provname = provname;
+    }    
+    
     public int getNetsize() {
         return netsize;
     }
@@ -35,15 +42,6 @@ public class HostInfo {
         this.netsize = netsize;
     }
 
-
-
-    public String getOrgname() {
-        return orgname;
-    }
-
-    public void setOrgname(String orgname) {
-        this.orgname = orgname;
-    }
     
     public String getNetname() {
         return netname;
@@ -51,14 +49,6 @@ public class HostInfo {
 
     public void setNetname(String netname) {
         this.netname = netname;
-    }
-
-    public String getDescr() {
-        return descr;
-    }
-
-    public void setDescr(String descr) {
-        this.descr = descr;
     }
     
     public String getInetnum() {

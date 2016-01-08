@@ -19,23 +19,21 @@ import eu.ubitech.cyberattackanalyzer.service.location.freegeoip.LocationRetriev
 import eu.ubitech.cyberattackanalyzer.service.reverseip.hackertarget.VirtuahostNameRetriever;
 import eu.ubitech.cyberattackanalyzer.service.whois.HostInfo;
 import eu.ubitech.cyberattackanalyzer.service.whois.IWhoisInfoRetriever;
+import eu.ubitech.cyberattackanalyzer.service.whois.Util;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.StringReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpressionException;
-import javax.xml.xpath.XPathFactory;
-import org.xml.sax.InputSource;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 /**
  *
@@ -80,27 +78,70 @@ public class ApnicRetriver implements IWhoisInfoRetriever {
             //print result
             String responsesrest = response.toString();
             //logger.info("response:" + responsesrest);
-
-            final Pattern inetnumpattern = Pattern.compile(" \"name\":\"inetnum\",(.+?),  ");
-            final Matcher matcher = inetnumpattern.matcher(responsesrest);
-            matcher.find();
-            String res1 = matcher.group(1);
             
-            //inetnum
-            String inetnum = res1;
+            //declare variables
+            String inetnum = "";
+            int range = -1;
             String netname = "";
-            String descr = "";
-            String orgname = "";
+            String provname = "";
+            
+            //parse output
+            JSONParser parser = new JSONParser();
+            Object robj = parser.parse(responsesrest);
+            JSONArray array = (JSONArray) robj;
+            
+            for (int i=0;i<array.size();i++){
+                JSONObject child = (JSONObject)array.get(i);
+                String value = (String) child.get("type");
+//                logger.info(value);
+                //handle object
+                if (value.equalsIgnoreCase("object")){
+                    String objtype = (String) child.get("objectType");
+                    //handle inetnum objecttype
+                    if (objtype.equalsIgnoreCase("inetnum")){
+                        inetnum = (String) child.get( "primaryKey" );
+                        String[] ips = inetnum.split("-");
+                        range = Util.calculateRange(ips[0].trim(), ips[1].trim());
+                        //get attributes
+                        JSONArray atarray = (JSONArray)child.get("attributes");
+                        for (int j=0;j<atarray.size();j++){
+                            JSONObject attrob = (JSONObject)atarray.get(j);
+                            String attrname = (String) attrob.get("name"); 
+                            //logger.info( "attrname: "+attrname );
+                            //handle descr
+                            if (attrname.trim().equalsIgnoreCase("descr")){
+                                JSONArray descrarray =(JSONArray) attrob.get("values");
+                                if (descrarray.size()>0) netname = (String) descrarray.get(0);
+                            }//handle descr
+                        }//for inetnum attribute iteration
+                    }//inetnum objectype
+                    
+                    if (objtype.equalsIgnoreCase("route")){
+                        //get attributes
+                        JSONArray atarray = (JSONArray)child.get("attributes");
+                        for (int j=0;j<atarray.size();j++){
+                            JSONObject attrob = (JSONObject)atarray.get(j);
+                            String attrname = (String) attrob.get("name"); 
+                            //handle descr
+                            if (attrname.trim().equalsIgnoreCase("descr")){
+                                JSONArray descrarray =(JSONArray) attrob.get("values");
+                                if (descrarray.size()>0) provname = (String) descrarray.get(0);
+                            }//handle descr
+                        }//for inetnum attribute iteration
+                    }//inetnum objectype                    
+                    
+                }//handle objects
+            }//for root elements iteration
+            
 
             hinfo.setInetnum(inetnum);
+            hinfo.setNetsize(range);
             hinfo.setNetname(netname);
-            hinfo.setDescr(descr);
-            hinfo.setOrgname(orgname);
-            logger.info("inetnum:"+inetnum);
-//            logger.info("range:"+range);
-            logger.info("netname:"+netname);
-            logger.info("descr:"+descr);
-            logger.info("orgname:"+orgname);
+            hinfo.setProvname(provname);
+            logger.info("inetnum:" + inetnum);
+            logger.info("range:"+range);
+            logger.info("netname:" + netname);
+            logger.info("provname:" + provname);
 
         } catch (ProtocolException ex) {
             Logger.getLogger(LocationRetriever.class.getName()).log(Level.SEVERE, null, ex);
@@ -108,6 +149,8 @@ public class ApnicRetriver implements IWhoisInfoRetriever {
             Logger.getLogger(VirtuahostNameRetriever.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             Logger.getLogger(VirtuahostNameRetriever.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (ParseException ex) {
+            Logger.getLogger(ApnicRetriver.class.getName()).log(Level.SEVERE, null, ex);
         }
 
         return hinfo;
