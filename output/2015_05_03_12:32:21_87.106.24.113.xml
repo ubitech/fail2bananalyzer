@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>87.106.24.113</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Germany</CountryName>
+            <CountryCode>DE</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone></TimeZone>
+            <Latitude>51</Latitude>
+            <Longitude>9</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>6</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>87.106.16.0 - 87.106.31.255</NetworkRange>
+            <NetworkSize>4095</NetworkSize>
+            <NetworkName>1&amp;1 Internet AG</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>SonicWALL Aventail EX-1500 SSL VPN appliance</OSDescriptor>
+            <PortsDescriptor amount="4">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https-alt</ProgramName>
+                    <Port>8443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>snet-sensor-mgmt</ProgramName>
+                    <Port>10000</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="8">
+            <VirtualHost>
+                <VirtualHostname>hitecrcd.de</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>hitecrc.de</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>hitecrobot.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>s15223289.onlinehome-server.info</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.hitecrc.de</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>zebra-rc.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>zebrarcd.de</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>zebrarc.de</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-03</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>03</Day>
+        <Time>12:32:21</Time>
+    </DateDescriptor>
+</Attack>
