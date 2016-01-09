@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>77.134.123.62</IPAddress>
+        <LocationDescriptor>
+            <CountryName>France</CountryName>
+            <CountryCode>FR</CountryCode>
+            <RegionName>Provence-Alpes-Côte d'Azur</RegionName>
+            <RegionCode>U</RegionCode>
+            <City>Marignane</City>
+            <ZipCode>13700</ZipCode>
+            <TimeZone>Europe/Paris</TimeZone>
+            <Latitude>43.416</Latitude>
+            <Longitude>5.2145</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>77.128.0.0 - 77.143.255.255</NetworkRange>
+            <NetworkSize>1048575</NetworkSize>
+            <NetworkName>Pool for mobile data users</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>API count exceeded</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-28</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>28</Day>
+        <Time>17:45:28</Time>
+    </DateDescriptor>
+</Attack>

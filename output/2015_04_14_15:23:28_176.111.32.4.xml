@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>176.111.32.4</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Ukraine</CountryName>
+            <CountryCode>UA</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone></TimeZone>
+            <Latitude>50.45</Latitude>
+            <Longitude>30.5233</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>176.111.32.0 - 176.111.47.255</NetworkRange>
+            <NetworkSize>4095</NetworkSize>
+            <NetworkName>PE Snitcar Olexandr Antonovich</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.32</OSDescriptor>
+            <PortsDescriptor amount="6">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>telnet</ProgramName>
+                    <Port>23</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>hosts2-ns</ProgramName>
+                    <Port>81</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-14</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>14</Day>
+        <Time>15:23:28</Time>
+    </DateDescriptor>
+</Attack>

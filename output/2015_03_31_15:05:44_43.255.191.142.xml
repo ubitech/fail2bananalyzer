@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>43.255.191.142</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Hong Kong</CountryName>
+            <CountryCode>HK</CountryCode>
+            <RegionName>Sham Shui Po</RegionName>
+            <RegionCode>KSS</RegionCode>
+            <City>Sham Shui Po</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Hong_Kong</TimeZone>
+            <Latitude>22.3333</Latitude>
+            <Longitude>114.15</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>43.0.0.0 - 43.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Microsoft Windows Server 2008 SP1</OSDescriptor>
+            <PortsDescriptor amount="15">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3</ProgramName>
+                    <Port>110</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>msrpc</ProgramName>
+                    <Port>135</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>netbios-ssn</ProgramName>
+                    <Port>139</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>imap</ProgramName>
+                    <Port>143</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>submission</ProgramName>
+                    <Port>587</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>IIS</ProgramName>
+                    <Port>1027</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>nsjtp-data</ProgramName>
+                    <Port>1688</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ccproxy-ftp</ProgramName>
+                    <Port>2121</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pktcable-cops</ProgramName>
+                    <Port>2126</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>8011</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>oa-system</ProgramName>
+                    <Port>8022</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>8222</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-03-31</Fulldate>
+        <Year>2015</Year>
+        <Month>03</Month>
+        <Day>31</Day>
+        <Time>15:05:44</Time>
+    </DateDescriptor>
+</Attack>

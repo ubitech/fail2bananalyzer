@@ -22,8 +22,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
+import java.net.InetSocketAddress;
 import java.net.MalformedURLException;
 import java.net.ProtocolException;
+import java.net.Proxy;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -51,7 +53,8 @@ public class VirtuahostNameRetriever implements IVirtuahostNameRetriever{
             String url = "http://api.hackertarget.com/reverseiplookup/?q=" + ipaddr;
 
             URL obj = new URL(url);
-            HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+            Proxy proxy = new Proxy(Proxy.Type.SOCKS, new InetSocketAddress("127.0.0.1", 9050));            
+            HttpURLConnection con = (HttpURLConnection) obj.openConnection(proxy);
             // optional default is GET
             con.setRequestMethod("GET");
 

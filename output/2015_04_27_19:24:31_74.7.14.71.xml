@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>74.7.14.71</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Georgia</RegionName>
+            <RegionCode>GA</RegionCode>
+            <City>Atlanta</City>
+            <ZipCode>30339</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>33.871</Latitude>
+            <Longitude>-84.4635</Longitude>
+            <MetroCode>524</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>74.0.0.0 - 74.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor></OSDescriptor>
+            <PortsDescriptor amount="3">
+                <PortDescriptor>
+                    <ProgramName>citrix-ica</ProgramName>
+                    <Port>1494</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ms-wbt-server</ProgramName>
+                    <Port>3389</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>sip</ProgramName>
+                    <Port>5060</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>API count exceeded</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-27</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>27</Day>
+        <Time>19:24:31</Time>
+    </DateDescriptor>
+</Attack>

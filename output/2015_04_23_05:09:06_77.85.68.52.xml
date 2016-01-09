@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>77.85.68.52</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Bulgaria</CountryName>
+            <CountryCode>BG</CountryCode>
+            <RegionName>Gabrovo</RegionName>
+            <RegionCode>07</RegionCode>
+            <City>Sevlievo</City>
+            <ZipCode>5400</ZipCode>
+            <TimeZone>Europe/Sofia</TimeZone>
+            <Latitude>43.1</Latitude>
+            <Longitude>25.1</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>77.85.64.0 - 77.85.171.255</NetworkRange>
+            <NetworkSize>27647</NetworkSize>
+            <NetworkName>BTC Broadband Service</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>API count exceeded</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-23</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>23</Day>
+        <Time>05:09:06</Time>
+    </DateDescriptor>
+</Attack>

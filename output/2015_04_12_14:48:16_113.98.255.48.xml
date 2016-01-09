@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>113.98.255.48</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Guangdong</RegionName>
+            <RegionCode>44</RegionCode>
+            <City>Guangzhou</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>23.1167</Latitude>
+            <Longitude>113.25</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>7</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>113.0.0.0 - 113.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.32 - 2.6.39</OSDescriptor>
+            <PortsDescriptor amount="4">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>kvm-via-ip</ProgramName>
+                    <Port>1132</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>svn</ProgramName>
+                    <Port>3690</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>distinct32</ProgramName>
+                    <Port>9998</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-12</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>12</Day>
+        <Time>14:48:16</Time>
+    </DateDescriptor>
+</Attack>

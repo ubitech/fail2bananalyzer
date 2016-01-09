@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>200.135.32.225</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Brazil</CountryName>
+            <CountryCode>BR</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone></TimeZone>
+            <Latitude>-23.5477</Latitude>
+            <Longitude>-46.6359</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>200.0.0.0 - 200.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor></OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-19</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>19</Day>
+        <Time>05:01:25</Time>
+    </DateDescriptor>
+</Attack>

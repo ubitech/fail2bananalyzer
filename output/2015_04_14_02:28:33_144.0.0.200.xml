@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>144.0.0.200</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Shandong Sheng</RegionName>
+            <RegionCode>37</RegionCode>
+            <City>Jinan</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>36.6683</Latitude>
+            <Longitude>116.9972</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>144.0.0.0 - 144.1.255.255</NetworkRange>
+            <NetworkSize>131071</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-14</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>14</Day>
+        <Time>02:28:33</Time>
+    </DateDescriptor>
+</Attack>

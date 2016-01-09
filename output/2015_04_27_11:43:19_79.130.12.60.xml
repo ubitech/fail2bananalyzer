@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>79.130.12.60</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Greece</CountryName>
+            <CountryCode>GR</CountryCode>
+            <RegionName>Crete</RegionName>
+            <RegionCode>M</RegionCode>
+            <City>Heraklion</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Athens</TimeZone>
+            <Latitude>35.325</Latitude>
+            <Longitude>25.1306</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>-1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>79.130.0.0 - 79.130.255.255</NetworkRange>
+            <NetworkSize>65535</NetworkSize>
+            <NetworkName>Multiprotocol Service Provider to other ISP's and End Users</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>API count exceeded</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-27</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>27</Day>
+        <Time>11:43:19</Time>
+    </DateDescriptor>
+</Attack>

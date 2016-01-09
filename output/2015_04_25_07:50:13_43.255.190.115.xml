@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>43.255.190.115</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Hong Kong</CountryName>
+            <CountryCode>HK</CountryCode>
+            <RegionName>Sham Shui Po</RegionName>
+            <RegionCode>KSS</RegionCode>
+            <City>Sham Shui Po</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Hong_Kong</TimeZone>
+            <Latitude>22.3333</Latitude>
+            <Longitude>114.15</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>43.0.0.0 - 43.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>API count exceeded</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-25</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>25</Day>
+        <Time>07:50:13</Time>
+    </DateDescriptor>
+</Attack>

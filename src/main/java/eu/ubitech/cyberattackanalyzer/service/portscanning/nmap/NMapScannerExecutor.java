@@ -49,7 +49,7 @@ public class NMapScannerExecutor implements IPortScanExecutor {
         ScanResult scanresult = new ScanResult();
         try {
             //String[] command = {"echo '!vmadmin!' | sudo -S  nmap  -O -oX nmap95.163.107.202.xml   95.163.107.202"};
-            String[] command = {"/bin/bash", "-c", "echo '!vmadmin!' | sudo -S  nmap  -O -oX output/nmap" + ipaddr + ".xml " + ipaddr};
+            String[] command = {"/bin/bash", "-c", "echo 'c4mb8663' | sudo -S  nmap  -O -oX output/nmap" + ipaddr + ".xml " + ipaddr};
             ProcessBuilder probuilder = new ProcessBuilder(command);
             //You can set up your work directory
             //probuilder.directory(new File("c:\\xyzwsdemo"));

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>89.96.229.236</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Italy</CountryName>
+            <CountryCode>IT</CountryCode>
+            <RegionName>Lombardy</RegionName>
+            <RegionCode>25</RegionCode>
+            <City>Milan</City>
+            <ZipCode>20161</ZipCode>
+            <TimeZone>Europe/Rome</TimeZone>
+            <Latitude>45.4959</Latitude>
+            <Longitude>9.1815</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>89.96.229.236 - 89.96.229.239</NetworkRange>
+            <NetworkSize>3</NetworkSize>
+            <NetworkName>COMPUTERS SERVICES AND TECHNOLOGIES SRL IN SIGLA COST SRL public subnet</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Comau C4G robot control unit</OSDescriptor>
+            <PortsDescriptor amount="2">
+                <PortDescriptor>
+                    <ProgramName>oa-system</ProgramName>
+                    <Port>8022</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https-alt</ProgramName>
+                    <Port>8443</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>API count exceeded</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-22</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>22</Day>
+        <Time>03:51:53</Time>
+    </DateDescriptor>
+</Attack>

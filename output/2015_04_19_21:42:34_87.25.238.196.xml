@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>87.25.238.196</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Italy</CountryName>
+            <CountryCode>IT</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Rome</TimeZone>
+            <Latitude>42.8333</Latitude>
+            <Longitude>12.8333</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>87.0.0.0 - 87.31.255.255</NetworkRange>
+            <NetworkSize>2097151</NetworkSize>
+            <NetworkName>Telecom Italia S.p.A.</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Thomson Symbio VoIP phone</OSDescriptor>
+            <PortsDescriptor amount="8">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>newacct</ProgramName>
+                    <Port>100</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mdbs_daemon</ProgramName>
+                    <Port>800</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>X11</ProgramName>
+                    <Port>6000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>X11:2</ProgramName>
+                    <Port>6002</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-alt</ProgramName>
+                    <Port>8000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-proxy</ProgramName>
+                    <Port>8080</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>host196-238-static.25-87-b.business.telecomitalia.it</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-19</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>19</Day>
+        <Time>21:42:34</Time>
+    </DateDescriptor>
+</Attack>
