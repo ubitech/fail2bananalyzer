@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>79.58.112.94</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Italy</CountryName>
+            <CountryCode>IT</CountryCode>
+            <RegionName>Lombardy</RegionName>
+            <RegionCode>25</RegionCode>
+            <City>Clusone</City>
+            <ZipCode>24023</ZipCode>
+            <TimeZone>Europe/Rome</TimeZone>
+            <Latitude>45.8866</Latitude>
+            <Longitude>9.9465</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>79.58.0.0 - 79.58.127.255</NetworkRange>
+            <NetworkSize>32767</NetworkSize>
+            <NetworkName>NAS DHCP Pool Como</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 3.5</OSDescriptor>
+            <PortsDescriptor amount="6">
+                <PortDescriptor>
+                    <ProgramName>pop3</ProgramName>
+                    <Port>110</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>kdm</ProgramName>
+                    <Port>1024</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cslistener</ProgramName>
+                    <Port>9000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>tor-orport</ProgramName>
+                    <Port>9001</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>iua</ProgramName>
+                    <Port>9900</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>host94-112-static.58-79-b.business.telecomitalia.it</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-06</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>06</Day>
+        <Time>20:41:59</Time>
+    </DateDescriptor>
+</Attack>
