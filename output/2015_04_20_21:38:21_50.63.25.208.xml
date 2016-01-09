@@ -23,7 +23,7 @@
             <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Ubiquiti AirMax NanoStation WAP (Linux 2.6.32)</OSDescriptor>
+            <OSDescriptor>Linux 2.6.18</OSDescriptor>
             <PortsDescriptor amount="29">
                 <PortDescriptor>
                     <ProgramName>chargen</ProgramName>

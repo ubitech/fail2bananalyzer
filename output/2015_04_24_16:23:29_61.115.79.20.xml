@@ -25,9 +25,33 @@
         <AdversarySystemDescriptor>
             <PortsDescriptor amount="0"/>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+        <ReverseIPDescriptor AmountOfVirtualHosts="9">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>artkobe.as.wakwak.ne.jp</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>artkobe.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>coca57.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>ongakudou.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>page-one.jp.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>plan-web.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>ranpara.internet.jp.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.coca57.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.internet.jp.org</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

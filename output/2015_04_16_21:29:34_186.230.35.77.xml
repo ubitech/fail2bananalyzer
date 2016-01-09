@@ -23,7 +23,7 @@
             <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>IPFire firewall 2.11 (Linux 2.6.32)</OSDescriptor>
+            <OSDescriptor>Linux 2.6.32</OSDescriptor>
             <PortsDescriptor amount="26">
                 <PortDescriptor>
                     <ProgramName>ssh</ProgramName>

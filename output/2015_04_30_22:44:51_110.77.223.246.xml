@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>110.77.223.246</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Thailand</CountryName>
+            <CountryCode>TH</CountryCode>
+            <RegionName>Bangkok</RegionName>
+            <RegionCode>10</RegionCode>
+            <City>Bangkok</City>
+            <ZipCode>10200</ZipCode>
+            <TimeZone>Asia/Bangkok</TimeZone>
+            <Latitude>13.75</Latitude>
+            <Longitude>100.5167</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>110.0.0.0 - 110.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-30</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>30</Day>
+        <Time>22:44:51</Time>
+    </DateDescriptor>
+</Attack>

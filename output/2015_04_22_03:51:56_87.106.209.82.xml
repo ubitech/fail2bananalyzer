@@ -25,9 +25,54 @@
         <AdversarySystemDescriptor>
             <PortsDescriptor amount="0"/>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+        <ReverseIPDescriptor AmountOfVirtualHosts="16">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>fleuve-niger.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>fleuveniger.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>lacsetrivieresenfete.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>lessagespourleau.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>livresbleus.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>riec-iwfe.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>s15284961.onlinehome-server.info</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>see-swe.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>sie-isw.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>vce-cvw.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>videeau.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.lacsetrivieresenfete.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.riec-iwfe.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.see-swe.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.sie-isw.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.youthparliamentforwater.eu</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

@@ -57,7 +57,7 @@
         </AdversarySystemDescriptor>
         <ReverseIPDescriptor AmountOfVirtualHosts="1">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>go.honeycool.cn</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

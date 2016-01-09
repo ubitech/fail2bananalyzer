@@ -23,7 +23,7 @@
             <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Linux 2.4.26 (Slackware 10.0.0)</OSDescriptor>
+            <OSDescriptor>Asus RT-N10 router or AXIS 211A Network Camera (Linux 2.6)</OSDescriptor>
             <PortsDescriptor amount="1000">
                 <PortDescriptor>
                     <ProgramName>tcpmux</ProgramName>
@@ -4027,11 +4027,7 @@
                 </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
-            <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
-            </VirtualHost>
-        </ReverseIPDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
     </IPDescriptor>
     <DateDescriptor>
         <Fulldate>2015-04-21</Fulldate>

@@ -79,9 +79,21 @@
                 </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+        <ReverseIPDescriptor AmountOfVirtualHosts="5">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>e-service.puiching.edu.mo</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www2.puiching.edu.mo</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www3.puiching.edu.mo</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.puiching.edu.mo</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>z81l89.static.ctm.net</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

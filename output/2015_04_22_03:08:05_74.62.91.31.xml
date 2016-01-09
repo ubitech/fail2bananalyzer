@@ -25,9 +25,18 @@
         <AdversarySystemDescriptor>
             <PortsDescriptor amount="0"/>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+        <ReverseIPDescriptor AmountOfVirtualHosts="4">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>inservinstallations.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>serviceworxfs.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>sis-srv-02.sis98.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.recarlson.com</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

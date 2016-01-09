@@ -133,7 +133,7 @@
         </AdversarySystemDescriptor>
         <ReverseIPDescriptor AmountOfVirtualHosts="1">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>getaci.com</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

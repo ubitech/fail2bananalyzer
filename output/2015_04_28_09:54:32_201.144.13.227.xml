@@ -91,9 +91,15 @@
                 </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+        <ReverseIPDescriptor AmountOfVirtualHosts="3">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>gpomtxacol.mx</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>ns.gpomtxacol.mx</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>susemtxa.gpomtxacol.mx</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

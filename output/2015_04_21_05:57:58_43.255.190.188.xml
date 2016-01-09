@@ -23,7 +23,7 @@
             <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Linux 3.0 - 3.9</OSDescriptor>
+            <OSDescriptor>Linux 2.6.32 - 3.1</OSDescriptor>
             <PortsDescriptor amount="2">
                 <PortDescriptor>
                     <ProgramName>chargen</ProgramName>
@@ -35,11 +35,7 @@
                 </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
-            <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
-            </VirtualHost>
-        </ReverseIPDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
     </IPDescriptor>
     <DateDescriptor>
         <Fulldate>2015-04-21</Fulldate>

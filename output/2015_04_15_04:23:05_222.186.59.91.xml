@@ -23,8 +23,12 @@
             <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Microsoft Windows Server 2003 SP2</OSDescriptor>
-            <PortsDescriptor amount="6">
+            <OSDescriptor>Microsoft Windows Server 2003 SP1 - SP2</OSDescriptor>
+            <PortsDescriptor amount="7">
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
                 <PortDescriptor>
                     <ProgramName>http</ProgramName>
                     <Port>80</Port>

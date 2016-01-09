@@ -27,7 +27,7 @@
         </AdversarySystemDescriptor>
         <ReverseIPDescriptor AmountOfVirtualHosts="1">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>s15312662.onlinehome-server.info</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

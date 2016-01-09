@@ -23,7 +23,7 @@
             <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Linux 2.6.18</OSDescriptor>
+            <OSDescriptor>Asus RT-N16 WAP (Linux 2.6)</OSDescriptor>
             <PortsDescriptor amount="27">
                 <PortDescriptor>
                     <ProgramName>chargen</ProgramName>

@@ -23,7 +23,7 @@
             <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>OpenWrt White Russian 0.9 (Linux 2.4.30)</OSDescriptor>
+            <OSDescriptor>Crestron XPanel control system</OSDescriptor>
             <PortsDescriptor amount="1">
                 <PortDescriptor>
                     <ProgramName>snet-sensor-mgmt</ProgramName>

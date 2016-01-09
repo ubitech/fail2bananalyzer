@@ -23,12 +23,8 @@
             <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Sony Ericsson U8i Vivaz mobile phone</OSDescriptor>
-            <PortsDescriptor amount="28">
-                <PortDescriptor>
-                    <ProgramName>domain</ProgramName>
-                    <Port>53</Port>
-                </PortDescriptor>
+            <OSDescriptor>Netgear WGR614v7 wireless broadband router</OSDescriptor>
+            <PortsDescriptor amount="29">
                 <PortDescriptor>
                     <ProgramName>kerberos-sec</ProgramName>
                     <Port>88</Port>
@@ -78,10 +74,6 @@
                     <Port>1720</Port>
                 </PortDescriptor>
                 <PortDescriptor>
-                    <ProgramName>isis-bcast</ProgramName>
-                    <Port>2043</Port>
-                </PortDescriptor>
-                <PortDescriptor>
                     <ProgramName>ppp</ProgramName>
                     <Port>3000</Port>
                 </PortDescriptor>
@@ -122,6 +114,10 @@
                     <Port>6000</Port>
                 </PortDescriptor>
                 <PortDescriptor>
+                    <ProgramName>X11:4</ProgramName>
+                    <Port>6004</Port>
+                </PortDescriptor>
+                <PortDescriptor>
                     <ProgramName>unknown</ProgramName>
                     <Port>6129</Port>
                 </PortDescriptor>
@@ -137,13 +133,17 @@
                     <ProgramName>fodms</ProgramName>
                     <Port>7200</Port>
                 </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>scriptview</ProgramName>
+                    <Port>7741</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>16018</Port>
+                </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
-            <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
-            </VirtualHost>
-        </ReverseIPDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
     </IPDescriptor>
     <DateDescriptor>
         <Fulldate>2015-04-18</Fulldate>

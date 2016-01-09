@@ -23,7 +23,7 @@
             <NetworkName>RN Data SIA</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Linux 2.6.32 - 3.1</OSDescriptor>
+            <OSDescriptor>Linux 3.0 - 3.9</OSDescriptor>
             <PortsDescriptor amount="15">
                 <PortDescriptor>
                     <ProgramName>ftp</ProgramName>

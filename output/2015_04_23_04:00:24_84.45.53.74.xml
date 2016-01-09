@@ -24,7 +24,7 @@
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
             <OSDescriptor>Linux 2.6.9 - 2.6.18</OSDescriptor>
-            <PortsDescriptor amount="5">
+            <PortsDescriptor amount="6">
                 <PortDescriptor>
                     <ProgramName>https</ProgramName>
                     <Port>443</Port>
@@ -38,6 +38,10 @@
                     <Port>5060</Port>
                 </PortDescriptor>
                 <PortDescriptor>
+                    <ProgramName>xmpp-server</ProgramName>
+                    <Port>5269</Port>
+                </PortDescriptor>
+                <PortDescriptor>
                     <ProgramName>http-proxy</ProgramName>
                     <Port>8080</Port>
                 </PortDescriptor>
@@ -49,7 +53,7 @@
         </AdversarySystemDescriptor>
         <ReverseIPDescriptor AmountOfVirtualHosts="1">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>pbx.xgeneration.co.uk</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

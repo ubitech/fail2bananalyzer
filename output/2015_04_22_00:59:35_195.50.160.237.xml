@@ -39,9 +39,24 @@
                 </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+        <ReverseIPDescriptor AmountOfVirtualHosts="6">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>ce-fix.de</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>ce-fix.eu</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>cefix.eu</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>compliance.vbh-group.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>vbh-intranet.de</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.vbh-intranet.de</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

@@ -23,7 +23,7 @@
             <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>FreeBSD 6.2-RELEASE</OSDescriptor>
+            <OSDescriptor>OpenBSD 4.0</OSDescriptor>
             <PortsDescriptor amount="10">
                 <PortDescriptor>
                     <ProgramName>smtp</ProgramName>
@@ -67,9 +67,21 @@
                 </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+        <ReverseIPDescriptor AmountOfVirtualHosts="5">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>beautyforest.com.hk</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>carletonhk.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>m.beautyforest.com.hk</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>smtp.beautyforest.com.hk</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.carletonhk.com</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

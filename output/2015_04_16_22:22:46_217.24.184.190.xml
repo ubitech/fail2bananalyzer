@@ -23,8 +23,12 @@
             <NetworkName>Ekaterinburg Broadband service with Chel Support</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7)</OSDescriptor>
-            <PortsDescriptor amount="5">
+            <OSDescriptor>Linux 3.2 - 3.6</OSDescriptor>
+            <PortsDescriptor amount="6">
+                <PortDescriptor>
+                    <ProgramName>ftp-data</ProgramName>
+                    <Port>20</Port>
+                </PortDescriptor>
                 <PortDescriptor>
                     <ProgramName>ftp</ProgramName>
                     <Port>21</Port>

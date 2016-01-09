@@ -23,8 +23,8 @@
             <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Linux 2.6.18</OSDescriptor>
-            <PortsDescriptor amount="9">
+            <OSDescriptor>OpenWrt White Russian 0.9 (Linux 2.4.30)</OSDescriptor>
+            <PortsDescriptor amount="10">
                 <PortDescriptor>
                     <ProgramName>ssh</ProgramName>
                     <Port>22</Port>
@@ -32,6 +32,10 @@
                 <PortDescriptor>
                     <ProgramName>http</ProgramName>
                     <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>netbios-ssn</ProgramName>
+                    <Port>139</Port>
                 </PortDescriptor>
                 <PortDescriptor>
                     <ProgramName>https</ProgramName>
@@ -42,12 +46,12 @@
                     <Port>445</Port>
                 </PortDescriptor>
                 <PortDescriptor>
-                    <ProgramName>mysql</ProgramName>
-                    <Port>3306</Port>
+                    <ProgramName>http-rpc-epmap</ProgramName>
+                    <Port>593</Port>
                 </PortDescriptor>
                 <PortDescriptor>
-                    <ProgramName>krb524</ProgramName>
-                    <Port>4444</Port>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
                 </PortDescriptor>
                 <PortDescriptor>
                     <ProgramName>commplex-link</ProgramName>

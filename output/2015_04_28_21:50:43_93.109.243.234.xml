@@ -33,7 +33,7 @@
         </AdversarySystemDescriptor>
         <ReverseIPDescriptor AmountOfVirtualHosts="1">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>93-243-234.netrun.cytanet.com.cy</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

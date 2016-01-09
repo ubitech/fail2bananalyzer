@@ -23,8 +23,8 @@
             <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Microsoft Windows Server 2003 SP2</OSDescriptor>
-            <PortsDescriptor amount="29">
+            <OSDescriptor>Microsoft Windows XP SP2</OSDescriptor>
+            <PortsDescriptor amount="24">
                 <PortDescriptor>
                     <ProgramName>msrpc</ProgramName>
                     <Port>135</Port>
@@ -56,10 +56,6 @@
                 <PortDescriptor>
                     <ProgramName>arepa-cas</ProgramName>
                     <Port>3030</Port>
-                </PortDescriptor>
-                <PortDescriptor>
-                    <ProgramName>eppc</ProgramName>
-                    <Port>3031</Port>
                 </PortDescriptor>
                 <PortDescriptor>
                     <ProgramName>hfcs</ProgramName>
@@ -125,29 +121,9 @@
                     <ProgramName>dlip</ProgramName>
                     <Port>7201</Port>
                 </PortDescriptor>
-                <PortDescriptor>
-                    <ProgramName>unknown</ProgramName>
-                    <Port>9099</Port>
-                </PortDescriptor>
-                <PortDescriptor>
-                    <ProgramName>unknown</ProgramName>
-                    <Port>9110</Port>
-                </PortDescriptor>
-                <PortDescriptor>
-                    <ProgramName>unknown</ProgramName>
-                    <Port>9944</Port>
-                </PortDescriptor>
-                <PortDescriptor>
-                    <ProgramName>unknown</ProgramName>
-                    <Port>24444</Port>
-                </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
-            <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
-            </VirtualHost>
-        </ReverseIPDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
     </IPDescriptor>
     <DateDescriptor>
         <Fulldate>2015-04-24</Fulldate>

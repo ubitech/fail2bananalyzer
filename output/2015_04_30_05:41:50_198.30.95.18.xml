@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>198.30.95.18</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Ohio</RegionName>
+            <RegionCode>OH</RegionCode>
+            <City>Sidney</City>
+            <ZipCode>45365</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>40.2839</Latitude>
+            <Longitude>-84.1648</Longitude>
+            <MetroCode>542</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>198.22.98.0 - 198.36.31.255</NetworkRange>
+            <NetworkSize>900607</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-30</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>30</Day>
+        <Time>05:41:50</Time>
+    </DateDescriptor>
+</Attack>

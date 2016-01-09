@@ -23,7 +23,7 @@
             <NetworkName>1&amp;1 Internet AG</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Thomson Symbio VoIP phone</OSDescriptor>
+            <OSDescriptor>Linux 2.6.18 - 2.6.21</OSDescriptor>
             <PortsDescriptor amount="10">
                 <PortDescriptor>
                     <ProgramName>smtp</ProgramName>
@@ -67,9 +67,42 @@
                 </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+        <ReverseIPDescriptor AmountOfVirtualHosts="12">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>centenariomiguelhernandez.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>centenariomiguelhernandez.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>ciberpoesia.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>elecohernandiano.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>miguelhernandezpoeta.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>miguelhernandezvirtual.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>miguelhernandezvirtual.es</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>radiopoesia.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>s15381161.onlinehome-server.info</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.centenariomiguelhernandez.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.miguelhernandezvirtual.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.miguelhernandezvirtual.es</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

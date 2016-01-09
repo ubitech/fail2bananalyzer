@@ -23,7 +23,7 @@
             <NetworkName>kabelplus GmbH</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Linux 2.6.24 (Debian)</OSDescriptor>
+            <OSDescriptor>Thomson Symbio VoIP phone</OSDescriptor>
             <PortsDescriptor amount="6">
                 <PortDescriptor>
                     <ProgramName>ftp-data</ProgramName>
@@ -51,11 +51,7 @@
                 </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
-            <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
-            </VirtualHost>
-        </ReverseIPDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
     </IPDescriptor>
     <DateDescriptor>
         <Fulldate>2015-04-28</Fulldate>

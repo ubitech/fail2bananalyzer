@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>152.26.20.14</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>North Carolina</RegionName>
+            <RegionCode>NC</RegionCode>
+            <City>Greenville</City>
+            <ZipCode>27858</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>35.5235</Latitude>
+            <Longitude>-77.3008</Longitude>
+            <MetroCode>545</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>152.0.0.0 - 152.65.255.255</NetworkRange>
+            <NetworkSize>4325375</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>support.daretolearn.org</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-29</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>29</Day>
+        <Time>16:11:55</Time>
+    </DateDescriptor>
+</Attack>

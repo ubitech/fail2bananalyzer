@@ -103,9 +103,18 @@
                 </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+        <ReverseIPDescriptor AmountOfVirtualHosts="4">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>centercest.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>hellmax.org.ua</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>sphynkx.org.ua</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.centercest.ru</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

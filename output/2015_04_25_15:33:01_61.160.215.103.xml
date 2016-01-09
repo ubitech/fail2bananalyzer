@@ -23,7 +23,7 @@
             <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Microsoft Windows Server 2003 SP2</OSDescriptor>
+            <OSDescriptor>Microsoft Windows XP SP2</OSDescriptor>
             <PortsDescriptor amount="6">
                 <PortDescriptor>
                     <ProgramName>msrpc</ProgramName>
@@ -51,11 +51,7 @@
                 </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
-            <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
-            </VirtualHost>
-        </ReverseIPDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
     </IPDescriptor>
     <DateDescriptor>
         <Fulldate>2015-04-25</Fulldate>

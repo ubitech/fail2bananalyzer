@@ -23,7 +23,7 @@
             <NetworkName>Genexo Sp. z o.o.</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>DD-WRT v24-sp1 (Linux 2.4.36)</OSDescriptor>
+            <OSDescriptor>HP P2000 G3 NAS device</OSDescriptor>
             <PortsDescriptor amount="10">
                 <PortDescriptor>
                     <ProgramName>ssh</ProgramName>
@@ -67,9 +67,15 @@
                 </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+        <ReverseIPDescriptor AmountOfVirtualHosts="3">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>addr16212924226.ippl.jhmi.edu</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>aplikacje.genexo.pl</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>genexod.home.net.pl</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

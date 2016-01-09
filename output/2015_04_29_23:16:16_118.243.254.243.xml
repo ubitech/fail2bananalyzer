@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>118.243.254.243</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Japan</CountryName>
+            <CountryCode>JP</CountryCode>
+            <RegionName>Kanagawa</RegionName>
+            <RegionCode>14</RegionCode>
+            <City>Sakurakabu</City>
+            <ZipCode>242-0023</ZipCode>
+            <TimeZone>Asia/Tokyo</TimeZone>
+            <Latitude>35.45</Latitude>
+            <Longitude>139.4667</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>118.0.0.0 - 118.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>oyama-hotaru.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>y254243.ppp.asahi-net.or.jp</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-04-29</Fulldate>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>29</Day>
+        <Time>23:16:16</Time>
+    </DateDescriptor>
+</Attack>

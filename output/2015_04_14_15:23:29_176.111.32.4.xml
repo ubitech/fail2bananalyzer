@@ -23,7 +23,7 @@
             <NetworkName>PE Snitcar Olexandr Antonovich</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Linux 2.6.32</OSDescriptor>
+            <OSDescriptor>OpenWrt White Russian 0.9 (Linux 2.4.30)</OSDescriptor>
             <PortsDescriptor amount="6">
                 <PortDescriptor>
                     <ProgramName>ssh</ProgramName>

@@ -23,7 +23,7 @@
             <NetworkName>WIFI4ALL CUSTOMERS AREA 2</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Fortinet FortiAnalyzer 400B firewall (Linux 2.6)</OSDescriptor>
+            <OSDescriptor>Linux 2.6.32 - 2.6.35</OSDescriptor>
             <PortsDescriptor amount="4">
                 <PortDescriptor>
                     <ProgramName>ftp</ProgramName>

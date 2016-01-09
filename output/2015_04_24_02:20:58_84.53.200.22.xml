@@ -83,9 +83,63 @@
                 </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+        <ReverseIPDescriptor AmountOfVirtualHosts="19">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>bavleny.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>bioenerg.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>dbp-vladimir.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>fantomauto.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>gelius33.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>glasszvon.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>gp.wladimir.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>gus-dekor.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>incompen.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>lzebra33.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>pokrovbio.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>pro100r.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>svadba33.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>vektor-33.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>vipkro.wladimir.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>vladavtovokzal.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>vofoms.elcom.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>web4.elcom.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.vladavtovokzal.ru</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

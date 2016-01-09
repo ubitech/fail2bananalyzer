@@ -23,7 +23,7 @@
             <NetworkName>Customer</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>OpenWrt Kamikaze 7.09 (Linux 2.6.22)</OSDescriptor>
+            <OSDescriptor>Linux 2.6.18</OSDescriptor>
             <PortsDescriptor amount="25">
                 <PortDescriptor>
                     <ProgramName>ftp</ProgramName>

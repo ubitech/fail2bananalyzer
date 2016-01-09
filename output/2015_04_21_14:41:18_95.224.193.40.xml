@@ -23,7 +23,7 @@
             <NetworkName>Telecom Italia S.p.A.</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Linux 2.6.32 - 2.6.35</OSDescriptor>
+            <OSDescriptor>Fortinet FortiAnalyzer 400B firewall (Linux 2.6)</OSDescriptor>
             <PortsDescriptor amount="3">
                 <PortDescriptor>
                     <ProgramName>ssh</ProgramName>
@@ -41,7 +41,7 @@
         </AdversarySystemDescriptor>
         <ReverseIPDescriptor AmountOfVirtualHosts="1">
             <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
+                <VirtualHostname>host40-193-static.224-95-b.business.telecomitalia.it</VirtualHostname>
             </VirtualHost>
         </ReverseIPDescriptor>
     </IPDescriptor>

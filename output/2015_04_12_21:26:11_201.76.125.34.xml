@@ -18,18 +18,16 @@
             <BlacklistingLevel>0</BlacklistingLevel>
         </BlacklistingDescriptor>
         <AdversaryHostDescriptor>
-            <NetworkSize>0</NetworkSize>
+            <NetworkRange>201.0.0.0 - 201.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
             <OSDescriptor>MikroTik RouterOS 3.17</OSDescriptor>
-            <PortsDescriptor amount="4">
+            <PortsDescriptor amount="3">
                 <PortDescriptor>
                     <ProgramName>ssh</ProgramName>
                     <Port>22</Port>
-                </PortDescriptor>
-                <PortDescriptor>
-                    <ProgramName>telnet</ProgramName>
-                    <Port>23</Port>
                 </PortDescriptor>
                 <PortDescriptor>
                     <ProgramName>domain</ProgramName>
@@ -41,11 +39,7 @@
                 </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
-            <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
-            </VirtualHost>
-        </ReverseIPDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
     </IPDescriptor>
     <DateDescriptor>
         <Fulldate>2015-04-12</Fulldate>

@@ -23,7 +23,7 @@
             <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
         </AdversaryHostDescriptor>
         <AdversarySystemDescriptor>
-            <OSDescriptor>Fortinet FortiGate-50B or 310B firewall</OSDescriptor>
+            <OSDescriptor>Linux 2.6.18 - 2.6.22</OSDescriptor>
             <PortsDescriptor amount="5">
                 <PortDescriptor>
                     <ProgramName>http</ProgramName>
@@ -47,11 +47,7 @@
                 </PortDescriptor>
             </PortsDescriptor>
         </AdversarySystemDescriptor>
-        <ReverseIPDescriptor AmountOfVirtualHosts="1">
-            <VirtualHost>
-                <VirtualHostname>API count exceeded</VirtualHostname>
-            </VirtualHost>
-        </ReverseIPDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
     </IPDescriptor>
     <DateDescriptor>
         <Fulldate>2015-04-12</Fulldate>
