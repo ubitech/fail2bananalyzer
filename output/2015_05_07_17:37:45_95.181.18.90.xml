@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>95.181.18.90</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Russia</CountryName>
+            <CountryCode>RU</CountryCode>
+            <RegionName>Kemerovskaya Oblast'</RegionName>
+            <RegionCode>KEM</RegionCode>
+            <City>Kemerovo</City>
+            <ZipCode>650001</ZipCode>
+            <TimeZone>Asia/Novokuznetsk</TimeZone>
+            <Latitude>55.3333</Latitude>
+            <Longitude>86.0833</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>95.181.0.0 - 95.181.63.255</NetworkRange>
+            <NetworkSize>16383</NetworkSize>
+            <NetworkName>E-Light-Telecom</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-07</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>07</Day>
+        <Time>17:37:45</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>109.195.16.25</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Russia</CountryName>
+            <CountryCode>RU</CountryCode>
+            <RegionName>Saratovskaya Oblast'</RegionName>
+            <RegionCode>SAR</RegionCode>
+            <City>Saratov</City>
+            <ZipCode>410000</ZipCode>
+            <TimeZone>Europe/Volgograd</TimeZone>
+            <Latitude>51.5667</Latitude>
+            <Longitude>46.0333</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>109.195.16.0 - 109.195.23.255</NetworkRange>
+            <NetworkSize>2047</NetworkSize>
+            <NetworkName>CJSC "Company "ER-Telecom" Saratov</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.20-1 (Fedora Core 5)</OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>ftp</ProgramName>
+                    <Port>21</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>eqm.saratov.ertelecom.ru</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-20</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>20</Day>
+        <Time>08:26:46</Time>
+    </DateDescriptor>
+</Attack>

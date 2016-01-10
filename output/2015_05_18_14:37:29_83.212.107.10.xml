@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>83.212.107.10</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Greece</CountryName>
+            <CountryCode>GR</CountryCode>
+            <RegionName>Attica</RegionName>
+            <RegionCode>I</RegionCode>
+            <City>Athens</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Athens</TimeZone>
+            <Latitude>37.9833</Latitude>
+            <Longitude>23.7333</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>-1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>83.212.96.0 - 83.212.127.255</NetworkRange>
+            <NetworkSize>8191</NetworkSize>
+            <NetworkName>Greek Research and Technology Network S.A</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7)</OSDescriptor>
+            <PortsDescriptor amount="4">
+                <PortDescriptor>
+                    <ProgramName>ftp</ProgramName>
+                    <Port>21</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>snf-516312.vm.okeanos.grnet.gr</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-18</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>18</Day>
+        <Time>14:37:29</Time>
+    </DateDescriptor>
+</Attack>

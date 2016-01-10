@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>186.121.211.19</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Bolivia</CountryName>
+            <CountryCode>BO</CountryCode>
+            <RegionName>Departamento de La Paz</RegionName>
+            <RegionCode>L</RegionCode>
+            <City>La Paz</City>
+            <ZipCode></ZipCode>
+            <TimeZone>America/La_Paz</TimeZone>
+            <Latitude>-16.5</Latitude>
+            <Longitude>-68.15</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>186.0.0.0 - 186.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-23</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>23</Day>
+        <Time>06:23:11</Time>
+    </DateDescriptor>
+</Attack>

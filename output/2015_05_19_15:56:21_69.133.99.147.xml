@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>69.133.99.147</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Ohio</RegionName>
+            <RegionCode>OH</RegionCode>
+            <City>Cincinnati</City>
+            <ZipCode>45212</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>39.1639</Latitude>
+            <Longitude>-84.4516</Longitude>
+            <MetroCode>515</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>69.0.0.0 - 69.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-19</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>19</Day>
+        <Time>15:56:21</Time>
+    </DateDescriptor>
+</Attack>

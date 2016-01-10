@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>52.17.127.187</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Ireland</CountryName>
+            <CountryCode>IE</CountryCode>
+            <RegionName>Leinster</RegionName>
+            <RegionCode>L</RegionCode>
+            <City>Dublin</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Dublin</TimeZone>
+            <Latitude>53.3331</Latitude>
+            <Longitude>-6.2489</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>52.0.0.0 - 52.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>host187.dyn127.wfu.edu</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-02</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>02</Day>
+        <Time>10:42:55</Time>
+    </DateDescriptor>
+</Attack>

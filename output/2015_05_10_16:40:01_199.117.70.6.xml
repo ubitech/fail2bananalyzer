@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>199.117.70.6</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Colorado</RegionName>
+            <RegionCode>CO</RegionCode>
+            <City>Wheat Ridge</City>
+            <ZipCode>80033</ZipCode>
+            <TimeZone>America/Denver</TimeZone>
+            <Latitude>39.7747</Latitude>
+            <Longitude>-105.1033</Longitude>
+            <MetroCode>751</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>199.91.32.0 - 199.255.255.255</NetworkRange>
+            <NetworkSize>10805247</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-10</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>10</Day>
+        <Time>16:40:01</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>207.106.176.151</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>California</RegionName>
+            <RegionCode>CA</RegionCode>
+            <City>San Rafael</City>
+            <ZipCode>94901</ZipCode>
+            <TimeZone>America/Los_Angeles</TimeZone>
+            <Latitude>37.9719</Latitude>
+            <Longitude>-122.5023</Longitude>
+            <MetroCode>807</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>207.0.0.0 - 207.189.191.255</NetworkRange>
+            <NetworkSize>12435455</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>confserver.corp.craford.com</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-24</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>24</Day>
+        <Time>03:42:04</Time>
+    </DateDescriptor>
+</Attack>

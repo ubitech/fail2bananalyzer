@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>60.248.208.73</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Taiwan</CountryName>
+            <CountryCode>TW</CountryCode>
+            <RegionName>Taipei</RegionName>
+            <RegionCode></RegionCode>
+            <City>Taipei</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Taipei</TimeZone>
+            <Latitude>25.0392</Latitude>
+            <Longitude>121.525</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>5</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>60.0.0.0 - 60.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-19</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>19</Day>
+        <Time>09:37:46</Time>
+    </DateDescriptor>
+</Attack>

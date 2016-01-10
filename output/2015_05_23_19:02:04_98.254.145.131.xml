@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>98.254.145.131</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Florida</RegionName>
+            <RegionCode>FL</RegionCode>
+            <City>Miami</City>
+            <ZipCode>33173</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>25.7014</Latitude>
+            <Longitude>-80.3582</Longitude>
+            <MetroCode>528</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>98.0.0.0 - 98.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>kendallshop.gotdns.com</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-23</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>23</Day>
+        <Time>19:02:04</Time>
+    </DateDescriptor>
+</Attack>

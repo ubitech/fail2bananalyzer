@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>31.192.104.160</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Russia</CountryName>
+            <CountryCode>RU</CountryCode>
+            <RegionName>Moscow</RegionName>
+            <RegionCode>MOW</RegionCode>
+            <City>Moscow</City>
+            <ZipCode>101194</ZipCode>
+            <TimeZone>Europe/Moscow</TimeZone>
+            <Latitude>55.7522</Latitude>
+            <Longitude>37.6156</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>31.192.104.128 - 31.192.104.239</NetworkRange>
+            <NetworkSize>111</NetworkSize>
+            <NetworkName>abuse-mailbox: abuse@hostkey.com</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-21</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>21</Day>
+        <Time>14:28:45</Time>
+    </DateDescriptor>
+</Attack>

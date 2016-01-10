@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>119.82.251.163</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Cambodia</CountryName>
+            <CountryCode>KH</CountryCode>
+            <RegionName>Phnom Penh</RegionName>
+            <RegionCode>12</RegionCode>
+            <City>Phnom Penh</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Phnom_Penh</TimeZone>
+            <Latitude>11.5625</Latitude>
+            <Longitude>104.916</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>119.0.0.0 - 119.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-18</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>18</Day>
+        <Time>10:20:59</Time>
+    </DateDescriptor>
+</Attack>

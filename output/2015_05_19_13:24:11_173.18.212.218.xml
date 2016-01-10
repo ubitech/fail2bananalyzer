@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>173.18.212.218</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Illinois</RegionName>
+            <RegionCode>IL</RegionCode>
+            <City>Galva</City>
+            <ZipCode>61434</ZipCode>
+            <TimeZone>America/Chicago</TimeZone>
+            <Latitude>41.178</Latitude>
+            <Longitude>-90.0015</Longitude>
+            <MetroCode>675</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>173.0.0.0 - 173.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt White Russian 0.9 (Linux 2.4.30)</OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>admeng</ProgramName>
+                    <Port>5102</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-19</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>19</Day>
+        <Time>13:24:11</Time>
+    </DateDescriptor>
+</Attack>

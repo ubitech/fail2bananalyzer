@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>199.189.115.71</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Dominica</CountryName>
+            <CountryCode>DM</CountryCode>
+            <RegionName>Saint George</RegionName>
+            <RegionCode>04</RegionCode>
+            <City>Roseau</City>
+            <ZipCode></ZipCode>
+            <TimeZone>America/Dominica</TimeZone>
+            <Latitude>15.3</Latitude>
+            <Longitude>-61.4</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>199.91.32.0 - 199.255.255.255</NetworkRange>
+            <NetworkSize>10805247</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt White Russian 0.9 (Linux 2.4.30)</OSDescriptor>
+            <PortsDescriptor amount="7">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>invokator</ProgramName>
+                    <Port>2006</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>dectalk</ProgramName>
+                    <Port>2007</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>conf</ProgramName>
+                    <Port>2008</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>search</ProgramName>
+                    <Port>2010</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>xinupageserver</ProgramName>
+                    <Port>2020</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-proxy</ProgramName>
+                    <Port>8080</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>customs.gov.dm</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-11</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>11</Day>
+        <Time>21:19:45</Time>
+    </DateDescriptor>
+</Attack>

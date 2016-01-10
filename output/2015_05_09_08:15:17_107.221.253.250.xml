@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>107.221.253.250</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Indiana</RegionName>
+            <RegionCode>IN</RegionCode>
+            <City>East Chicago</City>
+            <ZipCode>46312</ZipCode>
+            <TimeZone>America/Chicago</TimeZone>
+            <Latitude>41.6463</Latitude>
+            <Longitude>-87.4528</Longitude>
+            <MetroCode>602</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>107.0.0.0 - 107.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-09</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>09</Day>
+        <Time>08:15:17</Time>
+    </DateDescriptor>
+</Attack>

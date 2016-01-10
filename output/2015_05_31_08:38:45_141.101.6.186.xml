@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>141.101.6.186</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Ukraine</CountryName>
+            <CountryCode>UA</CountryCode>
+            <RegionName>Mykolayivs'ka Oblast'</RegionName>
+            <RegionCode>48</RegionCode>
+            <City>Mykolayiv</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Kiev</TimeZone>
+            <Latitude>46.9659</Latitude>
+            <Longitude>31.9974</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>141.101.0.0 - 141.101.15.255</NetworkRange>
+            <NetworkSize>4095</NetworkSize>
+            <NetworkName>WildPark Co</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-31</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>31</Day>
+        <Time>08:38:45</Time>
+    </DateDescriptor>
+</Attack>

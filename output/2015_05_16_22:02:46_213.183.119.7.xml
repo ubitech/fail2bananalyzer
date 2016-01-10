@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>213.183.119.7</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Russia</CountryName>
+            <CountryCode>RU</CountryCode>
+            <RegionName>Tomskaya Oblast'</RegionName>
+            <RegionCode>TOM</RegionCode>
+            <City>Tomsk</City>
+            <ZipCode>634014</ZipCode>
+            <TimeZone>Asia/Novosibirsk</TimeZone>
+            <Latitude>56.5</Latitude>
+            <Longitude>84.9667</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>213.183.119.0 - 213.183.119.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>Mihail Juriwitsch Novikov</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Netgear DG834G WAP or Western Digital WD TV media player</OSDescriptor>
+            <PortsDescriptor amount="4">
+                <PortDescriptor>
+                    <ProgramName>ftp</ProgramName>
+                    <Port>21</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pptp</ProgramName>
+                    <Port>1723</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-05-16</Fulldate>
+        <Year>2015</Year>
+        <Month>05</Month>
+        <Day>16</Day>
+        <Time>22:02:46</Time>
+    </DateDescriptor>
+</Attack>
