@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>197.157.244.243</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Somalia</CountryName>
+            <CountryCode>SO</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Africa/Mogadishu</TimeZone>
+            <Latitude>10</Latitude>
+            <Longitude>49</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>197.0.0.0 - 197.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>HP P2000 G3 NAS device</OSDescriptor>
+            <PortsDescriptor amount="5">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>su-mit-tg</ProgramName>
+                    <Port>89</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>metagram</ProgramName>
+                    <Port>99</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>smux</ProgramName>
+                    <Port>199</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>snet-sensor-mgmt</ProgramName>
+                    <Port>10000</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-27</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>27</Day>
+        <Time>10:56:16</Time>
+    </DateDescriptor>
+</Attack>

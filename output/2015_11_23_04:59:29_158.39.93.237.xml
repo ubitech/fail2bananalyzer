@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>158.39.93.237</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Norway</CountryName>
+            <CountryCode>NO</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Oslo</TimeZone>
+            <Latitude>59.95</Latitude>
+            <Longitude>10.75</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>158.39.0.0 - 158.39.255.255</NetworkRange>
+            <NetworkSize>65535</NetworkSize>
+            <NetworkName>Academic and research institutions,</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>dt-lab3.hin.no</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-11-23</Fulldate>
+        <Year>2015</Year>
+        <Month>11</Month>
+        <Day>23</Day>
+        <Time>04:59:29</Time>
+    </DateDescriptor>
+</Attack>

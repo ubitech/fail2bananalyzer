@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>128.199.155.16</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Singapore</CountryName>
+            <CountryCode>SG</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City>Singapore</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Singapore</TimeZone>
+            <Latitude>1.2931</Latitude>
+            <Longitude>103.8558</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>128.199.0.0 - 128.199.255.255</NetworkRange>
+            <NetworkSize>65535</NetworkSize>
+            <NetworkName>DigitalOcean Cloud</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.32 - 3.1</OSDescriptor>
+            <PortsDescriptor amount="6">
+                <PortDescriptor>
+                    <ProgramName>smtp</ProgramName>
+                    <Port>25</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>smtps</ProgramName>
+                    <Port>465</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>submission</ProgramName>
+                    <Port>587</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>EtherNet/IP-1</ProgramName>
+                    <Port>2222</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-12-04</Fulldate>
+        <Year>2015</Year>
+        <Month>12</Month>
+        <Day>04</Day>
+        <Time>15:06:31</Time>
+    </DateDescriptor>
+</Attack>

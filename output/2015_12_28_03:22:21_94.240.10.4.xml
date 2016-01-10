@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>94.240.10.4</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Poland</CountryName>
+            <CountryCode>PL</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Warsaw</TimeZone>
+            <Latitude>52.2333</Latitude>
+            <Longitude>21.0167</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>94.240.0.0 - 94.240.23.255</NetworkRange>
+            <NetworkSize>6143</NetworkSize>
+            <NetworkName>LukMAN Multitech Sp. z o.o.</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.18 - 2.6.22</OSDescriptor>
+            <PortsDescriptor amount="3">
+                <PortDescriptor>
+                    <ProgramName>ident</ProgramName>
+                    <Port>113</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>uucp-rlogin</ProgramName>
+                    <Port>541</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-alt</ProgramName>
+                    <Port>8000</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>94-240-10-4.lukman.pl</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>pcb4.beweship.com</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-12-28</Fulldate>
+        <Year>2015</Year>
+        <Month>12</Month>
+        <Day>28</Day>
+        <Time>03:22:21</Time>
+    </DateDescriptor>
+</Attack>

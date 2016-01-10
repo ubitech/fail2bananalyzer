@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>193.104.41.54</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Republic of Moldova</CountryName>
+            <CountryCode>MD</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Chisinau</TimeZone>
+            <Latitude>47</Latitude>
+            <Longitude>29</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>193.0.0.0 - 195.255.255.255</NetworkRange>
+            <NetworkSize>50331647</NetworkSize>
+            <NetworkName>To determine the registration information for a more</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Netgear DG834G WAP or Western Digital WD TV media player</OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-11-22</Fulldate>
+        <Year>2015</Year>
+        <Month>11</Month>
+        <Day>22</Day>
+        <Time>11:01:21</Time>
+    </DateDescriptor>
+</Attack>

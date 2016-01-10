@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>77.236.96.52</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Germany</CountryName>
+            <CountryCode>DE</CountryCode>
+            <RegionName>North Rhine-Westphalia</RegionName>
+            <RegionCode>NW</RegionCode>
+            <City>Sonsbeck</City>
+            <ZipCode>47665</ZipCode>
+            <TimeZone>Europe/Berlin</TimeZone>
+            <Latitude>51.6167</Latitude>
+            <Longitude>6.3667</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>77.236.96.0 - 77.236.99.255</NetworkRange>
+            <NetworkSize>1023</NetworkSize>
+            <NetworkName>Markus Bach Betriebs Gesellschaft mbH</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>DD-WRT v24-sp1 (Linux 2.4.36)</OSDescriptor>
+            <PortsDescriptor amount="8">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3</ProgramName>
+                    <Port>110</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>imap</ProgramName>
+                    <Port>143</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>imaps</ProgramName>
+                    <Port>993</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3s</ProgramName>
+                    <Port>995</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https-alt</ProgramName>
+                    <Port>8443</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="9">
+            <VirtualHost>
+                <VirtualHostname>6-dreams.ch</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>6-express.ch</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>insiderdeal.ch</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>sauna-city.ch</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>saunacity.ch</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>webbox1369.server-home.net</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.6-dreams.ch</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.6-express.ch</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.saunacity.ch</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-23</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>23</Day>
+        <Time>07:28:31</Time>
+    </DateDescriptor>
+</Attack>

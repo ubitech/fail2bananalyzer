@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>84.200.82.10</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Germany</CountryName>
+            <CountryCode>DE</CountryCode>
+            <RegionName>Hesse</RegionName>
+            <RegionCode>HE</RegionCode>
+            <City>Frankfurt am Main</City>
+            <ZipCode>60438</ZipCode>
+            <TimeZone>Europe/Berlin</TimeZone>
+            <Latitude>50.1167</Latitude>
+            <Longitude>8.6833</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>84.200.82.0 - 84.200.82.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>Host Mist LLC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Netgear DG834G WAP or Western Digital WD TV media player</OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-11-28</Fulldate>
+        <Year>2015</Year>
+        <Month>11</Month>
+        <Day>28</Day>
+        <Time>22:28:50</Time>
+    </DateDescriptor>
+</Attack>

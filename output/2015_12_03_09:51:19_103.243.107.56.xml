@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>103.243.107.56</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Vietnam</CountryName>
+            <CountryCode>VN</CountryCode>
+            <RegionName>Thanh Pho Ha Noi</RegionName>
+            <RegionCode>64</RegionCode>
+            <City>Hanoi</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Ho_Chi_Minh</TimeZone>
+            <Latitude>21.0333</Latitude>
+            <Longitude>105.85</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>7</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>103.0.0.0 - 103.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>snap-server.info</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-12-03</Fulldate>
+        <Year>2015</Year>
+        <Month>12</Month>
+        <Day>03</Day>
+        <Time>09:51:19</Time>
+    </DateDescriptor>
+</Attack>

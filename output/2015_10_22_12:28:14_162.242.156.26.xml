@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>162.242.156.26</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Texas</RegionName>
+            <RegionCode>TX</RegionCode>
+            <City>San Antonio</City>
+            <ZipCode>78218</ZipCode>
+            <TimeZone>America/Chicago</TimeZone>
+            <Latitude>29.4889</Latitude>
+            <Longitude>-98.3987</Longitude>
+            <MetroCode>641</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>162.87.0.0 - 162.255.255.255</NetworkRange>
+            <NetworkSize>11075583</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-22</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>22</Day>
+        <Time>12:28:14</Time>
+    </DateDescriptor>
+</Attack>

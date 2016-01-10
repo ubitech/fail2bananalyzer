@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>207.46.234.251</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Washington</RegionName>
+            <RegionCode>WA</RegionCode>
+            <City>Redmond</City>
+            <ZipCode>98052</ZipCode>
+            <TimeZone>America/Los_Angeles</TimeZone>
+            <Latitude>47.6801</Latitude>
+            <Longitude>-122.1206</Longitude>
+            <MetroCode>819</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>207.0.0.0 - 207.189.191.255</NetworkRange>
+            <NetworkSize>12435455</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor></OSDescriptor>
+            <PortsDescriptor amount="7">
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>blackice-icecap</ProgramName>
+                    <Port>8081</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>blackice-alerts</ProgramName>
+                    <Port>8082</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https-alt</ProgramName>
+                    <Port>8443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>scp-config</ProgramName>
+                    <Port>10001</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>documentum</ProgramName>
+                    <Port>10002</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>dnp</ProgramName>
+                    <Port>20000</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-12-25</Fulldate>
+        <Year>2015</Year>
+        <Month>12</Month>
+        <Day>25</Day>
+        <Time>14:32:47</Time>
+    </DateDescriptor>
+</Attack>

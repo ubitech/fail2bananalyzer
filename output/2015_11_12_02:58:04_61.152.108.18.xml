@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>61.152.108.18</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Shanghai Shi</RegionName>
+            <RegionCode>31</RegionCode>
+            <City>Shanghai</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>31.0456</Latitude>
+            <Longitude>121.3997</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>61.0.0.0 - 61.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.18</OSDescriptor>
+            <PortsDescriptor amount="15">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>nameserver</ProgramName>
+                    <Port>42</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>msrpc</ProgramName>
+                    <Port>135</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>netbios-ssn</ProgramName>
+                    <Port>139</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-rpc-epmap</ProgramName>
+                    <Port>593</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>kerberos-adm</ProgramName>
+                    <Port>749</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>NFS-or-IIS</ProgramName>
+                    <Port>1025</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>instl_bootc</ProgramName>
+                    <Port>1068</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ms-sql-m</ProgramName>
+                    <Port>1434</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>squid-http</ProgramName>
+                    <Port>3128</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>krb524</ProgramName>
+                    <Port>4444</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>bigbellsh.com</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-11-12</Fulldate>
+        <Year>2015</Year>
+        <Month>11</Month>
+        <Day>12</Day>
+        <Time>02:58:04</Time>
+    </DateDescriptor>
+</Attack>

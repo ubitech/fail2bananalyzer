@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>116.104.106.90</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Vietnam</CountryName>
+            <CountryCode>VN</CountryCode>
+            <RegionName>Thanh Pho Ha Noi</RegionName>
+            <RegionCode>64</RegionCode>
+            <City>Hanoi</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Ho_Chi_Minh</TimeZone>
+            <Latitude>21.0333</Latitude>
+            <Longitude>105.85</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>116.0.0.0 - 116.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-12-13</Fulldate>
+        <Year>2015</Year>
+        <Month>12</Month>
+        <Day>13</Day>
+        <Time>07:55:12</Time>
+    </DateDescriptor>
+</Attack>

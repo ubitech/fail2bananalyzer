@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>40.117.237.50</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>District of Columbia</RegionName>
+            <RegionCode>DC</RegionCode>
+            <City>Washington</City>
+            <ZipCode>56901</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>38.8951</Latitude>
+            <Longitude>-77.0364</Longitude>
+            <MetroCode>511</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>40.0.0.0 - 40.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-12-25</Fulldate>
+        <Year>2015</Year>
+        <Month>12</Month>
+        <Day>25</Day>
+        <Time>15:21:40</Time>
+    </DateDescriptor>
+</Attack>

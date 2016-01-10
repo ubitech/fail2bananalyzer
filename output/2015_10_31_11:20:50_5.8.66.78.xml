@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>5.8.66.78</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Russia</CountryName>
+            <CountryCode>RU</CountryCode>
+            <RegionName>St.-Petersburg</RegionName>
+            <RegionCode>SPE</RegionCode>
+            <City>Saint Petersburg</City>
+            <ZipCode>190031</ZipCode>
+            <TimeZone>Europe/Moscow</TimeZone>
+            <Latitude>59.8944</Latitude>
+            <Longitude>30.2642</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>5.8.66.0 - 5.8.66.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>network is taken back by LIR because of ignoring abuses</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>dynl078.osnanet.de</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>phpmyadmin00.clarahost.co.uk</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-31</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>31</Day>
+        <Time>11:20:50</Time>
+    </DateDescriptor>
+</Attack>

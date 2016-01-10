@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>176.103.68.3</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Ukraine</CountryName>
+            <CountryCode>UA</CountryCode>
+            <RegionName>Khersons'ka Oblast'</RegionName>
+            <RegionCode>65</RegionCode>
+            <City>Stanislav</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Kiev</TimeZone>
+            <Latitude>46.5691</Latitude>
+            <Longitude>32.1478</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>176.103.64.0 - 176.103.71.255</NetworkRange>
+            <NetworkSize>2047</NetworkSize>
+            <NetworkName>FOP "Makurin Stanislav Volodimirovich"</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt White Russian 0.9 (Linux 2.4.30)</OSDescriptor>
+            <PortsDescriptor amount="2">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-12-02</Fulldate>
+        <Year>2015</Year>
+        <Month>12</Month>
+        <Day>02</Day>
+        <Time>09:09:42</Time>
+    </DateDescriptor>
+</Attack>

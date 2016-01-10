@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>202.126.93.18</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Mongolia</CountryName>
+            <CountryCode>MN</CountryCode>
+            <RegionName>Ulaanbaatar Hot</RegionName>
+            <RegionCode>1</RegionCode>
+            <City>Ulan Bator</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Ulaanbaatar</TimeZone>
+            <Latitude>47.9167</Latitude>
+            <Longitude>106.9167</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>7</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>202.0.0.0 - 202.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.9 - 2.6.18</OSDescriptor>
+            <PortsDescriptor amount="3">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ipp</ProgramName>
+                    <Port>631</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-proxy</ProgramName>
+                    <Port>8080</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="3">
+            <VirtualHost>
+                <VirtualHostname>ulusnet.mn</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>unet.mn</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.ulusnet.mn</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-12-11</Fulldate>
+        <Year>2015</Year>
+        <Month>12</Month>
+        <Day>11</Day>
+        <Time>11:35:38</Time>
+    </DateDescriptor>
+</Attack>

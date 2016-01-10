@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>104.200.78.42</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Netherlands</CountryName>
+            <CountryCode>NL</CountryCode>
+            <RegionName>North Holland</RegionName>
+            <RegionCode>NH</RegionCode>
+            <City>Amsterdam</City>
+            <ZipCode>1000</ZipCode>
+            <TimeZone>Europe/Amsterdam</TimeZone>
+            <Latitude>52.374</Latitude>
+            <Longitude>4.8897</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>104.0.0.0 - 104.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-12-26</Fulldate>
+        <Year>2015</Year>
+        <Month>12</Month>
+        <Day>26</Day>
+        <Time>19:20:43</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>217.32.219.199</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United Kingdom</CountryName>
+            <CountryCode>GB</CountryCode>
+            <RegionName>England</RegionName>
+            <RegionCode>ENG</RegionCode>
+            <City>London</City>
+            <ZipCode>W14</ZipCode>
+            <TimeZone>Europe/London</TimeZone>
+            <Latitude>51.5019</Latitude>
+            <Longitude>-0.2184</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>217.32.219.192 - 217.32.219.223</NetworkRange>
+            <NetworkSize>31</NetworkSize>
+            <NetworkName>FTIP003285879 Britannia Labels Ltd</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-11-24</Fulldate>
+        <Year>2015</Year>
+        <Month>11</Month>
+        <Day>24</Day>
+        <Time>22:59:36</Time>
+    </DateDescriptor>
+</Attack>

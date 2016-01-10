@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>159.122.113.152</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Germany</CountryName>
+            <CountryCode>DE</CountryCode>
+            <RegionName>Hesse</RegionName>
+            <RegionCode>HE</RegionCode>
+            <City>Frankfurt am Main</City>
+            <ZipCode>60438</ZipCode>
+            <TimeZone>Europe/Berlin</TimeZone>
+            <Latitude>50.1167</Latitude>
+            <Longitude>8.6833</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>159.122.0.0 - 159.122.255.255</NetworkRange>
+            <NetworkSize>65535</NetworkSize>
+            <NetworkName>SoftLayer Technologies, Inc.</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-12-09</Fulldate>
+        <Year>2015</Year>
+        <Month>12</Month>
+        <Day>09</Day>
+        <Time>22:36:44</Time>
+    </DateDescriptor>
+</Attack>
