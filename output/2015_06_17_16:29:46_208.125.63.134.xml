@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>208.125.63.134</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>New York</RegionName>
+            <RegionCode>NY</RegionCode>
+            <City>Cleveland</City>
+            <ZipCode>13042</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>43.2742</Latitude>
+            <Longitude>-75.8521</Longitude>
+            <MetroCode>555</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>208.0.0.0 - 208.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt Kamikaze 7.09 (Linux 2.6.22)</OSDescriptor>
+            <PortsDescriptor amount="3">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>trivnet1</ProgramName>
+                    <Port>8200</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>support.usdigitalit.com</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-17</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>17</Day>
+        <Time>16:29:46</Time>
+    </DateDescriptor>
+</Attack>

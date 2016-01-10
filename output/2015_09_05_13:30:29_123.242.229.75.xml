@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>123.242.229.75</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Hong Kong</CountryName>
+            <CountryCode>HK</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City>Central District</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Hong_Kong</TimeZone>
+            <Latitude>22.2833</Latitude>
+            <Longitude>114.15</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>11</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>123.0.0.0 - 123.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt White Russian 0.9 (Linux 2.4.30)</OSDescriptor>
+            <PortsDescriptor amount="15">
+                <PortDescriptor>
+                    <ProgramName>ftp</ProgramName>
+                    <Port>21</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>smtp</ProgramName>
+                    <Port>25</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3pw</ProgramName>
+                    <Port>106</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3</ProgramName>
+                    <Port>110</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>rpcbind</ProgramName>
+                    <Port>111</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>imap</ProgramName>
+                    <Port>143</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>smtps</ProgramName>
+                    <Port>465</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>imaps</ProgramName>
+                    <Port>993</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3s</ProgramName>
+                    <Port>995</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https-alt</ProgramName>
+                    <Port>8443</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="4">
+            <VirtualHost>
+                <VirtualHostname>digimoncard.hkdmc.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>digimonrpg.hkdmc.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>forum.hkdmc.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>hkdmc.org</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-05</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>05</Day>
+        <Time>13:30:29</Time>
+    </DateDescriptor>
+</Attack>

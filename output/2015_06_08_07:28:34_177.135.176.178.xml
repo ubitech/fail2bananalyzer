@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>177.135.176.178</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Brazil</CountryName>
+            <CountryCode>BR</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone></TimeZone>
+            <Latitude>-23.5477</Latitude>
+            <Longitude>-46.6359</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>177.0.0.0 - 177.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenBSD 4.0</OSDescriptor>
+            <PortsDescriptor amount="3">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ms-wbt-server</ProgramName>
+                    <Port>3389</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-08</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>08</Day>
+        <Time>07:28:34</Time>
+    </DateDescriptor>
+</Attack>

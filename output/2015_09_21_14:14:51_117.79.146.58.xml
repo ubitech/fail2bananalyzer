@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>117.79.146.58</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Beijing Shi</RegionName>
+            <RegionCode>11</RegionCode>
+            <City>Beijing</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>39.9289</Latitude>
+            <Longitude>116.3883</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>10</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>117.0.0.0 - 117.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>HP P2000 G3 NAS device</OSDescriptor>
+            <PortsDescriptor amount="4">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>rpcbind</ProgramName>
+                    <Port>111</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>nrpe</ProgramName>
+                    <Port>5666</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-21</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>21</Day>
+        <Time>14:14:51</Time>
+    </DateDescriptor>
+</Attack>

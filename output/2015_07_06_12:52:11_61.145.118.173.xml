@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>61.145.118.173</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Guangdong</RegionName>
+            <RegionCode>44</RegionCode>
+            <City>Guangzhou</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>23.1167</Latitude>
+            <Longitude>113.25</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>7</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>61.0.0.0 - 61.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.32 - 3.9</OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>chinaserver.cn</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.chinaserver.cn</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-06</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>06</Day>
+        <Time>12:52:11</Time>
+    </DateDescriptor>
+</Attack>

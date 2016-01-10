@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>45.114.11.22</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Hong Kong</CountryName>
+            <CountryCode>HK</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Hong_Kong</TimeZone>
+            <Latitude>22.25</Latitude>
+            <Longitude>114.1667</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>45.96.0.0 - 45.127.255.255</NetworkRange>
+            <NetworkSize>2097151</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Ricoh Aficio SP C210SF printer</OSDescriptor>
+            <PortsDescriptor amount="17">
+                <PortDescriptor>
+                    <ProgramName>kerberos-sec</ProgramName>
+                    <Port>88</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>metagram</ProgramName>
+                    <Port>99</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>msrpc</ProgramName>
+                    <Port>135</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>netbios-ssn</ProgramName>
+                    <Port>139</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ldap</ProgramName>
+                    <Port>389</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>kpasswd5</ProgramName>
+                    <Port>464</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-rpc-epmap</ProgramName>
+                    <Port>593</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ldapssl</ProgramName>
+                    <Port>636</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>NFS-or-IIS</ProgramName>
+                    <Port>1025</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>LSA-or-nterm</ProgramName>
+                    <Port>1026</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ms-sql-s</ProgramName>
+                    <Port>1433</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>H.323/Q.931</ProgramName>
+                    <Port>1720</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>nessus</ProgramName>
+                    <Port>3001</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cgms</ProgramName>
+                    <Port>3003</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ms-wbt-server</ProgramName>
+                    <Port>3389</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-09</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>09</Day>
+        <Time>02:04:06</Time>
+    </DateDescriptor>
+</Attack>

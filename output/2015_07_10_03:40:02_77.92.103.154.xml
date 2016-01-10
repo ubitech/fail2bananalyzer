@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>77.92.103.154</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Turkey</CountryName>
+            <CountryCode>TR</CountryCode>
+            <RegionName>Antalya</RegionName>
+            <RegionCode>07</RegionCode>
+            <City>Sanayi</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Istanbul</TimeZone>
+            <Latitude>36.9031</Latitude>
+            <Longitude>30.6991</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>77.92.103.0 - 77.92.103.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>TEKNOTEL Local Registry</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>famelocator.net</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-10</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>10</Day>
+        <Time>03:40:02</Time>
+    </DateDescriptor>
+</Attack>

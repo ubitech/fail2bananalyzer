@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>94.242.253.92</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Luxembourg</CountryName>
+            <CountryCode>LU</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Luxembourg</TimeZone>
+            <Latitude>49.75</Latitude>
+            <Longitude>6.1667</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>94.242.192.0 - 94.242.255.255</NetworkRange>
+            <NetworkSize>16383</NetworkSize>
+            <NetworkName>root SA</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.32 - 3.1</OSDescriptor>
+            <PortsDescriptor amount="4">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-proxy</ProgramName>
+                    <Port>8080</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>tor-orport</ProgramName>
+                    <Port>9001</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-20</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>20</Day>
+        <Time>10:13:35</Time>
+    </DateDescriptor>
+</Attack>

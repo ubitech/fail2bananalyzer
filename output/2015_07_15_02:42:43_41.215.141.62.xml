@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>41.215.141.62</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Kenya</CountryName>
+            <CountryCode>KE</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Africa/Nairobi</TimeZone>
+            <Latitude>1</Latitude>
+            <Longitude>38</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>41.0.0.0 - 41.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7)</OSDescriptor>
+            <PortsDescriptor amount="4">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>rpcbind</ProgramName>
+                    <Port>111</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>oracle</ProgramName>
+                    <Port>1521</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>8085</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-15</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>15</Day>
+        <Time>02:42:43</Time>
+    </DateDescriptor>
+</Attack>

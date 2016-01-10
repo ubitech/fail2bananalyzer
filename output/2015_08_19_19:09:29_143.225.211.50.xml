@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>143.225.211.50</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Italy</CountryName>
+            <CountryCode>IT</CountryCode>
+            <RegionName>Campania</RegionName>
+            <RegionCode>72</RegionCode>
+            <City>Naples</City>
+            <ZipCode>80127</ZipCode>
+            <TimeZone>Europe/Rome</TimeZone>
+            <Latitude>40.8563</Latitude>
+            <Longitude>14.2464</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>-1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>143.225.0.0 - 143.225.255.255</NetworkRange>
+            <NetworkSize>65535</NetworkSize>
+            <NetworkName>Universita' degli Studi di Napoli Federico II</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.32</OSDescriptor>
+            <PortsDescriptor amount="9">
+                <PortDescriptor>
+                    <ProgramName>ftp</ProgramName>
+                    <Port>21</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>printer</ProgramName>
+                    <Port>515</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ajp13</ProgramName>
+                    <Port>8009</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-proxy</ProgramName>
+                    <Port>8080</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>jetdirect</ProgramName>
+                    <Port>9100</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>snet-sensor-mgmt</ProgramName>
+                    <Port>10000</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-19</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>19</Day>
+        <Time>19:09:29</Time>
+    </DateDescriptor>
+</Attack>

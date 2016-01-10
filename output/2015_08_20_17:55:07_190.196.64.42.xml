@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>190.196.64.42</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Chile</CountryName>
+            <CountryCode>CL</CountryCode>
+            <RegionName>Santiago Metropolitan</RegionName>
+            <RegionCode>RM</RegionCode>
+            <City>Santiago</City>
+            <ZipCode></ZipCode>
+            <TimeZone>America/Santiago</TimeZone>
+            <Latitude>-33.45</Latitude>
+            <Longitude>-70.6668</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>7</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>190.0.0.0 - 190.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>imporgen.cl</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-20</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>20</Day>
+        <Time>17:55:07</Time>
+    </DateDescriptor>
+</Attack>

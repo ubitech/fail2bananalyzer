@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>212.195.32.86</IPAddress>
+        <LocationDescriptor>
+            <CountryName>France</CountryName>
+            <CountryCode>FR</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Paris</TimeZone>
+            <Latitude>48.86</Latitude>
+            <Longitude>2.35</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>212.195.0.0 - 212.195.63.255</NetworkRange>
+            <NetworkSize>16383</NetworkSize>
+            <NetworkName>Pool for Broadband DSL customers</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-08</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>08</Day>
+        <Time>01:20:52</Time>
+    </DateDescriptor>
+</Attack>

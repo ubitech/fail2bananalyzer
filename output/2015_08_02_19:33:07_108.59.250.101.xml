@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>108.59.250.101</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>New York</RegionName>
+            <RegionCode>NY</RegionCode>
+            <City>Pittsford</City>
+            <ZipCode>14534</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>43.0511</Latitude>
+            <Longitude>-77.5224</Longitude>
+            <MetroCode>538</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>108.0.0.0 - 108.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.32 - 3.1</OSDescriptor>
+            <PortsDescriptor amount="12">
+                <PortDescriptor>
+                    <ProgramName>ftp</ProgramName>
+                    <Port>21</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3pw</ProgramName>
+                    <Port>106</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3</ProgramName>
+                    <Port>110</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>imap</ProgramName>
+                    <Port>143</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>imaps</ProgramName>
+                    <Port>993</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3s</ProgramName>
+                    <Port>995</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https-alt</ProgramName>
+                    <Port>8443</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="3">
+            <VirtualHost>
+                <VirtualHostname>vgdynamic.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>vps-1068013-5305.manage.myhosting.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.vgdynamic.com</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-02</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>02</Day>
+        <Time>19:33:07</Time>
+    </DateDescriptor>
+</Attack>

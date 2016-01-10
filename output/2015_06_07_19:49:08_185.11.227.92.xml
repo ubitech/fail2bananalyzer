@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>185.11.227.92</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Italy</CountryName>
+            <CountryCode>IT</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Rome</TimeZone>
+            <Latitude>42.8333</Latitude>
+            <Longitude>12.8333</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>185.11.224.0 - 185.11.227.255</NetworkRange>
+            <NetworkSize>1023</NetworkSize>
+            <NetworkName>Wave-Max S.r.l.</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-07</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>07</Day>
+        <Time>19:49:08</Time>
+    </DateDescriptor>
+</Attack>

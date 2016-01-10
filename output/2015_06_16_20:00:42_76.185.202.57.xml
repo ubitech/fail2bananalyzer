@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>76.185.202.57</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Texas</RegionName>
+            <RegionCode>TX</RegionCode>
+            <City>Garland</City>
+            <ZipCode>75040</ZipCode>
+            <TimeZone>America/Chicago</TimeZone>
+            <Latitude>32.9317</Latitude>
+            <Longitude>-96.6163</Longitude>
+            <MetroCode>623</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>76.0.0.0 - 76.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor></OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-16</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>16</Day>
+        <Time>20:00:42</Time>
+    </DateDescriptor>
+</Attack>

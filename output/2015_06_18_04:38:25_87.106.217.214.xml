@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>87.106.217.214</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Germany</CountryName>
+            <CountryCode>DE</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone></TimeZone>
+            <Latitude>51</Latitude>
+            <Longitude>9</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>5</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>87.106.208.0 - 87.106.223.255</NetworkRange>
+            <NetworkSize>4095</NetworkSize>
+            <NetworkName>1&amp;1 Internet AG</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>astroskop.at</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>s15280928.onlinehome-server.info</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-18</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>18</Day>
+        <Time>04:38:25</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>12.165.44.163</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Ohio</RegionName>
+            <RegionCode>OH</RegionCode>
+            <City>Bellaire</City>
+            <ZipCode>43906</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>40.0245</Latitude>
+            <Longitude>-80.8005</Longitude>
+            <MetroCode>554</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>5</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>12.0.0.0 - 12.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-19</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>19</Day>
+        <Time>16:30:13</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>220.130.128.33</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Taiwan</CountryName>
+            <CountryCode>TW</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Taipei</TimeZone>
+            <Latitude>23.5</Latitude>
+            <Longitude>121</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>220.0.0.0 - 220.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 3.0 - 3.9</OSDescriptor>
+            <PortsDescriptor amount="11">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>smtp</ProgramName>
+                    <Port>25</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3</ProgramName>
+                    <Port>110</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>imap</ProgramName>
+                    <Port>143</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ldap</ProgramName>
+                    <Port>389</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>smtps</ProgramName>
+                    <Port>465</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>submission</ProgramName>
+                    <Port>587</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>imaps</ProgramName>
+                    <Port>993</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3s</ProgramName>
+                    <Port>995</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>vmsvc-2</ProgramName>
+                    <Port>7025</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>tw.cenoq.com</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-03</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>03</Day>
+        <Time>08:29:16</Time>
+    </DateDescriptor>
+</Attack>

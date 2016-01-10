@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>65.181.112.231</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>New Jersey</RegionName>
+            <RegionCode>NJ</RegionCode>
+            <City>Rutherford</City>
+            <ZipCode>07070</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>40.8259</Latitude>
+            <Longitude>-74.1079</Longitude>
+            <MetroCode>501</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>5</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>65.0.0.0 - 65.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-28</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>28</Day>
+        <Time>11:28:45</Time>
+    </DateDescriptor>
+</Attack>

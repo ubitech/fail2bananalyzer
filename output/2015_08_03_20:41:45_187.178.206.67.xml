@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>187.178.206.67</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Mexico</CountryName>
+            <CountryCode>MX</CountryCode>
+            <RegionName>Nuevo León</RegionName>
+            <RegionCode>NLE</RegionCode>
+            <City>Monterrey</City>
+            <ZipCode>67350</ZipCode>
+            <TimeZone>America/Monterrey</TimeZone>
+            <Latitude>25.6667</Latitude>
+            <Longitude>-100.3167</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>6</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>187.0.0.0 - 187.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-03</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>03</Day>
+        <Time>20:41:45</Time>
+    </DateDescriptor>
+</Attack>

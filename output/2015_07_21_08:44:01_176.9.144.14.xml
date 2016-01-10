@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>176.9.144.14</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Germany</CountryName>
+            <CountryCode>DE</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone></TimeZone>
+            <Latitude>51</Latitude>
+            <Longitude>9</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>176.9.144.0 - 176.9.144.31</NetworkRange>
+            <NetworkSize>31</NetworkSize>
+            <NetworkName>Hetzner Online GmbH</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.39</OSDescriptor>
+            <PortsDescriptor amount="2">
+                <PortDescriptor>
+                    <ProgramName>ftp</ProgramName>
+                    <Port>21</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="4">
+            <VirtualHost>
+                <VirtualHostname>haval.simplimatica.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>metaparts.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>simplimatica.ru</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>yescar.ru</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-21</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>21</Day>
+        <Time>08:44:01</Time>
+    </DateDescriptor>
+</Attack>

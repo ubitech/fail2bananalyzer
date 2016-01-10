@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>148.243.222.97</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Mexico</CountryName>
+            <CountryCode>MX</CountryCode>
+            <RegionName>Coahuila</RegionName>
+            <RegionCode>COA</RegionCode>
+            <City>Zaragoza</City>
+            <ZipCode>26459</ZipCode>
+            <TimeZone>America/Monterrey</TimeZone>
+            <Latitude>28.4833</Latitude>
+            <Longitude>-100.9168</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>6</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>148.201.0.0 - 148.250.255.255</NetworkRange>
+            <NetworkSize>3276799</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-29</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>29</Day>
+        <Time>00:37:35</Time>
+    </DateDescriptor>
+</Attack>

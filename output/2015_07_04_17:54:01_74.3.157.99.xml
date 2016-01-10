@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>74.3.157.99</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Canada</CountryName>
+            <CountryCode>CA</CountryCode>
+            <RegionName>Manitoba</RegionName>
+            <RegionCode>MB</RegionCode>
+            <City>Winnipeg</City>
+            <ZipCode>R2P</ZipCode>
+            <TimeZone>America/Winnipeg</TimeZone>
+            <Latitude>49.9696</Latitude>
+            <Longitude>-97.1554</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>74.0.0.0 - 74.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>DD-WRT v24-sp1 (Linux 2.4.36)</OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>s01065039555f12a0.ed.shawcable.net</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-04</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>04</Day>
+        <Time>17:54:01</Time>
+    </DateDescriptor>
+</Attack>

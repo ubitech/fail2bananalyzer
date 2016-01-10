@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>186.121.210.50</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Bolivia</CountryName>
+            <CountryCode>BO</CountryCode>
+            <RegionName>Departamento de La Paz</RegionName>
+            <RegionCode>L</RegionCode>
+            <City>La Paz</City>
+            <ZipCode></ZipCode>
+            <TimeZone>America/La_Paz</TimeZone>
+            <Latitude>-16.5</Latitude>
+            <Longitude>-68.15</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>186.0.0.0 - 186.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt Kamikaze 7.09 (Linux 2.6.22)</OSDescriptor>
+            <PortsDescriptor amount="3">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ipp</ProgramName>
+                    <Port>631</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-03</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>03</Day>
+        <Time>05:03:34</Time>
+    </DateDescriptor>
+</Attack>

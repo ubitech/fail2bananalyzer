@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>64.235.57.26</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Nevada</RegionName>
+            <RegionCode>NV</RegionCode>
+            <City>Las Vegas</City>
+            <ZipCode>89141</ZipCode>
+            <TimeZone>America/Los_Angeles</TimeZone>
+            <Latitude>35.9781</Latitude>
+            <Longitude>-115.2117</Longitude>
+            <MetroCode>839</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>64.0.0.0 - 64.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7)</OSDescriptor>
+            <PortsDescriptor amount="3">
+                <PortDescriptor>
+                    <ProgramName>smtp</ProgramName>
+                    <Port>25</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-04</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>04</Day>
+        <Time>08:05:06</Time>
+    </DateDescriptor>
+</Attack>

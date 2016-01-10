@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>78.25.160.223</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Russia</CountryName>
+            <CountryCode>RU</CountryCode>
+            <RegionName>Moscow Oblast</RegionName>
+            <RegionCode>MOS</RegionCode>
+            <City>Kolomna</City>
+            <ZipCode>140406</ZipCode>
+            <TimeZone>Europe/Moscow</TimeZone>
+            <Latitude>55.0794</Latitude>
+            <Longitude>38.7783</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>78.25.160.0 - 78.25.191.255</NetworkRange>
+            <NetworkSize>8191</NetworkSize>
+            <NetworkName>Kolomna-Sviaz TV NET BLOCK</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-07</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>07</Day>
+        <Time>22:02:15</Time>
+    </DateDescriptor>
+</Attack>

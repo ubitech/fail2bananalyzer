@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>195.244.40.135</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Turkey</CountryName>
+            <CountryCode>TR</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Istanbul</TimeZone>
+            <Latitude>41.0136</Latitude>
+            <Longitude>28.955</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>195.244.40.0 - 195.244.40.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>Semele Telekomunikasyon San. Tic. Ltd. Sti.</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7)</OSDescriptor>
+            <PortsDescriptor amount="4">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>hosts2-ns</ProgramName>
+                    <Port>81</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>rtmp</ProgramName>
+                    <Port>1935</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-alt</ProgramName>
+                    <Port>8000</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-19</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>19</Day>
+        <Time>12:19:50</Time>
+    </DateDescriptor>
+</Attack>

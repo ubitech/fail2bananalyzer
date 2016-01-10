@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>162.247.72.7</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>New York</RegionName>
+            <RegionCode>NY</RegionCode>
+            <City>New York</City>
+            <ZipCode>10013</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>40.7214</Latitude>
+            <Longitude>-74.0052</Longitude>
+            <MetroCode>501</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>162.87.0.0 - 162.255.255.255</NetworkRange>
+            <NetworkSize>11075583</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7)</OSDescriptor>
+            <PortsDescriptor amount="3">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>rpcbind</ProgramName>
+                    <Port>111</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>korematsu.tor-exit.calyxinstitute.org</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-20</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>20</Day>
+        <Time>10:16:22</Time>
+    </DateDescriptor>
+</Attack>

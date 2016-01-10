@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>202.107.242.254</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Zhejiang Sheng</RegionName>
+            <RegionCode>33</RegionCode>
+            <City>Hangzhou</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>30.2936</Latitude>
+            <Longitude>120.1614</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>202.0.0.0 - 202.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt White Russian 0.9 (Linux 2.4.30)</OSDescriptor>
+            <PortsDescriptor amount="10">
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mit-ml-dev</ProgramName>
+                    <Port>85</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cadlock</ProgramName>
+                    <Port>1000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>zebra</ProgramName>
+                    <Port>2601</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ripd</ProgramName>
+                    <Port>2602</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ospfd</ProgramName>
+                    <Port>2604</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>vce</ProgramName>
+                    <Port>11111</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-04</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>04</Day>
+        <Time>06:19:34</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>192.184.90.43</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Georgia</RegionName>
+            <RegionCode>GA</RegionCode>
+            <City>Smarr</City>
+            <ZipCode>31086</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>32.9854</Latitude>
+            <Longitude>-83.8821</Longitude>
+            <MetroCode>503</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>192.177.0.0 - 192.187.15.255</NetworkRange>
+            <NetworkSize>659455</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.32</OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>dashboard.mycyframe.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>ns2.cyframe.com</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-22</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>22</Day>
+        <Time>16:16:03</Time>
+    </DateDescriptor>
+</Attack>

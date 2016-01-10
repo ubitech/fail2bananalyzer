@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>204.152.221.117</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>California</RegionName>
+            <RegionCode>CA</RegionCode>
+            <City>Los Angeles</City>
+            <ZipCode>90014</ZipCode>
+            <TimeZone>America/Los_Angeles</TimeZone>
+            <Latitude>34.0438</Latitude>
+            <Longitude>-118.2512</Longitude>
+            <MetroCode>803</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>204.0.0.0 - 204.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7)</OSDescriptor>
+            <PortsDescriptor amount="2">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-14</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>14</Day>
+        <Time>00:13:19</Time>
+    </DateDescriptor>
+</Attack>

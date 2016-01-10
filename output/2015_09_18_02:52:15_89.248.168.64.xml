@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>89.248.168.64</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Netherlands</CountryName>
+            <CountryCode>NL</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Amsterdam</TimeZone>
+            <Latitude>52.3667</Latitude>
+            <Longitude>4.9</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>89.248.168.0 - 89.248.168.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>QUASI</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Microsoft Windows 7 Ultimate</OSDescriptor>
+            <PortsDescriptor amount="11">
+                <PortDescriptor>
+                    <ProgramName>msrpc</ProgramName>
+                    <Port>135</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>netbios-ssn</ProgramName>
+                    <Port>139</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ms-wbt-server</ProgramName>
+                    <Port>3389</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>49152</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>49153</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>49154</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>49155</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>49156</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>49157</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>49161</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-18</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>18</Day>
+        <Time>02:52:15</Time>
+    </DateDescriptor>
+</Attack>

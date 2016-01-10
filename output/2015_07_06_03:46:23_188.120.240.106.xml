@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>188.120.240.106</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Russia</CountryName>
+            <CountryCode>RU</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone></TimeZone>
+            <Latitude>55.75</Latitude>
+            <Longitude>37.6166</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>188.120.240.0 - 188.120.247.255</NetworkRange>
+            <NetworkSize>2047</NetworkSize>
+            <NetworkName>TheFirst-RU clients (WebDC Msk)</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>HP P2000 G3 NAS device</OSDescriptor>
+            <PortsDescriptor amount="3">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>rpcbind</ProgramName>
+                    <Port>111</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>49152</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>ceres-7.ispsystem.net</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>msk-106.ispsystem.net</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-06</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>06</Day>
+        <Time>03:46:23</Time>
+    </DateDescriptor>
+</Attack>

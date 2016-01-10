@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>61.132.120.213</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Jiangsu Sheng</RegionName>
+            <RegionCode>32</RegionCode>
+            <City>Nanjing</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>32.0617</Latitude>
+            <Longitude>118.7778</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>61.0.0.0 - 61.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor></OSDescriptor>
+            <PortsDescriptor amount="9">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>telnet</ProgramName>
+                    <Port>23</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>LSA-or-nterm</ProgramName>
+                    <Port>1026</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pptp</ProgramName>
+                    <Port>1723</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>krb524</ProgramName>
+                    <Port>4444</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>blackice-icecap</ProgramName>
+                    <Port>8081</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-18</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>18</Day>
+        <Time>14:48:52</Time>
+    </DateDescriptor>
+</Attack>

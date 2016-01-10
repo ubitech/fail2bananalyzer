@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>93.183.201.2</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Ukraine</CountryName>
+            <CountryCode>UA</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone></TimeZone>
+            <Latitude>50.45</Latitude>
+            <Longitude>30.5233</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>93.183.201.0 - 93.183.201.7</NetworkRange>
+            <NetworkSize>7</NetworkSize>
+            <NetworkName>Internal clients</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7)</OSDescriptor>
+            <PortsDescriptor amount="12">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>smtp</ProgramName>
+                    <Port>25</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>lmsocialserver</ProgramName>
+                    <Port>1111</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>oracle</ProgramName>
+                    <Port>1521</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>nessus</ProgramName>
+                    <Port>3001</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cgms</ProgramName>
+                    <Port>3003</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>deslogin</ProgramName>
+                    <Port>3005</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>deslogind</ProgramName>
+                    <Port>3006</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>lotusmtap</ProgramName>
+                    <Port>3007</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>dec-notes</ProgramName>
+                    <Port>3333</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>xmpp-client</ProgramName>
+                    <Port>5222</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>sun-answerbook</ProgramName>
+                    <Port>8888</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-14</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>14</Day>
+        <Time>07:58:35</Time>
+    </DateDescriptor>
+</Attack>

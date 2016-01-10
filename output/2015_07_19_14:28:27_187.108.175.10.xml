@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>187.108.175.10</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Brazil</CountryName>
+            <CountryCode>BR</CountryCode>
+            <RegionName>Rio de Janeiro</RegionName>
+            <RegionCode>RJ</RegionCode>
+            <City>Sao Goncalo</City>
+            <ZipCode></ZipCode>
+            <TimeZone>America/Sao_Paulo</TimeZone>
+            <Latitude>-22.8003</Latitude>
+            <Longitude>-43.0256</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>187.0.0.0 - 187.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-19</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>19</Day>
+        <Time>14:28:27</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>193.201.224.8</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Ukraine</CountryName>
+            <CountryCode>UA</CountryCode>
+            <RegionName>Chernivtsi</RegionName>
+            <RegionCode>77</RegionCode>
+            <City>Serhiyi</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Kiev</TimeZone>
+            <Latitude>47.9752</Latitude>
+            <Longitude>25.1286</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>5</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>193.201.224.0 - 193.201.227.255</NetworkRange>
+            <NetworkSize>1023</NetworkSize>
+            <NetworkName>PE Tetyana Mysyk</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Microsoft Windows Server 2008 SP1</OSDescriptor>
+            <PortsDescriptor amount="4">
+                <PortDescriptor>
+                    <ProgramName>msrpc</ProgramName>
+                    <Port>135</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>IIS</ProgramName>
+                    <Port>1027</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ms-wbt-server</ProgramName>
+                    <Port>3389</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-07</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>07</Day>
+        <Time>20:36:54</Time>
+    </DateDescriptor>
+</Attack>

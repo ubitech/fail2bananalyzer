@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>202.164.210.100</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Bangladesh</CountryName>
+            <CountryCode>BD</CountryCode>
+            <RegionName>Dhaka Division</RegionName>
+            <RegionCode>C</RegionCode>
+            <City>Dhaka</City>
+            <ZipCode>1000</ZipCode>
+            <TimeZone>Asia/Dhaka</TimeZone>
+            <Latitude>23.7231</Latitude>
+            <Longitude>90.4086</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>202.0.0.0 - 202.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-13</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>13</Day>
+        <Time>07:59:43</Time>
+    </DateDescriptor>
+</Attack>

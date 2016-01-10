@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>217.77.210.194</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Ukraine</CountryName>
+            <CountryCode>UA</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone></TimeZone>
+            <Latitude>50.45</Latitude>
+            <Longitude>30.5233</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>217.77.209.0 - 217.77.212.255</NetworkRange>
+            <NetworkSize>1023</NetworkSize>
+            <NetworkName>WildPark Co</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.20-1 (Fedora Core 5)</OSDescriptor>
+            <PortsDescriptor amount="12">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pptp</ProgramName>
+                    <Port>1723</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>3301</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>active-net</ProgramName>
+                    <Port>3322</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>svn</ProgramName>
+                    <Port>3690</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>5904</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cm</ProgramName>
+                    <Port>5910</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cslistener</ProgramName>
+                    <Port>9000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>tor-orport</ProgramName>
+                    <Port>9001</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>dynamid</ProgramName>
+                    <Port>9002</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>9003</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>dnp</ProgramName>
+                    <Port>20000</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>vodokanal.mk.ua</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-10</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>10</Day>
+        <Time>20:35:13</Time>
+    </DateDescriptor>
+</Attack>

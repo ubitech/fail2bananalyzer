@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>206.71.63.4</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>New York</RegionName>
+            <RegionCode>NY</RegionCode>
+            <City>Brooklyn</City>
+            <ZipCode>11232</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>40.657</Latitude>
+            <Longitude>-74.008</Longitude>
+            <MetroCode>501</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>5</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>206.0.0.0 - 206.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt White Russian 0.9 (Linux 2.4.30)</OSDescriptor>
+            <PortsDescriptor amount="18">
+                <PortDescriptor>
+                    <ProgramName>ftp</ProgramName>
+                    <Port>21</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>smtp</ProgramName>
+                    <Port>25</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>kerberos-sec</ProgramName>
+                    <Port>88</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3pw</ProgramName>
+                    <Port>106</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3</ProgramName>
+                    <Port>110</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>rpcbind</ProgramName>
+                    <Port>111</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>imap</ProgramName>
+                    <Port>143</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>smtps</ProgramName>
+                    <Port>465</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>submission</ProgramName>
+                    <Port>587</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>imaps</ProgramName>
+                    <Port>993</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3s</ProgramName>
+                    <Port>995</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>postgresql</ProgramName>
+                    <Port>5432</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https-alt</ProgramName>
+                    <Port>8443</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-26</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>26</Day>
+        <Time>11:12:58</Time>
+    </DateDescriptor>
+</Attack>

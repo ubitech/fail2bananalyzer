@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>24.248.229.101</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Kansas</RegionName>
+            <RegionCode>KS</RegionCode>
+            <City>Manhattan</City>
+            <ZipCode>66502</ZipCode>
+            <TimeZone>America/Chicago</TimeZone>
+            <Latitude>39.1023</Latitude>
+            <Longitude>-96.5247</Longitude>
+            <MetroCode>605</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>24.136.0.0 - 24.255.255.255</NetworkRange>
+            <NetworkSize>7864319</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-05</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>05</Day>
+        <Time>21:23:25</Time>
+    </DateDescriptor>
+</Attack>

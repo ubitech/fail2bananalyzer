@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>62.245.45.132</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Russia</CountryName>
+            <CountryCode>RU</CountryCode>
+            <RegionName>Sverdlovskaya Oblast'</RegionName>
+            <RegionCode>SVE</RegionCode>
+            <City>Yekaterinburg</City>
+            <ZipCode>620002</ZipCode>
+            <TimeZone>Asia/Yekaterinburg</TimeZone>
+            <Latitude>56.8575</Latitude>
+            <Longitude>60.6125</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>5</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>62.245.32.0 - 62.245.47.255</NetworkRange>
+            <NetworkSize>4095</NetworkSize>
+            <NetworkName>RUS.COM CO.LTD</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-04</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>04</Day>
+        <Time>11:01:47</Time>
+    </DateDescriptor>
+</Attack>

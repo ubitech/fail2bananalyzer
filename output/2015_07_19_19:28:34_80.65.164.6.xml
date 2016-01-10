@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>80.65.164.6</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Bosnia and Herzegovina</CountryName>
+            <CountryCode>BA</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Sarajevo</TimeZone>
+            <Latitude>44</Latitude>
+            <Longitude>18</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>80.65.164.0 - 80.65.164.7</NetworkRange>
+            <NetworkSize>7</NetworkSize>
+            <NetworkName>Moore Bosnia</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Cisco Aironet 1250 WAP (IOS 12.4)</OSDescriptor>
+            <PortsDescriptor amount="5">
+                <PortDescriptor>
+                    <ProgramName>telnet</ProgramName>
+                    <Port>23</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>H.323/Q.931</ProgramName>
+                    <Port>1720</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>sip</ProgramName>
+                    <Port>5060</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="10">
+            <VirtualHost>
+                <VirtualHostname>burtuqaali.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>demo-fashion.estore.ba</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>demo-kids.estore.ba</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>demo-office.estore.ba</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>estore.ba</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>kartice.ba</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>moore.ba</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>multipay-ecc.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>uc.estore.ba</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.estore.ba</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-19</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>19</Day>
+        <Time>19:28:34</Time>
+    </DateDescriptor>
+</Attack>

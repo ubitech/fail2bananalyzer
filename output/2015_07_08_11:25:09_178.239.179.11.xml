@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>178.239.179.11</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Italy</CountryName>
+            <CountryCode>IT</CountryCode>
+            <RegionName>Lombardy</RegionName>
+            <RegionCode>25</RegionCode>
+            <City>Milan</City>
+            <ZipCode>20123</ZipCode>
+            <TimeZone>Europe/Rome</TimeZone>
+            <Latitude>45.4667</Latitude>
+            <Longitude>9.2</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>178.239.178.0 - 178.239.179.255</NetworkRange>
+            <NetworkSize>511</NetworkSize>
+            <NetworkName>---------------</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-08</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>08</Day>
+        <Time>11:25:09</Time>
+    </DateDescriptor>
+</Attack>

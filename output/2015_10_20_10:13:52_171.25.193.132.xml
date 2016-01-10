@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>171.25.193.132</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Sweden</CountryName>
+            <CountryCode>SE</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Stockholm</TimeZone>
+            <Latitude>59.3294</Latitude>
+            <Longitude>18.0686</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>171.25.193.0 - 171.25.193.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>Foreningen for digitala fri- och rattigheter</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenBSD 4.0</OSDescriptor>
+            <PortsDescriptor amount="2">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>terri.dfri.se</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-20</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>20</Day>
+        <Time>10:13:52</Time>
+    </DateDescriptor>
+</Attack>

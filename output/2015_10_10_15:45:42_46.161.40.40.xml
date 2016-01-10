@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>46.161.40.40</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Russia</CountryName>
+            <CountryCode>RU</CountryCode>
+            <RegionName>St.-Petersburg</RegionName>
+            <RegionCode>SPE</RegionCode>
+            <City>Saint Petersburg</City>
+            <ZipCode>190031</ZipCode>
+            <TimeZone>Europe/Moscow</TimeZone>
+            <Latitude>59.8944</Latitude>
+            <Longitude>30.2642</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>46.161.40.0 - 46.161.40.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>net for ankas</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-10</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>10</Day>
+        <Time>15:45:42</Time>
+    </DateDescriptor>
+</Attack>

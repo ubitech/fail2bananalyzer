@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>90.157.31.50</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Russia</CountryName>
+            <CountryCode>RU</CountryCode>
+            <RegionName>Sverdlovskaya Oblast'</RegionName>
+            <RegionCode>SVE</RegionCode>
+            <City>Yekaterinburg</City>
+            <ZipCode>620002</ZipCode>
+            <TimeZone>Asia/Yekaterinburg</TimeZone>
+            <Latitude>56.8575</Latitude>
+            <Longitude>60.6125</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>-1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>90.157.31.0 - 90.157.31.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>Teleset-Servis Ltd.</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-08</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>08</Day>
+        <Time>10:37:09</Time>
+    </DateDescriptor>
+</Attack>

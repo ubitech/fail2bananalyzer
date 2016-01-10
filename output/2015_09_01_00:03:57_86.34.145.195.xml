@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>86.34.145.195</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Romania</CountryName>
+            <CountryCode>RO</CountryCode>
+            <RegionName>Judetul Brasov</RegionName>
+            <RegionCode>BV</RegionCode>
+            <City>Braşov</City>
+            <ZipCode>500001</ZipCode>
+            <TimeZone>Europe/Bucharest</TimeZone>
+            <Latitude>45.597</Latitude>
+            <Longitude>25.5525</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>86.34.0.0 - 86.34.255.255</NetworkRange>
+            <NetworkSize>65535</NetworkSize>
+            <NetworkName>Romtelecom Data Network</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.32 - 3.1</OSDescriptor>
+            <PortsDescriptor amount="7">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>smtp</ProgramName>
+                    <Port>25</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3</ProgramName>
+                    <Port>110</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>imap</ProgramName>
+                    <Port>143</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>EtherNet/IP-1</ProgramName>
+                    <Port>2222</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-01</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>01</Day>
+        <Time>00:03:57</Time>
+    </DateDescriptor>
+</Attack>

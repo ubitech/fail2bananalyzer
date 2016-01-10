@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>222.60.95.243</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Beijing Shi</RegionName>
+            <RegionCode>11</RegionCode>
+            <City>Beijing</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>39.9289</Latitude>
+            <Longitude>116.3883</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>222.0.0.0 - 222.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>DD-WRT v24-sp1 (Linux 2.4.36)</OSDescriptor>
+            <PortsDescriptor amount="9">
+                <PortDescriptor>
+                    <ProgramName>ftp</ProgramName>
+                    <Port>21</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>rpcbind</ProgramName>
+                    <Port>111</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>svrloc</ProgramName>
+                    <Port>427</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>airport-admin</ProgramName>
+                    <Port>5009</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>hotline</ProgramName>
+                    <Port>5500</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ajp13</ProgramName>
+                    <Port>8009</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-proxy</ProgramName>
+                    <Port>8080</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https-alt</ProgramName>
+                    <Port>8443</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-15</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>15</Day>
+        <Time>00:42:23</Time>
+    </DateDescriptor>
+</Attack>

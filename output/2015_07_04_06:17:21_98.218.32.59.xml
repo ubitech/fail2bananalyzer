@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>98.218.32.59</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Maryland</RegionName>
+            <RegionCode>MD</RegionCode>
+            <City>Frederick</City>
+            <ZipCode>21703</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>39.3555</Latitude>
+            <Longitude>-77.4776</Longitude>
+            <MetroCode>511</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>98.0.0.0 - 98.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-04</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>04</Day>
+        <Time>06:17:21</Time>
+    </DateDescriptor>
+</Attack>

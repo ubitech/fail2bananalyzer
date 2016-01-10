@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>118.139.160.95</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Singapore</CountryName>
+            <CountryCode>SG</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City>Singapore</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Singapore</TimeZone>
+            <Latitude>1.2931</Latitude>
+            <Longitude>103.8558</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>118.0.0.0 - 118.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="5">
+            <VirtualHost>
+                <VirtualHostname>detngl.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>gvquest.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>ip-118-139-160-95.ip.secureserver.net</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>nagamatrimony.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>symbios.co.in</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-04</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>04</Day>
+        <Time>16:59:05</Time>
+    </DateDescriptor>
+</Attack>

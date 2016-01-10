@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>123.212.42.241</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Republic of Korea</CountryName>
+            <CountryCode>KR</CountryCode>
+            <RegionName>Seoul</RegionName>
+            <RegionCode>11</RegionCode>
+            <City>Seoul</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Seoul</TimeZone>
+            <Latitude>37.5985</Latitude>
+            <Longitude>126.9783</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>9</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>123.0.0.0 - 123.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>HP P2000 G3 NAS device</OSDescriptor>
+            <PortsDescriptor amount="8">
+                <PortDescriptor>
+                    <ProgramName>ftp</ProgramName>
+                    <Port>21</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>metagram</ProgramName>
+                    <Port>99</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>netbios-ssn</ProgramName>
+                    <Port>139</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pptp</ProgramName>
+                    <Port>1723</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>bittorrent-tracker</ProgramName>
+                    <Port>6881</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-alt</ProgramName>
+                    <Port>8000</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-04</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>04</Day>
+        <Time>11:17:07</Time>
+    </DateDescriptor>
+</Attack>

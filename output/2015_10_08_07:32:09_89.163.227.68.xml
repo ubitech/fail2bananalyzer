@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>89.163.227.68</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Germany</CountryName>
+            <CountryCode>DE</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone></TimeZone>
+            <Latitude>51</Latitude>
+            <Longitude>9</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>89.163.224.0 - 89.163.255.255</NetworkRange>
+            <NetworkSize>8191</NetworkSize>
+            <NetworkName>myLoc managed IT AG</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Microsoft Windows Server 2008 SP1</OSDescriptor>
+            <PortsDescriptor amount="5">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>msrpc</ProgramName>
+                    <Port>135</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ms-wbt-server</ProgramName>
+                    <Port>3389</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>49157</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="3">
+            <VirtualHost>
+                <VirtualHostname>mineprise.de</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>mineprise.net</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>rs000068.fastrootserver.de</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-08</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>08</Day>
+        <Time>07:32:09</Time>
+    </DateDescriptor>
+</Attack>

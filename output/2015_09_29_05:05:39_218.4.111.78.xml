@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>218.4.111.78</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Jiangsu Sheng</RegionName>
+            <RegionCode>32</RegionCode>
+            <City>Nanjing</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>32.0617</Latitude>
+            <Longitude>118.7778</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>5</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>218.0.0.0 - 218.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt White Russian 0.9 (Linux 2.4.30)</OSDescriptor>
+            <PortsDescriptor amount="5">
+                <PortDescriptor>
+                    <ProgramName>ftp</ProgramName>
+                    <Port>21</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>krb524</ProgramName>
+                    <Port>4444</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>netbus</ProgramName>
+                    <Port>12345</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="4">
+            <VirtualHost>
+                <VirtualHostname>softbank218140111078.bbtec.net</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>softbank218141111078.bbtec.net</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>softbank218142111078.bbtec.net</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>softbank218143111078.bbtec.net</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-29</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>29</Day>
+        <Time>05:05:39</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>185.112.248.68</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United Kingdom</CountryName>
+            <CountryCode>GB</CountryCode>
+            <RegionName>England</RegionName>
+            <RegionCode>ENG</RegionCode>
+            <City>Coventry</City>
+            <ZipCode>CV1</ZipCode>
+            <TimeZone>Europe/London</TimeZone>
+            <Latitude>52.4066</Latitude>
+            <Longitude>-1.5122</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>185.112.248.1 - 185.112.248.255</NetworkRange>
+            <NetworkSize>254</NetworkSize>
+            <NetworkName>SharkServers</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7)</OSDescriptor>
+            <PortsDescriptor amount="14">
+                <PortDescriptor>
+                    <ProgramName>ftp-data</ProgramName>
+                    <Port>20</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ftp</ProgramName>
+                    <Port>21</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>smtp</ProgramName>
+                    <Port>25</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3</ProgramName>
+                    <Port>110</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>imap</ProgramName>
+                    <Port>143</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>submission</ProgramName>
+                    <Port>587</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>imaps</ProgramName>
+                    <Port>993</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3s</ProgramName>
+                    <Port>995</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>snet-sensor-mgmt</ProgramName>
+                    <Port>10000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>dnp</ProgramName>
+                    <Port>20000</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-05</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>05</Day>
+        <Time>00:03:52</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>93.88.70.95</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Russia</CountryName>
+            <CountryCode>RU</CountryCode>
+            <RegionName>Kemerovskaya Oblast'</RegionName>
+            <RegionCode>KEM</RegionCode>
+            <City>Kemerovo</City>
+            <ZipCode>650000</ZipCode>
+            <TimeZone>Asia/Novokuznetsk</TimeZone>
+            <Latitude>55.3333</Latitude>
+            <Longitude>86.0833</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>93.88.64.0 - 93.88.79.255</NetworkRange>
+            <NetworkSize>4095</NetworkSize>
+            <NetworkName>New Telecommunications Ltd</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-30</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>30</Day>
+        <Time>18:35:30</Time>
+    </DateDescriptor>
+</Attack>

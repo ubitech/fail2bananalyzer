@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>31.185.96.205</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Italy</CountryName>
+            <CountryCode>IT</CountryCode>
+            <RegionName>Emilia-Romagna</RegionName>
+            <RegionCode>45</RegionCode>
+            <City>Stefania</City>
+            <ZipCode>40064</ZipCode>
+            <TimeZone>Europe/Rome</TimeZone>
+            <Latitude>44.3833</Latitude>
+            <Longitude>11.45</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>31.185.96.0 - 31.185.99.255</NetworkRange>
+            <NetworkSize>1023</NetworkSize>
+            <NetworkName>Integrys.it di Stefania Peragna impresa individuale</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>HP P2000 G3 NAS device</OSDescriptor>
+            <PortsDescriptor amount="4">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-07</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>07</Day>
+        <Time>14:31:37</Time>
+    </DateDescriptor>
+</Attack>

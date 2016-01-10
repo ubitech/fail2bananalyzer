@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>81.189.231.206</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Austria</CountryName>
+            <CountryCode>AT</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Vienna</TimeZone>
+            <Latitude>48.2</Latitude>
+            <Longitude>16.3667</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>81.189.0.0 - 81.189.255.255</NetworkRange>
+            <NetworkSize>65535</NetworkSize>
+            <NetworkName>Tele2 Telecommunication GmbH</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Fortinet FortiGate-50B or 310B firewall</OSDescriptor>
+            <PortsDescriptor amount="2">
+                <PortDescriptor>
+                    <ProgramName>ident</ProgramName>
+                    <Port>113</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>wlan-tiwag-231-206.utaonline.at</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-24</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>24</Day>
+        <Time>08:32:28</Time>
+    </DateDescriptor>
+</Attack>

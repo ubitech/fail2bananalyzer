@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>192.38.10.194</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Denmark</CountryName>
+            <CountryCode>DK</CountryCode>
+            <RegionName>North Denmark</RegionName>
+            <RegionCode>81</RegionCode>
+            <City>Aalborg</City>
+            <ZipCode>9000</ZipCode>
+            <TimeZone>Europe/Copenhagen</TimeZone>
+            <Latitude>57.048</Latitude>
+            <Longitude>9.9187</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>192.38.0.0 - 192.38.127.255</NetworkRange>
+            <NetworkSize>32767</NetworkSize>
+            <NetworkName>Danmarks Tekniske Universitet</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linksys BEFSR41 EtherFast router</OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-21</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>21</Day>
+        <Time>18:10:16</Time>
+    </DateDescriptor>
+</Attack>

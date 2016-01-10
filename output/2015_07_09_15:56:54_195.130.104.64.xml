@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>195.130.104.64</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Greece</CountryName>
+            <CountryCode>GR</CountryCode>
+            <RegionName>Attica</RegionName>
+            <RegionCode>I</RegionCode>
+            <City>Athens</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Athens</TimeZone>
+            <Latitude>37.9833</Latitude>
+            <Longitude>23.7333</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>-1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>195.130.96.0 - 195.130.111.255</NetworkRange>
+            <NetworkSize>4095</NetworkSize>
+            <NetworkName>Technological Educational Institute (T.E.I.) of Athens</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-09</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>09</Day>
+        <Time>15:56:54</Time>
+    </DateDescriptor>
+</Attack>

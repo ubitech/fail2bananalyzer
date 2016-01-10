@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>176.120.40.86</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Ukraine</CountryName>
+            <CountryCode>UA</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone></TimeZone>
+            <Latitude>50.45</Latitude>
+            <Longitude>30.5233</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>8</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>176.120.32.0 - 176.120.63.255</NetworkRange>
+            <NetworkSize>8191</NetworkSize>
+            <NetworkName>"Langate" Ltd</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>FreeBSD 7.1-RELEASE - 9.0-CURRENT</OSDescriptor>
+            <PortsDescriptor amount="4">
+                <PortDescriptor>
+                    <ProgramName>ftp</ProgramName>
+                    <Port>21</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>smux</ProgramName>
+                    <Port>199</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pptp</ProgramName>
+                    <Port>1723</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-02</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>02</Day>
+        <Time>09:16:47</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>95.56.234.110</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Kazakhstan</CountryName>
+            <CountryCode>KZ</CountryCode>
+            <RegionName>Almaty Qalasy</RegionName>
+            <RegionCode>ALA</RegionCode>
+            <City>Almaty</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Almaty</TimeZone>
+            <Latitude>43.2565</Latitude>
+            <Longitude>76.9285</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>95.56.234.0 - 95.56.234.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>JSC Kazakhtelecom, Direction of Information System</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="3">
+            <VirtualHost>
+                <VirtualHostname>amiliya.kz</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>ipmedia.hu</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>omek.hu</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-26</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>26</Day>
+        <Time>09:15:47</Time>
+    </DateDescriptor>
+</Attack>

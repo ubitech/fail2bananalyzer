@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>68.190.216.48</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>California</RegionName>
+            <RegionCode>CA</RegionCode>
+            <City>Calabasas</City>
+            <ZipCode>91302</ZipCode>
+            <TimeZone>America/Los_Angeles</TimeZone>
+            <Latitude>34.1182</Latitude>
+            <Longitude>-118.6739</Longitude>
+            <MetroCode>803</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>68.0.0.0 - 68.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-21</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>21</Day>
+        <Time>10:16:22</Time>
+    </DateDescriptor>
+</Attack>

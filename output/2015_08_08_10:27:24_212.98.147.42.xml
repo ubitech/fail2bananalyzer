@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>212.98.147.42</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Lebanon</CountryName>
+            <CountryCode>LB</CountryCode>
+            <RegionName>Beyrouth</RegionName>
+            <RegionCode>BA</RegionCode>
+            <City>Beirut</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Beirut</TimeZone>
+            <Latitude>33.8719</Latitude>
+            <Longitude>35.5097</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>212.98.128.0 - 212.98.159.255</NetworkRange>
+            <NetworkSize>8191</NetworkSize>
+            <NetworkName>TerraNet sal</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>IPFire firewall 2.11 (Linux 2.6.32)</OSDescriptor>
+            <PortsDescriptor amount="8">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>msrpc</ProgramName>
+                    <Port>135</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>netbios-ssn</ProgramName>
+                    <Port>139</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ms-wbt-server</ProgramName>
+                    <Port>3389</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>8008</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>phptest.borninteractive.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>phptest.borninteractive.net</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-08</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>08</Day>
+        <Time>10:27:24</Time>
+    </DateDescriptor>
+</Attack>

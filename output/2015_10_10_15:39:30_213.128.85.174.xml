@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>213.128.85.174</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Turkey</CountryName>
+            <CountryCode>TR</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Istanbul</TimeZone>
+            <Latitude>41.0136</Latitude>
+            <Longitude>28.955</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>213.128.85.0 - 213.128.85.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>INTER NET BILGISAYAR LTD STI</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>akalsro.org</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>angkoronline.org</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-10</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>10</Day>
+        <Time>15:39:30</Time>
+    </DateDescriptor>
+</Attack>

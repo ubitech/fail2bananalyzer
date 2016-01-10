@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>193.233.3.200</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Russia</CountryName>
+            <CountryCode>RU</CountryCode>
+            <RegionName>Moscow Oblast</RegionName>
+            <RegionCode>MOS</RegionCode>
+            <City>Lyubertsy</City>
+            <ZipCode>140002</ZipCode>
+            <TimeZone>Europe/Moscow</TimeZone>
+            <Latitude>55.6778</Latitude>
+            <Longitude>37.8833</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>193.233.3.0 - 193.233.3.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>Laboratories LAN</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.9 - 2.6.18</OSDescriptor>
+            <PortsDescriptor amount="14">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>time</ProgramName>
+                    <Port>37</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>rpcbind</ProgramName>
+                    <Port>111</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ident</ProgramName>
+                    <Port>113</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ipp</ProgramName>
+                    <Port>631</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>H.323/Q.931</ProgramName>
+                    <Port>1720</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cisco-sccp</ProgramName>
+                    <Port>2000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>nfs</ProgramName>
+                    <Port>2049</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>sip</ProgramName>
+                    <Port>5060</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>X11</ProgramName>
+                    <Port>6000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-proxy</ProgramName>
+                    <Port>8080</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>ac200-31.ioc.ac.ru</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-03</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>03</Day>
+        <Time>23:11:13</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>139.91.183.41</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Greece</CountryName>
+            <CountryCode>GR</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Athens</TimeZone>
+            <Latitude>37.9667</Latitude>
+            <Longitude>23.7167</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>139.91.0.0 - 139.91.255.255</NetworkRange>
+            <NetworkSize>65535</NetworkSize>
+            <NetworkName>Foundation of Research and Technology Hellas</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-31</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>31</Day>
+        <Time>11:09:57</Time>
+    </DateDescriptor>
+</Attack>

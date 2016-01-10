@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>94.41.5.112</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Russia</CountryName>
+            <CountryCode>RU</CountryCode>
+            <RegionName>Bashkortostan</RegionName>
+            <RegionCode>BA</RegionCode>
+            <City>Ufa</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Yekaterinburg</TimeZone>
+            <Latitude>54.7852</Latitude>
+            <Longitude>56.0456</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>94.41.0.0 - 94.41.127.255</NetworkRange>
+            <NetworkSize>32767</NetworkSize>
+            <NetworkName>JSC "Ufanet"</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>FreeBSD 6.2-RELEASE</OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>bittorrent-tracker</ProgramName>
+                    <Port>6881</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-17</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>17</Day>
+        <Time>15:52:58</Time>
+    </DateDescriptor>
+</Attack>

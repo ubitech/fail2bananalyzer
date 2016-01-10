@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>148.244.194.169</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Mexico</CountryName>
+            <CountryCode>MX</CountryCode>
+            <RegionName>Nuevo León</RegionName>
+            <RegionCode>NLE</RegionCode>
+            <City>Garza Garcia</City>
+            <ZipCode>67590</ZipCode>
+            <TimeZone>America/Monterrey</TimeZone>
+            <Latitude>25.6667</Latitude>
+            <Longitude>-100.4</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>148.201.0.0 - 148.250.255.255</NetworkRange>
+            <NetworkSize>3276799</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-08</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>08</Day>
+        <Time>14:33:44</Time>
+    </DateDescriptor>
+</Attack>

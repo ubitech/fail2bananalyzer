@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>124.158.12.3</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Vietnam</CountryName>
+            <CountryCode>VN</CountryCode>
+            <RegionName>Thanh Pho Ha Noi</RegionName>
+            <RegionCode>64</RegionCode>
+            <City>Hanoi</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Ho_Chi_Minh</TimeZone>
+            <Latitude>21.0333</Latitude>
+            <Longitude>105.85</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>8</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>124.0.0.0 - 124.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.18</OSDescriptor>
+            <PortsDescriptor amount="2">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="8">
+            <VirtualHost>
+                <VirtualHostname>dichvubaovekhohang.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>haiwinland.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>khoidonglamgiau.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>nhuongquyenkhoinghiep.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>replus.com.vn</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>vinacontact.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>webtrungthuong.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>wifiiloveu.com</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-19</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>19</Day>
+        <Time>14:56:45</Time>
+    </DateDescriptor>
+</Attack>

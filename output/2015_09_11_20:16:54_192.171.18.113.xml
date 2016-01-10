@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>192.171.18.113</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Florida</RegionName>
+            <RegionCode>FL</RegionCode>
+            <City>Miami</City>
+            <ZipCode>33132</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>25.7806</Latitude>
+            <Longitude>-80.1826</Longitude>
+            <MetroCode>528</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>192.171.6.0 - 192.171.127.255</NetworkRange>
+            <NetworkSize>31231</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.32 - 3.1</OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-11</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>11</Day>
+        <Time>20:16:54</Time>
+    </DateDescriptor>
+</Attack>

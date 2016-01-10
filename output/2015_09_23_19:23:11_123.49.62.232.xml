@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>123.49.62.232</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Bangladesh</CountryName>
+            <CountryCode>BD</CountryCode>
+            <RegionName>Dhaka Division</RegionName>
+            <RegionCode>C</RegionCode>
+            <City>Dhaka</City>
+            <ZipCode>1000</ZipCode>
+            <TimeZone>Asia/Dhaka</TimeZone>
+            <Latitude>23.7231</Latitude>
+            <Longitude>90.4086</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>6</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>123.0.0.0 - 123.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>iPXE 1.0.0+</OSDescriptor>
+            <PortsDescriptor amount="2">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>mopa.gov.bd</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.mopa.gov.bd</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-23</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>23</Day>
+        <Time>19:23:11</Time>
+    </DateDescriptor>
+</Attack>

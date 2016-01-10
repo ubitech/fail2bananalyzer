@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>80.186.91.47</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Finland</CountryName>
+            <CountryCode>FI</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Helsinki</TimeZone>
+            <Latitude>60.1708</Latitude>
+            <Longitude>24.9375</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>80.186.0.0 - 80.186.127.255</NetworkRange>
+            <NetworkSize>32767</NetworkSize>
+            <NetworkName>Elisa Oyj</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-18</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>18</Day>
+        <Time>04:08:58</Time>
+    </DateDescriptor>
+</Attack>

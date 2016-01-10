@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>219.151.8.160</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Guizhou Sheng</RegionName>
+            <RegionCode>52</RegionCode>
+            <City>Guiyang</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>26.5833</Latitude>
+            <Longitude>106.7167</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>8</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>219.0.0.0 - 219.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7)</OSDescriptor>
+            <PortsDescriptor amount="12">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>rpcbind</ProgramName>
+                    <Port>111</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>krb524</ProgramName>
+                    <Port>4444</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>vnc-http-1</ProgramName>
+                    <Port>5801</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>vnc-1</ProgramName>
+                    <Port>5901</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>8011</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ftp-proxy</ProgramName>
+                    <Port>8021</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>oa-system</ProgramName>
+                    <Port>8022</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>8031</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>fs-agent</ProgramName>
+                    <Port>8042</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-03</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>03</Day>
+        <Time>18:28:18</Time>
+    </DateDescriptor>
+</Attack>

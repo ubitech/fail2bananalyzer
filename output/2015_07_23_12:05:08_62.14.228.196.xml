@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>62.14.228.196</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Spain</CountryName>
+            <CountryCode>ES</CountryCode>
+            <RegionName>Madrid</RegionName>
+            <RegionCode>MD</RegionCode>
+            <City>San Fernando de Henares</City>
+            <ZipCode>28830</ZipCode>
+            <TimeZone>Europe/Madrid</TimeZone>
+            <Latitude>40.4239</Latitude>
+            <Longitude>-3.5326</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>62.14.226.128 - 62.14.255.255</NetworkRange>
+            <NetworkSize>7551</NetworkSize>
+            <NetworkName>IP addresses for JazztelBone Clients</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Cisco Aironet 1250 WAP (IOS 12.4)</OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>telnet</ProgramName>
+                    <Port>23</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-23</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>23</Day>
+        <Time>12:05:08</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>188.138.113.113</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Germany</CountryName>
+            <CountryCode>DE</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone></TimeZone>
+            <Latitude>51</Latitude>
+            <Longitude>9</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>8</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>188.138.0.0 - 188.138.127.255</NetworkRange>
+            <NetworkSize>32767</NetworkSize>
+            <NetworkName>PlusServer AG</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="8">
+            <VirtualHost>
+                <VirtualHostname>antopack.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>be-bop.gr</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>govide.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>iplaza.gr</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>karpouzaspaint.gr</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>picocent.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>tsakeropoulos.gr</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>zebra913.server4you.de</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-29</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>29</Day>
+        <Time>04:46:20</Time>
+    </DateDescriptor>
+</Attack>

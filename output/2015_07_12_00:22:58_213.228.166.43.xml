@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>213.228.166.43</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Portugal</CountryName>
+            <CountryCode>PT</CountryCode>
+            <RegionName>Aveiro</RegionName>
+            <RegionCode>01</RegionCode>
+            <City>Lourosa</City>
+            <ZipCode>4505-601</ZipCode>
+            <TimeZone>Europe/Lisbon</TimeZone>
+            <Latitude>40.9842</Latitude>
+            <Longitude>-8.5514</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>213.228.166.0 - 213.228.166.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>Cabovisao, SA -</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-12</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>12</Day>
+        <Time>00:22:58</Time>
+    </DateDescriptor>
+</Attack>

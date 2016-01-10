@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>2.115.68.148</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Italy</CountryName>
+            <CountryCode>IT</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Rome</TimeZone>
+            <Latitude>42.8333</Latitude>
+            <Longitude>12.8333</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>7</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>2.115.68.144 - 2.115.68.159</NetworkRange>
+            <NetworkSize>15</NetworkSize>
+            <NetworkName>B A G S P A</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.9 - 2.6.18</OSDescriptor>
+            <PortsDescriptor amount="2">
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>blackice-icecap</ProgramName>
+                    <Port>8081</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>host148-68-static.115-2-b.business.telecomitalia.it</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>static-68-148.is.net.pl</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-17</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>17</Day>
+        <Time>05:48:23</Time>
+    </DateDescriptor>
+</Attack>

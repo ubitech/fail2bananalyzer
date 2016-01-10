@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>81.134.128.180</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United Kingdom</CountryName>
+            <CountryCode>GB</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/London</TimeZone>
+            <Latitude>51.5</Latitude>
+            <Longitude>-0.13</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>81.134.128.176 - 81.134.128.191</NetworkRange>
+            <NetworkSize>15</NetworkSize>
+            <NetworkName>FTIP003374429 Titania Telehouse &amp; Services UK Ltd</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-02</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>02</Day>
+        <Time>13:15:50</Time>
+    </DateDescriptor>
+</Attack>

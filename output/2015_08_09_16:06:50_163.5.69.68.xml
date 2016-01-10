@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>163.5.69.68</IPAddress>
+        <LocationDescriptor>
+            <CountryName>France</CountryName>
+            <CountryCode>FR</CountryCode>
+            <RegionName>Île-de-France</RegionName>
+            <RegionCode>J</RegionCode>
+            <City>Le Kremlin-Bicetre</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Paris</TimeZone>
+            <Latitude>48.8147</Latitude>
+            <Longitude>2.3607</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>163.5.0.0 - 163.5.255.255</NetworkRange>
+            <NetworkSize>65535</NetworkSize>
+            <NetworkName>14-16 rue Voltaire</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-09</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>09</Day>
+        <Time>16:06:50</Time>
+    </DateDescriptor>
+</Attack>

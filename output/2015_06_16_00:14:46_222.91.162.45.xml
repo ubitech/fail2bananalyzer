@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>222.91.162.45</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Shaanxi</RegionName>
+            <RegionCode>61</RegionCode>
+            <City>Xi'an</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>34.2583</Latitude>
+            <Longitude>108.9286</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>222.0.0.0 - 222.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.32</OSDescriptor>
+            <PortsDescriptor amount="14">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>upnp</ProgramName>
+                    <Port>5000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>commplex-link</ProgramName>
+                    <Port>5001</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>filemaker</ProgramName>
+                    <Port>5003</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>irc</ProgramName>
+                    <Port>6666</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>napster</ProgramName>
+                    <Port>6699</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cbt</ProgramName>
+                    <Port>7777</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>teradataordbms</ProgramName>
+                    <Port>8002</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>8008</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ospf-lite</ProgramName>
+                    <Port>8899</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>monkeycom</ProgramName>
+                    <Port>9898</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>abyss</ProgramName>
+                    <Port>9999</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>dnp</ProgramName>
+                    <Port>20000</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-16</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>16</Day>
+        <Time>00:14:46</Time>
+    </DateDescriptor>
+</Attack>

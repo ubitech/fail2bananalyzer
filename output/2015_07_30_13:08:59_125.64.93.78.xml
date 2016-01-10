@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>125.64.93.78</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Sichuan Sheng</RegionName>
+            <RegionCode>51</RegionCode>
+            <City>Chengdu</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>30.6667</Latitude>
+            <Longitude>104.0667</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>125.0.0.0 - 125.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7)</OSDescriptor>
+            <PortsDescriptor amount="10">
+                <PortDescriptor>
+                    <ProgramName>ftp-data</ProgramName>
+                    <Port>20</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ftp</ProgramName>
+                    <Port>21</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>iss-realsecure</ProgramName>
+                    <Port>902</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ccproxy-ftp</ProgramName>
+                    <Port>2121</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ppp</ProgramName>
+                    <Port>3000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>remoteanything</ProgramName>
+                    <Port>4000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>coldfusion-auth</ProgramName>
+                    <Port>44443</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-30</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>30</Day>
+        <Time>13:08:59</Time>
+    </DateDescriptor>
+</Attack>

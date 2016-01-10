@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>95.173.186.166</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Turkey</CountryName>
+            <CountryCode>TR</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Istanbul</TimeZone>
+            <Latitude>41.0136</Latitude>
+            <Longitude>28.955</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>6</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>95.173.186.0 - 95.173.186.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>Netinternet Bilgisayar Telekominukasyon San. ve Tic. Ltd. Sti.</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>mcl-turkey.com</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-06</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>06</Day>
+        <Time>10:13:51</Time>
+    </DateDescriptor>
+</Attack>

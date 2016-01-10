@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>24.179.227.180</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Minnesota</RegionName>
+            <RegionCode>MN</RegionCode>
+            <City>Owatonna</City>
+            <ZipCode>55060</ZipCode>
+            <TimeZone>America/Chicago</TimeZone>
+            <Latitude>44.0479</Latitude>
+            <Longitude>-93.226</Longitude>
+            <MetroCode>613</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>7</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>24.136.0.0 - 24.255.255.255</NetworkRange>
+            <NetworkSize>7864319</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-08</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>08</Day>
+        <Time>02:50:46</Time>
+    </DateDescriptor>
+</Attack>

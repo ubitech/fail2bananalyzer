@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>177.207.188.42</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Brazil</CountryName>
+            <CountryCode>BR</CountryCode>
+            <RegionName>Sao Paulo</RegionName>
+            <RegionCode>SP</RegionCode>
+            <City>São Paulo</City>
+            <ZipCode>04578</ZipCode>
+            <TimeZone>America/Sao_Paulo</TimeZone>
+            <Latitude>-23.4733</Latitude>
+            <Longitude>-46.6658</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>7</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>177.0.0.0 - 177.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Juniper Networks SSG 20 firewall</OSDescriptor>
+            <PortsDescriptor amount="5">
+                <PortDescriptor>
+                    <ProgramName>ident</ProgramName>
+                    <Port>113</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>oa-system</ProgramName>
+                    <Port>8022</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>blackice-icecap</ProgramName>
+                    <Port>8081</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>radan-http</ProgramName>
+                    <Port>8088</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cslistener</ProgramName>
+                    <Port>9000</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-13</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>13</Day>
+        <Time>18:30:06</Time>
+    </DateDescriptor>
+</Attack>

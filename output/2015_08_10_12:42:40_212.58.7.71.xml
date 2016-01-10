@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>212.58.7.71</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Turkey</CountryName>
+            <CountryCode>TR</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Istanbul</TimeZone>
+            <Latitude>41.0136</Latitude>
+            <Longitude>28.955</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>212.58.7.0 - 212.58.7.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>DorukNet Co-Location block</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.18</OSDescriptor>
+            <PortsDescriptor amount="6">
+                <PortDescriptor>
+                    <ProgramName>smtp</ProgramName>
+                    <Port>25</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>pop3</ProgramName>
+                    <Port>110</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ident</ProgramName>
+                    <Port>113</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>submission</ProgramName>
+                    <Port>587</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="3">
+            <VirtualHost>
+                <VirtualHostname>cvyolla.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>cvyolla.net</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>mail.cvyolla.com</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-10</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>10</Day>
+        <Time>12:42:40</Time>
+    </DateDescriptor>
+</Attack>

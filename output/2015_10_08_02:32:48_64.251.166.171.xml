@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>64.251.166.171</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>South Dakota</RegionName>
+            <RegionCode>SD</RegionCode>
+            <City>Winner</City>
+            <ZipCode>57580</ZipCode>
+            <TimeZone>America/Chicago</TimeZone>
+            <Latitude>43.356</Latitude>
+            <Longitude>-100.0037</Longitude>
+            <MetroCode>725</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>64.0.0.0 - 64.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-08</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>08</Day>
+        <Time>02:32:48</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>173.44.159.221</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Nevada</RegionName>
+            <RegionCode>NV</RegionCode>
+            <City>Henderson</City>
+            <ZipCode>89074</ZipCode>
+            <TimeZone>America/Los_Angeles</TimeZone>
+            <Latitude>36.0312</Latitude>
+            <Longitude>-115.0739</Longitude>
+            <MetroCode>839</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>173.0.0.0 - 173.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-27</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>27</Day>
+        <Time>09:41:05</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>85.93.89.32</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Germany</CountryName>
+            <CountryCode>DE</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone></TimeZone>
+            <Latitude>51</Latitude>
+            <Longitude>9</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>85.93.80.0 - 85.93.95.255</NetworkRange>
+            <NetworkSize>4095</NetworkSize>
+            <NetworkName>Sub-Allocation to Mass Hosting DE</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor></OSDescriptor>
+            <PortsDescriptor amount="12">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>upnp</ProgramName>
+                    <Port>1900</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ppp</ProgramName>
+                    <Port>3000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>deslogin</ProgramName>
+                    <Port>3005</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-proxy</ProgramName>
+                    <Port>8080</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cslistener</ProgramName>
+                    <Port>9000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>tor-orport</ProgramName>
+                    <Port>9001</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>dynamid</ProgramName>
+                    <Port>9002</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>9003</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>abyss</ProgramName>
+                    <Port>9999</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-19</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>19</Day>
+        <Time>21:51:25</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>62.14.190.90</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Spain</CountryName>
+            <CountryCode>ES</CountryCode>
+            <RegionName>Murcia</RegionName>
+            <RegionCode>MC</RegionCode>
+            <City>Molina de Segura</City>
+            <ZipCode>30500</ZipCode>
+            <TimeZone>Europe/Madrid</TimeZone>
+            <Latitude>38.0546</Latitude>
+            <Longitude>-1.2076</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>5</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>62.14.190.0 - 62.14.190.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>IPV6-INFORMATICA-SL</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-16</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>16</Day>
+        <Time>06:11:32</Time>
+    </DateDescriptor>
+</Attack>

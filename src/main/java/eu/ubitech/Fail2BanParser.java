@@ -43,8 +43,9 @@ public class Fail2BanParser {
     private static final Logger logger = Logger.getLogger(Fail2BanParser.class.getName());    
     
     public static void main(String[] args) throws XPathExpressionException {
-        //main
-        AttackLogParser.parseFile("inputdata/attacks.log");
+        //main        
+        AttackLogParser.parseFileParallel("inputdata/attacks.log",10);
+        //AttackLogParser.parseFileMonolithic("inputdata/attacks.log");
           //service1 - location
 //        LocationRetriever locretriever = new LocationRetriever();
 //        Location location = locretriever.inferLocation("43.229.53.56");        

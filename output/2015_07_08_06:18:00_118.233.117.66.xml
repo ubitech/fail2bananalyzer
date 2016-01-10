@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>118.233.117.66</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Taiwan</CountryName>
+            <CountryCode>TW</CountryCode>
+            <RegionName>Taipei</RegionName>
+            <RegionCode></RegionCode>
+            <City>Taipei</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Taipei</TimeZone>
+            <Latitude>25.0392</Latitude>
+            <Longitude>121.525</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>118.0.0.0 - 118.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Enterasys Matrix X router (Linux 2.4)</OSDescriptor>
+            <PortsDescriptor amount="9">
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>printer</ProgramName>
+                    <Port>515</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ipp</ProgramName>
+                    <Port>631</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>jetdirect</ProgramName>
+                    <Port>9100</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>jetdirect</ProgramName>
+                    <Port>9101</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>jetdirect</ProgramName>
+                    <Port>9102</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>9110</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>DragonIDSConsole</ProgramName>
+                    <Port>9111</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>taipeitext.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>taiwanrunners.com</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-08</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>08</Day>
+        <Time>06:18:00</Time>
+    </DateDescriptor>
+</Attack>

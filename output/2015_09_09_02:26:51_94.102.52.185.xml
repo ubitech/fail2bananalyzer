@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>94.102.52.185</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Netherlands</CountryName>
+            <CountryCode>NL</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Amsterdam</TimeZone>
+            <Latitude>52.3667</Latitude>
+            <Longitude>4.9</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>5</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>94.102.52.0 - 94.102.55.255</NetworkRange>
+            <NetworkSize>1023</NetworkSize>
+            <NetworkName>ECATEL LTD</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7)</OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-09</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>09</Day>
+        <Time>02:26:51</Time>
+    </DateDescriptor>
+</Attack>

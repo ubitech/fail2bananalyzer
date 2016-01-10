@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>62.75.209.33</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Germany</CountryName>
+            <CountryCode>DE</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone></TimeZone>
+            <Latitude>51</Latitude>
+            <Longitude>9</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>62.75.208.0 - 62.75.211.255</NetworkRange>
+            <NetworkSize>1023</NetworkSize>
+            <NetworkName>BSB-SERVICE - Virtual dedicated Server-Hosting</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="8">
+            <VirtualHost>
+                <VirtualHostname>cardate.de</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>euve1878.vserver.de</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>mtischler.de</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>mydirtyshow.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>pdfix.de</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>tobi-tischler.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>tobi-tischler.de</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.pdfix.de</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-05</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>05</Day>
+        <Time>14:17:07</Time>
+    </DateDescriptor>
+</Attack>

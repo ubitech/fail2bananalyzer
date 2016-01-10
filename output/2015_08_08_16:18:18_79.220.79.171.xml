@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>79.220.79.171</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Germany</CountryName>
+            <CountryCode>DE</CountryCode>
+            <RegionName>Bavaria</RegionName>
+            <RegionCode>BY</RegionCode>
+            <City>Munich</City>
+            <ZipCode>80634</ZipCode>
+            <TimeZone>Europe/Berlin</TimeZone>
+            <Latitude>48.1492</Latitude>
+            <Longitude>11.5328</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>-1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>79.192.0.0 - 79.244.191.255</NetworkRange>
+            <NetworkSize>3457023</NetworkSize>
+            <NetworkName>Deutsche Telekom AG</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-08</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>08</Day>
+        <Time>16:18:18</Time>
+    </DateDescriptor>
+</Attack>

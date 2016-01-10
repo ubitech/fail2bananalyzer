@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>107.173.176.165</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>New York</RegionName>
+            <RegionCode>NY</RegionCode>
+            <City>Buffalo</City>
+            <ZipCode>14221</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>42.9864</Latitude>
+            <Longitude>-78.7279</Longitude>
+            <MetroCode>514</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>107.0.0.0 - 107.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-05</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>05</Day>
+        <Time>10:33:59</Time>
+    </DateDescriptor>
+</Attack>

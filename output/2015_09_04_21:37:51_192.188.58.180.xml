@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>192.188.58.180</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Ecuador</CountryName>
+            <CountryCode>EC</CountryCode>
+            <RegionName>Provincia de Pichincha</RegionName>
+            <RegionCode>P</RegionCode>
+            <City>Sangolqui</City>
+            <ZipCode></ZipCode>
+            <TimeZone>America/Guayaquil</TimeZone>
+            <Latitude>-0.3167</Latitude>
+            <Longitude>-78.45</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>7</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>192.188.11.0 - 192.188.62.255</NetworkRange>
+            <NetworkSize>13311</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="3">
+            <VirtualHost>
+                <VirtualHostname>host.espe.edu.ec</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.ginga.org.ec</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>www.redu.edu.ec</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-04</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>04</Day>
+        <Time>21:37:51</Time>
+    </DateDescriptor>
+</Attack>

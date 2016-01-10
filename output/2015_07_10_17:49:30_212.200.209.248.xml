@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>212.200.209.248</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Serbia</CountryName>
+            <CountryCode>RS</CountryCode>
+            <RegionName>Vojvodina</RegionName>
+            <RegionCode>VO</RegionCode>
+            <City>Novi Sad</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Belgrade</TimeZone>
+            <Latitude>45.2517</Latitude>
+            <Longitude>19.8369</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>-1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>212.200.208.0 - 212.200.211.255</NetworkRange>
+            <NetworkSize>1023</NetworkSize>
+            <NetworkName>J.Skumpija PR, SZTR MEDIA ART COMPUTERS</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>HP P2000 G3 NAS device</OSDescriptor>
+            <PortsDescriptor amount="4">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>msrpc</ProgramName>
+                    <Port>135</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-10</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>10</Day>
+        <Time>17:49:30</Time>
+    </DateDescriptor>
+</Attack>

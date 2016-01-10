@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>150.242.111.5</IPAddress>
+        <LocationDescriptor>
+            <CountryName>East Timor</CountryName>
+            <CountryCode>TL</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Dili</TimeZone>
+            <Latitude>-8.57</Latitude>
+            <Longitude>125.57</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>150.242.0.0 - 150.243.255.255</NetworkRange>
+            <NetworkSize>131071</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-29</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>29</Day>
+        <Time>01:58:50</Time>
+    </DateDescriptor>
+</Attack>

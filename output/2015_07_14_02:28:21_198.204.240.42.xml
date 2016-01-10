@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>198.204.240.42</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Missouri</RegionName>
+            <RegionCode>MO</RegionCode>
+            <City>Kansas City</City>
+            <ZipCode>64116</ZipCode>
+            <TimeZone>America/Chicago</TimeZone>
+            <Latitude>39.1472</Latitude>
+            <Longitude>-94.5735</Longitude>
+            <MetroCode>616</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>198.148.179.0 - 198.206.196.255</NetworkRange>
+            <NetworkSize>3805695</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-14</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>14</Day>
+        <Time>02:28:21</Time>
+    </DateDescriptor>
+</Attack>

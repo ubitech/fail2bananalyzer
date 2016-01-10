@@ -28,14 +28,21 @@ import eu.ubitech.cyberattackanalyzer.service.portscanning.nmap.NMapScannerExecu
 import eu.ubitech.cyberattackanalyzer.service.reverseip.VirtualHostname;
 import eu.ubitech.cyberattackanalyzer.service.reverseip.hackertarget.VirtuahostNameRetriever;
 import eu.ubitech.cyberattackanalyzer.service.whois.HostInfo;
+import eu.ubitech.cyberattackanalyzer.service.whois.apnic.ApnicRetriver;
 import eu.ubitech.cyberattackanalyzer.service.whois.ripe.RipeRetriver;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Stream;
@@ -56,7 +63,7 @@ public class AttackLogParser {
     private static final Logger logger = Logger.getLogger(AttackLogParser.class.getName());
     private static final String savefolder = "output";
 
-    public static void parseFile(String filename) {
+    public static void parseFileMonolithic(String filename) {
         //read file into stream, try-with-resources
         try (Stream<String> stream = Files.lines(Paths.get(filename))) {
             stream.forEach(AttackLogParser::handleAttack);
@@ -64,6 +71,43 @@ public class AttackLogParser {
             e.printStackTrace();
         }
     }//EoM parseFile
+    
+    public static void parseFileParallel(String filename, int poolsize) {
+        final ExecutorService es = Executors.newFixedThreadPool(poolsize);
+        final List<Future> futures = new ArrayList<>();
+
+        //read file into stream, try-with-resources
+        try (Stream<String> stream = Files.lines(Paths.get(filename))) {
+            List<String> lines = Files.readAllLines(Paths.get(filename),
+                    Charset.defaultCharset());
+            for (String line : lines) {
+                futures.add(attackFuture(es, line));
+            }//for
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }//EoM parseFile
+
+    public static Future<CallableResult> attackFuture(final ExecutorService es, final String attackdescr) {
+        return es.submit(new Callable<CallableResult>() {
+            @Override
+            public CallableResult call() {
+                try {
+                    handleAttack(attackdescr);
+                    return new CallableResult(0);
+                } catch (Exception ex) {
+                    return new CallableResult(1);
+                }
+            }
+        });
+    }//EoM    
+
+    public static class CallableResult {
+        private int status;
+        public CallableResult(int status) {
+            this.status = status;
+        }
+    }//EoC
 
     /**
      *
@@ -105,7 +149,7 @@ public class AttackLogParser {
             if (files != null && files.length > 0 && reuseipanalysis) {
                 logger.info("IP has already bean analyzed: " + ipstr);
                 //load existing attack from first file
-                Attack existingattack = loadAttackFromFile(new File(savefolder+"/"+files[0]));
+                Attack existingattack = loadAttackFromFile(new File(savefolder + "/" + files[0]));
                 //change only the date
                 existingattack.getDateDescriptor().setFulldate(datestr);
                 existingattack.getDateDescriptor().setYear(year);
@@ -114,7 +158,7 @@ public class AttackLogParser {
                 existingattack.getDateDescriptor().setTime(time);
                 //persist the changes
                 saveAttackFile(existingattack);
-                
+
             } else {
                 //run everything
                 //STEP-1 create the attack object and its root elements
@@ -165,13 +209,14 @@ public class AttackLogParser {
 
                 //--whois data
                 //define retriver
+                //ApnicRetriver whoisretriver = new ApnicRetriver();
                 RipeRetriver whoisretriver = new RipeRetriver();
                 HostInfo hostInfo = whoisretriver.getHostInfo(ipstr);
                 //define xml element
                 IPDescriptor.AdversaryHostDescriptor adversaryHostDescriptor = factory.createAttackIPDescriptorAdversaryHostDescriptor();
                 //fill xml element
                 adversaryHostDescriptor.setNetworkRange(hostInfo.getInetnum());
-                adversaryHostDescriptor.setNetworkSize(hostInfo.getNetsize());                
+                adversaryHostDescriptor.setNetworkSize(hostInfo.getNetsize());
                 adversaryHostDescriptor.setNetworkName(hostInfo.getNetname());
                 adversaryHostDescriptor.setProvName(hostInfo.getProvname());
 
@@ -192,24 +237,25 @@ public class AttackLogParser {
                 //--port scanning
                 //define retriver
                 NMapScannerExecutor nMapScannerExecutor = new NMapScannerExecutor();
-                ScanResult scanres = nMapScannerExecutor.scanTarget(ipstr);                
+                ScanResult scanres = nMapScannerExecutor.scanTarget(ipstr);
                 //define xml element
                 IPDescriptor.AdversarySystemDescriptor systemDescriptor = factory.createAttackIPDescriptorAdversarySystemDescriptor();
                 //fill xml element
                 IPDescriptor.AdversarySystemDescriptor.PortsDescriptor portsDescriptor = factory.createAttackIPDescriptorAdversarySystemDescriptorPortsDescriptor();
-                portsDescriptor.setAmount(""+scanres.getAmount());
-                if (scanres.getPorts()!=null)
-                for (Port port : scanres.getPorts()) {
-                    IPDescriptor.AdversarySystemDescriptor.PortsDescriptor.PortDescriptor xmlport = factory.createAttackIPDescriptorAdversarySystemDescriptorPortsDescriptorPortDescriptor();
-                    xmlport.setPort(port.getPortnumber());
-                    xmlport.setProgramName(port.getService());
-                    portsDescriptor.getPortDescriptor().add(xmlport);
-                }                
-                systemDescriptor.setPortsDescriptor(portsDescriptor);                
+                portsDescriptor.setAmount("" + scanres.getAmount());
+                if (scanres.getPorts() != null) {
+                    for (Port port : scanres.getPorts()) {
+                        IPDescriptor.AdversarySystemDescriptor.PortsDescriptor.PortDescriptor xmlport = factory.createAttackIPDescriptorAdversarySystemDescriptorPortsDescriptorPortDescriptor();
+                        xmlport.setPort(port.getPortnumber());
+                        xmlport.setProgramName(port.getService());
+                        portsDescriptor.getPortDescriptor().add(xmlport);
+                    }
+                }
+                systemDescriptor.setPortsDescriptor(portsDescriptor);
                 systemDescriptor.setOSDescriptor(scanres.getOs());
                 //add it to ipdescr
                 ipdescr.setAdversarySystemDescriptor(systemDescriptor);
-                
+
                 //STEP-3 handle data 
                 datedescriptor.setFulldate(datestr);
                 datedescriptor.setYear(year);
@@ -218,7 +264,6 @@ public class AttackLogParser {
                 datedescriptor.setTime(time);
 
                 //STEP-4 handle malicious action
-                
                 //STEP-5 fill object
                 attack.setIPDescriptor(ipdescr);
                 attack.setDateDescriptor(datedescriptor);

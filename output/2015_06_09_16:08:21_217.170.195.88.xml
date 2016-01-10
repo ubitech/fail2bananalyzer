@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>217.170.195.88</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Norway</CountryName>
+            <CountryCode>NO</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Oslo</TimeZone>
+            <Latitude>59.95</Latitude>
+            <Longitude>10.75</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>217.170.194.0 - 217.170.195.255</NetworkRange>
+            <NetworkSize>511</NetworkSize>
+            <NetworkName>ServeTheWorld AS</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>dittevent.no</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>vps-1004727-877.stwadmin.net</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-09</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>09</Day>
+        <Time>16:08:21</Time>
+    </DateDescriptor>
+</Attack>

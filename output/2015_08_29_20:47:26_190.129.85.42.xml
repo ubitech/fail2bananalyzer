@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>190.129.85.42</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Bolivia</CountryName>
+            <CountryCode>BO</CountryCode>
+            <RegionName>Departamento de La Paz</RegionName>
+            <RegionCode>L</RegionCode>
+            <City>La Paz</City>
+            <ZipCode></ZipCode>
+            <TimeZone>America/La_Paz</TimeZone>
+            <Latitude>-16.5</Latitude>
+            <Longitude>-68.15</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>5</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>190.0.0.0 - 190.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.18</OSDescriptor>
+            <PortsDescriptor amount="9">
+                <PortDescriptor>
+                    <ProgramName>ftp</ProgramName>
+                    <Port>21</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>rpcbind</ProgramName>
+                    <Port>111</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>netbios-ssn</ProgramName>
+                    <Port>139</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ipp</ProgramName>
+                    <Port>631</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>nfs</ProgramName>
+                    <Port>2049</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>squid-http</ProgramName>
+                    <Port>3128</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>snet-sensor-mgmt</ProgramName>
+                    <Port>10000</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-29</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>29</Day>
+        <Time>20:47:26</Time>
+    </DateDescriptor>
+</Attack>

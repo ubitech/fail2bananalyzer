@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>117.36.197.36</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Shaanxi</RegionName>
+            <RegionCode>61</RegionCode>
+            <City>Xi'an</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>34.2583</Latitude>
+            <Longitude>108.9286</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>117.0.0.0 - 117.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.18</OSDescriptor>
+            <PortsDescriptor amount="11">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>telnet</ProgramName>
+                    <Port>23</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>msrpc</ProgramName>
+                    <Port>135</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>netbios-ssn</ProgramName>
+                    <Port>139</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-rpc-epmap</ProgramName>
+                    <Port>593</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>squid-http</ProgramName>
+                    <Port>3128</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mythtv</ProgramName>
+                    <Port>6543</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https-alt</ProgramName>
+                    <Port>8443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>sun-answerbook</ProgramName>
+                    <Port>8888</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>www.yuyang.gov.cn</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>yuyang.gov.cn</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-15</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>15</Day>
+        <Time>17:57:12</Time>
+    </DateDescriptor>
+</Attack>

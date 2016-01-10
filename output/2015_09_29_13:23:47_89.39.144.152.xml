@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>89.39.144.152</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Romania</CountryName>
+            <CountryCode>RO</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Bucharest</TimeZone>
+            <Latitude>46</Latitude>
+            <Longitude>25</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>89.39.144.0 - 89.39.144.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>LLHost Inc</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.32 - 3.1</OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>ici</ProgramName>
+                    <Port>2200</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-29</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>29</Day>
+        <Time>13:23:47</Time>
+    </DateDescriptor>
+</Attack>

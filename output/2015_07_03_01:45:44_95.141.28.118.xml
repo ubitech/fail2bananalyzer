@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>95.141.28.118</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Germany</CountryName>
+            <CountryCode>DE</CountryCode>
+            <RegionName>Hesse</RegionName>
+            <RegionCode>HE</RegionCode>
+            <City>Offenbach</City>
+            <ZipCode>63071</ZipCode>
+            <TimeZone>Europe/Berlin</TimeZone>
+            <Latitude>50.0993</Latitude>
+            <Longitude>8.7852</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>95.141.28.0 - 95.141.28.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>Kaia Global Networks Ltd.</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-03</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>03</Day>
+        <Time>01:45:44</Time>
+    </DateDescriptor>
+</Attack>

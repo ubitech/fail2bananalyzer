@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>200.35.56.43</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Colombia</CountryName>
+            <CountryCode>CO</CountryCode>
+            <RegionName>Antioquia</RegionName>
+            <RegionCode>ANT</RegionCode>
+            <City>Medellín</City>
+            <ZipCode></ZipCode>
+            <TimeZone>America/Bogota</TimeZone>
+            <Latitude>6.2518</Latitude>
+            <Longitude>-75.5636</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>200.0.0.0 - 200.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Cisco Unified Communications Manager VoIP adapter</OSDescriptor>
+            <PortsDescriptor amount="11">
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ms-sql-s</ProgramName>
+                    <Port>1433</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cisco-sccp</ProgramName>
+                    <Port>2000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>vnc-1</ProgramName>
+                    <Port>5901</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>vnc-2</ProgramName>
+                    <Port>5902</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cbt</ProgramName>
+                    <Port>7777</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>8090</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>8291</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cslistener</ProgramName>
+                    <Port>9000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>tor-orport</ProgramName>
+                    <Port>9001</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-06</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>06</Day>
+        <Time>10:09:58</Time>
+    </DateDescriptor>
+</Attack>

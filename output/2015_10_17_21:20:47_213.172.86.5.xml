@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>213.172.86.5</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Azerbaijan</CountryName>
+            <CountryCode>AZ</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Baku</TimeZone>
+            <Latitude>40.5</Latitude>
+            <Longitude>47.5</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>213.172.84.0 - 213.172.87.0</NetworkRange>
+            <NetworkSize>768</NetworkSize>
+            <NetworkName>AzEuroTel Telecommunications</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Cisco Aironet 1250 WAP (IOS 12.4)</OSDescriptor>
+            <PortsDescriptor amount="4">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>h2250-annex-g</ProgramName>
+                    <Port>2099</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>sip</ProgramName>
+                    <Port>5060</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>sip-tls</ProgramName>
+                    <Port>5061</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-17</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>17</Day>
+        <Time>21:20:47</Time>
+    </DateDescriptor>
+</Attack>

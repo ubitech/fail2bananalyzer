@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>203.118.149.70</IPAddress>
+        <LocationDescriptor>
+            <CountryName>New Zealand</CountryName>
+            <CountryCode>NZ</CountryCode>
+            <RegionName>Auckland</RegionName>
+            <RegionCode>AUK</RegionCode>
+            <City>Auckland</City>
+            <ZipCode>1150</ZipCode>
+            <TimeZone>Pacific/Auckland</TimeZone>
+            <Latitude>-36.8641</Latitude>
+            <Longitude>174.7621</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>203.0.114.0 - 203.255.255.255</NetworkRange>
+            <NetworkSize>16748031</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-19</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>19</Day>
+        <Time>03:57:53</Time>
+    </DateDescriptor>
+</Attack>

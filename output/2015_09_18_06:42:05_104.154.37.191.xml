@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>104.154.37.191</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>California</RegionName>
+            <RegionCode>CA</RegionCode>
+            <City>Mountain View</City>
+            <ZipCode>94043</ZipCode>
+            <TimeZone>America/Los_Angeles</TimeZone>
+            <Latitude>37.4192</Latitude>
+            <Longitude>-122.0574</Longitude>
+            <MetroCode>807</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>104.0.0.0 - 104.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-18</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>18</Day>
+        <Time>06:42:05</Time>
+    </DateDescriptor>
+</Attack>

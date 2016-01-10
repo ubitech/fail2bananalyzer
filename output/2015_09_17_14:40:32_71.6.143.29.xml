@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>71.6.143.29</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>California</RegionName>
+            <RegionCode>CA</RegionCode>
+            <City>San Diego</City>
+            <ZipCode>92123</ZipCode>
+            <TimeZone>America/Los_Angeles</TimeZone>
+            <Latitude>32.8073</Latitude>
+            <Longitude>-117.1324</Longitude>
+            <MetroCode>825</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>71.0.0.0 - 71.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Gennet OxyGEN wireless ADSL router (Linux 2.6.11)</OSDescriptor>
+            <PortsDescriptor amount="1">
+                <PortDescriptor>
+                    <ProgramName>rpcbind</ProgramName>
+                    <Port>111</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-17</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>17</Day>
+        <Time>14:40:32</Time>
+    </DateDescriptor>
+</Attack>

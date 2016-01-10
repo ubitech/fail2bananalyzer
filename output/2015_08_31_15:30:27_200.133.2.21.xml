@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>200.133.2.21</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Brazil</CountryName>
+            <CountryCode>BR</CountryCode>
+            <RegionName>Pernambuco</RegionName>
+            <RegionCode>PE</RegionCode>
+            <City>Recife</City>
+            <ZipCode></ZipCode>
+            <TimeZone>America/Recife</TimeZone>
+            <Latitude>-8.05</Latitude>
+            <Longitude>-34.9</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>200.0.0.0 - 200.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-31</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>31</Day>
+        <Time>15:30:27</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>69.64.62.6</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Missouri</RegionName>
+            <RegionCode>MO</RegionCode>
+            <City>St Louis</City>
+            <ZipCode>63101</ZipCode>
+            <TimeZone>America/Chicago</TimeZone>
+            <Latitude>38.6312</Latitude>
+            <Longitude>-90.1922</Longitude>
+            <MetroCode>609</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>69.0.0.0 - 69.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>raptor073.startdedicated.com</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-31</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>31</Day>
+        <Time>00:38:13</Time>
+    </DateDescriptor>
+</Attack>

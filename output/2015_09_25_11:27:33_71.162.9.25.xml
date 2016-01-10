@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>71.162.9.25</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Pennsylvania</RegionName>
+            <RegionCode>PA</RegionCode>
+            <City>McKees Rocks</City>
+            <ZipCode>15136</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>40.4673</Latitude>
+            <Longitude>-80.1027</Longitude>
+            <MetroCode>508</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>71.0.0.0 - 71.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-25</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>25</Day>
+        <Time>11:27:33</Time>
+    </DateDescriptor>
+</Attack>

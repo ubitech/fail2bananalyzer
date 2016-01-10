@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>46.196.56.82</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Turkey</CountryName>
+            <CountryCode>TR</CountryCode>
+            <RegionName>Istanbul</RegionName>
+            <RegionCode>34</RegionCode>
+            <City>Istanbul</City>
+            <ZipCode>34890</ZipCode>
+            <TimeZone>Europe/Istanbul</TimeZone>
+            <Latitude>40.9466</Latitude>
+            <Longitude>29.0535</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>-1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>46.196.0.0 - 46.196.255.255</NetworkRange>
+            <NetworkSize>65535</NetworkSize>
+            <NetworkName>Turksat Uydu-Net Internet</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-15</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>15</Day>
+        <Time>06:54:46</Time>
+    </DateDescriptor>
+</Attack>

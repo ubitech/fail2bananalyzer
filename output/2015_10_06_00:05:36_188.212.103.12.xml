@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>188.212.103.12</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Romania</CountryName>
+            <CountryCode>RO</CountryCode>
+            <RegionName>Judetul Bacau</RegionName>
+            <RegionCode>BC</RegionCode>
+            <City>Bacău</City>
+            <ZipCode>607316</ZipCode>
+            <TimeZone>Europe/Bucharest</TimeZone>
+            <Latitude>46.5757</Latitude>
+            <Longitude>26.8712</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>188.212.102.0 - 188.212.103.255</NetworkRange>
+            <NetworkSize>511</NetworkSize>
+            <NetworkName>TELESYSTEM SRL</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-06</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>06</Day>
+        <Time>00:05:36</Time>
+    </DateDescriptor>
+</Attack>

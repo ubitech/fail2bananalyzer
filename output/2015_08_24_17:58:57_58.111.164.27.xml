@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>58.111.164.27</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Australia</CountryName>
+            <CountryCode>AU</CountryCode>
+            <RegionName>Victoria</RegionName>
+            <RegionCode>VIC</RegionCode>
+            <City>Hawthorn</City>
+            <ZipCode>3122</ZipCode>
+            <TimeZone>Australia/Melbourne</TimeZone>
+            <Latitude>-37.8333</Latitude>
+            <Longitude>145.05</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>-1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>58.0.0.0 - 58.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-24</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>24</Day>
+        <Time>17:58:57</Time>
+    </DateDescriptor>
+</Attack>

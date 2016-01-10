@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>1.214.119.227</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Republic of Korea</CountryName>
+            <CountryCode>KR</CountryCode>
+            <RegionName>Seoul</RegionName>
+            <RegionCode>11</RegionCode>
+            <City>Seoul</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Seoul</TimeZone>
+            <Latitude>37.5985</Latitude>
+            <Longitude>126.9783</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>1.0.0.0 - 1.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>host-227.subnet-119.med.umich.edu</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>p5227-ip01okayamaima.okayama.ocn.ne.jp</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-13</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>13</Day>
+        <Time>07:37:12</Time>
+    </DateDescriptor>
+</Attack>

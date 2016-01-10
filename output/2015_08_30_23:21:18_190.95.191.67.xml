@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>190.95.191.67</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Ecuador</CountryName>
+            <CountryCode>EC</CountryCode>
+            <RegionName>Provincia del Guayas</RegionName>
+            <RegionCode>G</RegionCode>
+            <City>Guayaquil</City>
+            <ZipCode></ZipCode>
+            <TimeZone>America/Guayaquil</TimeZone>
+            <Latitude>-2.1667</Latitude>
+            <Longitude>-79.9</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>7</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>190.0.0.0 - 190.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-30</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>30</Day>
+        <Time>23:21:18</Time>
+    </DateDescriptor>
+</Attack>

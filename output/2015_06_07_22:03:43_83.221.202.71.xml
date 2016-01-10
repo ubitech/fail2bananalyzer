@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>83.221.202.71</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Russia</CountryName>
+            <CountryCode>RU</CountryCode>
+            <RegionName>Rostov</RegionName>
+            <RegionCode>ROS</RegionCode>
+            <City>Rostov-on-Don</City>
+            <ZipCode>344000</ZipCode>
+            <TimeZone>Europe/Moscow</TimeZone>
+            <Latitude>47.2364</Latitude>
+            <Longitude>39.7139</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>83.221.200.0 - 83.221.215.255</NetworkRange>
+            <NetworkSize>4095</NetworkSize>
+            <NetworkName>OJSC Rostelecom Macroregional Branch South</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-07</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>07</Day>
+        <Time>22:03:43</Time>
+    </DateDescriptor>
+</Attack>

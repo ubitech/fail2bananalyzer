@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>141.237.52.137</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Greece</CountryName>
+            <CountryCode>GR</CountryCode>
+            <RegionName>Attica</RegionName>
+            <RegionCode>I</RegionCode>
+            <City>Athens</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Europe/Athens</TimeZone>
+            <Latitude>37.9833</Latitude>
+            <Longitude>23.7333</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>-1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>141.237.0.0 - 141.237.127.255</NetworkRange>
+            <NetworkSize>32767</NetworkSize>
+            <NetworkName>Hellas On Line S.A.</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>ppp141237052137.access.hol.gr</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-10</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>10</Day>
+        <Time>22:23:59</Time>
+    </DateDescriptor>
+</Attack>

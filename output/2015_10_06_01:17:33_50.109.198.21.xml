@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>50.109.198.21</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Utah</RegionName>
+            <RegionCode>UT</RegionCode>
+            <City>Kaysville</City>
+            <ZipCode>84037</ZipCode>
+            <TimeZone>America/Denver</TimeZone>
+            <Latitude>41.0285</Latitude>
+            <Longitude>-111.9205</Longitude>
+            <MetroCode>770</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>50.0.0.0 - 50.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-06</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>06</Day>
+        <Time>01:17:33</Time>
+    </DateDescriptor>
+</Attack>

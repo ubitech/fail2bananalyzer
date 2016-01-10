@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>121.40.132.152</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Zhejiang Sheng</RegionName>
+            <RegionCode>33</RegionCode>
+            <City>Hangzhou</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Shanghai</TimeZone>
+            <Latitude>30.2936</Latitude>
+            <Longitude>120.1614</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>121.0.0.0 - 121.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7)</OSDescriptor>
+            <PortsDescriptor amount="12">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>xfer</ProgramName>
+                    <Port>82</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mit-ml-dev</ProgramName>
+                    <Port>83</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ctf</ProgramName>
+                    <Port>84</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mit-ml-dev</ProgramName>
+                    <Port>85</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>rsync</ProgramName>
+                    <Port>873</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>aeroflight-ads</ProgramName>
+                    <Port>1218</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>nrpe</ProgramName>
+                    <Port>5666</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>afs3-fileserver</ProgramName>
+                    <Port>7000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cslistener</ProgramName>
+                    <Port>9000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>flexlm0</ProgramName>
+                    <Port>27000</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-10</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>10</Day>
+        <Time>18:14:54</Time>
+    </DateDescriptor>
+</Attack>

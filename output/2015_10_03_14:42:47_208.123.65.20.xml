@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>208.123.65.20</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Texas</RegionName>
+            <RegionCode>TX</RegionCode>
+            <City>Austin</City>
+            <ZipCode>78729</ZipCode>
+            <TimeZone>America/Chicago</TimeZone>
+            <Latitude>30.4549</Latitude>
+            <Longitude>-97.7565</Longitude>
+            <MetroCode>635</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>208.0.0.0 - 208.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>loki.koboldi.net</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-03</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>03</Day>
+        <Time>14:42:47</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>119.206.193.137</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Republic of Korea</CountryName>
+            <CountryCode>KR</CountryCode>
+            <RegionName></RegionName>
+            <RegionCode></RegionCode>
+            <City></City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Seoul</TimeZone>
+            <Latitude>37.57</Latitude>
+            <Longitude>126.98</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>119.0.0.0 - 119.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>FreeBSD 6.2-RELEASE</OSDescriptor>
+            <PortsDescriptor amount="7">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>rtmp</ProgramName>
+                    <Port>1935</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>netop-school</ProgramName>
+                    <Port>1971</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cce4x</ProgramName>
+                    <Port>12000</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-30</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>30</Day>
+        <Time>21:02:39</Time>
+    </DateDescriptor>
+</Attack>

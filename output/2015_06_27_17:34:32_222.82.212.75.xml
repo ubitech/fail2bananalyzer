@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>222.82.212.75</IPAddress>
+        <LocationDescriptor>
+            <CountryName>China</CountryName>
+            <CountryCode>CN</CountryCode>
+            <RegionName>Xinjiang Uygur Zizhiqu</RegionName>
+            <RegionCode>65</RegionCode>
+            <City>Ürümqi</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Urumqi</TimeZone>
+            <Latitude>43.801</Latitude>
+            <Longitude>87.6005</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>6</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>222.0.0.0 - 222.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>AVM FRITZ!Box FON WLAN 7170 WAP</OSDescriptor>
+            <PortsDescriptor amount="16">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>telnet</ProgramName>
+                    <Port>23</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>hosts2-ns</ProgramName>
+                    <Port>81</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>xfer</ProgramName>
+                    <Port>82</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mit-ml-dev</ProgramName>
+                    <Port>83</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ctf</ProgramName>
+                    <Port>84</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mit-ml-dev</ProgramName>
+                    <Port>85</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ms-wbt-server</ProgramName>
+                    <Port>3389</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-alt</ProgramName>
+                    <Port>8000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-proxy</ProgramName>
+                    <Port>8080</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>blackice-icecap</ProgramName>
+                    <Port>8081</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>unknown</ProgramName>
+                    <Port>8085</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>xprint-server</ProgramName>
+                    <Port>8100</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>cslistener</ProgramName>
+                    <Port>9000</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="1">
+            <VirtualHost>
+                <VirtualHostname>www.xjsyxx.net</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-27</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>27</Day>
+        <Time>17:34:32</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>115.179.102.249</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Japan</CountryName>
+            <CountryCode>JP</CountryCode>
+            <RegionName>Tokyo</RegionName>
+            <RegionCode>13</RegionCode>
+            <City>Tokyo</City>
+            <ZipCode>100-0001</ZipCode>
+            <TimeZone>Asia/Tokyo</TimeZone>
+            <Latitude>35.685</Latitude>
+            <Longitude>139.7514</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>115.0.0.0 - 115.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-07-08</Fulldate>
+        <Year>2015</Year>
+        <Month>07</Month>
+        <Day>08</Day>
+        <Time>20:11:06</Time>
+    </DateDescriptor>
+</Attack>

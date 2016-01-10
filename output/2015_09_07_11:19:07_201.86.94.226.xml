@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>201.86.94.226</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Brazil</CountryName>
+            <CountryCode>BR</CountryCode>
+            <RegionName>Parana</RegionName>
+            <RegionCode>PR</RegionCode>
+            <City>Maringá</City>
+            <ZipCode></ZipCode>
+            <TimeZone>America/Sao_Paulo</TimeZone>
+            <Latitude>-23.4167</Latitude>
+            <Longitude>-51.9167</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>2</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>201.0.0.0 - 201.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-07</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>07</Day>
+        <Time>11:19:07</Time>
+    </DateDescriptor>
+</Attack>

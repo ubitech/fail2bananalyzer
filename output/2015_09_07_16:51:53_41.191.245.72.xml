@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>41.191.245.72</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Ghana</CountryName>
+            <CountryCode>GH</CountryCode>
+            <RegionName>Greater Accra Region</RegionName>
+            <RegionCode>AA</RegionCode>
+            <City>Accra</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Africa/Accra</TimeZone>
+            <Latitude>5.55</Latitude>
+            <Longitude>-0.2167</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>-1</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>41.0.0.0 - 41.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 3.1.9</OSDescriptor>
+            <PortsDescriptor amount="9">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>ppp</ProgramName>
+                    <Port>3000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>mysql</ProgramName>
+                    <Port>3306</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>vnc</ProgramName>
+                    <Port>5900</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-alt</ProgramName>
+                    <Port>8000</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-proxy</ProgramName>
+                    <Port>8080</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>sunwebadmin</ProgramName>
+                    <Port>8800</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>iua</ProgramName>
+                    <Port>9900</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-07</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>07</Day>
+        <Time>16:51:53</Time>
+    </DateDescriptor>
+</Attack>

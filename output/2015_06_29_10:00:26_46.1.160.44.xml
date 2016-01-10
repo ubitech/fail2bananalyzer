@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>46.1.160.44</IPAddress>
+        <LocationDescriptor/>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>0</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>46.1.160.0 - 46.1.160.255</NetworkRange>
+            <NetworkSize>255</NetworkSize>
+            <NetworkName>ATAKOY-VAE-POOL</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>HP P2000 G3 NAS device</OSDescriptor>
+            <PortsDescriptor amount="7">
+                <PortDescriptor>
+                    <ProgramName>ssh</ProgramName>
+                    <Port>22</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>telnet</ProgramName>
+                    <Port>23</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>domain</ProgramName>
+                    <Port>53</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>icslap</ProgramName>
+                    <Port>2869</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>freeciv</ProgramName>
+                    <Port>5555</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>glrpc</ProgramName>
+                    <Port>9080</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-29</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>29</Day>
+        <Time>10:00:26</Time>
+    </DateDescriptor>
+</Attack>

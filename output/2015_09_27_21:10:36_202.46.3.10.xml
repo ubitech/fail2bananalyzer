@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>202.46.3.10</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Indonesia</CountryName>
+            <CountryCode>ID</CountryCode>
+            <RegionName>Daerah Khusus Ibukota Jakarta</RegionName>
+            <RegionCode>JK</RegionCode>
+            <City>Jakarta</City>
+            <ZipCode></ZipCode>
+            <TimeZone>Asia/Jakarta</TimeZone>
+            <Latitude>-6.1744</Latitude>
+            <Longitude>106.8294</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>5</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>202.0.0.0 - 202.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>OpenWrt White Russian 0.9 (Linux 2.4.30)</OSDescriptor>
+            <PortsDescriptor amount="8">
+                <PortDescriptor>
+                    <ProgramName>http</ProgramName>
+                    <Port>80</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>msrpc</ProgramName>
+                    <Port>135</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>netbios-ssn</ProgramName>
+                    <Port>139</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>microsoft-ds</ProgramName>
+                    <Port>445</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>printer</ProgramName>
+                    <Port>515</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>http-rpc-epmap</ProgramName>
+                    <Port>593</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>krb524</ProgramName>
+                    <Port>4444</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-09-27</Fulldate>
+        <Year>2015</Year>
+        <Month>09</Month>
+        <Day>27</Day>
+        <Time>21:10:36</Time>
+    </DateDescriptor>
+</Attack>

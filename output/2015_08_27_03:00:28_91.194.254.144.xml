@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>91.194.254.144</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Austria</CountryName>
+            <CountryCode>AT</CountryCode>
+            <RegionName>Vorarlberg</RegionName>
+            <RegionCode>8</RegionCode>
+            <City>Schwarzach</City>
+            <ZipCode>6858</ZipCode>
+            <TimeZone>Europe/Vienna</TimeZone>
+            <Latitude>47.4611</Latitude>
+            <Longitude>9.7912</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>3</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>91.194.254.0 - 91.194.255.255</NetworkRange>
+            <NetworkSize>511</NetworkSize>
+            <NetworkName>Dimline Ltd.</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="2">
+            <VirtualHost>
+                <VirtualHostname>adult-lifetime-pornpassport.com</VirtualHostname>
+            </VirtualHost>
+            <VirtualHost>
+                <VirtualHostname>adult-lifetime-porn-passports.com</VirtualHostname>
+            </VirtualHost>
+        </ReverseIPDescriptor>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-08-27</Fulldate>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>27</Day>
+        <Time>03:00:28</Time>
+    </DateDescriptor>
+</Attack>

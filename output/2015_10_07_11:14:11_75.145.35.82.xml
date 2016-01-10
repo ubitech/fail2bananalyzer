@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>75.145.35.82</IPAddress>
+        <LocationDescriptor>
+            <CountryName>United States</CountryName>
+            <CountryCode>US</CountryCode>
+            <RegionName>Pennsylvania</RegionName>
+            <RegionCode>PA</RegionCode>
+            <City>DuBois</City>
+            <ZipCode>15801</ZipCode>
+            <TimeZone>America/New_York</TimeZone>
+            <Latitude>41.1172</Latitude>
+            <Longitude>-78.6861</Longitude>
+            <MetroCode>574</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>4</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>75.0.0.0 - 75.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <PortsDescriptor amount="0"/>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-10-07</Fulldate>
+        <Year>2015</Year>
+        <Month>10</Month>
+        <Day>07</Day>
+        <Time>11:14:11</Time>
+    </DateDescriptor>
+</Attack>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Attack>
+    <IPDescriptor>
+        <IPAddress>61.91.171.55</IPAddress>
+        <LocationDescriptor>
+            <CountryName>Thailand</CountryName>
+            <CountryCode>TH</CountryCode>
+            <RegionName>Changwat Samut Prakan</RegionName>
+            <RegionCode>11</RegionCode>
+            <City>Mueang Samut Prakan</City>
+            <ZipCode>10270</ZipCode>
+            <TimeZone>Asia/Bangkok</TimeZone>
+            <Latitude>13.6004</Latitude>
+            <Longitude>100.5968</Longitude>
+            <MetroCode>0</MetroCode>
+        </LocationDescriptor>
+        <BlacklistingDescriptor>
+            <BlacklistingLevel>5</BlacklistingLevel>
+        </BlacklistingDescriptor>
+        <AdversaryHostDescriptor>
+            <NetworkRange>61.0.0.0 - 61.255.255.255</NetworkRange>
+            <NetworkSize>16777215</NetworkSize>
+            <NetworkName>IPv4 address block not managed by the RIPE NCC</NetworkName>
+        </AdversaryHostDescriptor>
+        <AdversarySystemDescriptor>
+            <OSDescriptor>Linux 2.6.32 - 2.6.39</OSDescriptor>
+            <PortsDescriptor amount="2">
+                <PortDescriptor>
+                    <ProgramName>https</ProgramName>
+                    <Port>443</Port>
+                </PortDescriptor>
+                <PortDescriptor>
+                    <ProgramName>sun-answerbook</ProgramName>
+                    <Port>8888</Port>
+                </PortDescriptor>
+            </PortsDescriptor>
+        </AdversarySystemDescriptor>
+        <ReverseIPDescriptor AmountOfVirtualHosts="0"/>
+    </IPDescriptor>
+    <DateDescriptor>
+        <Fulldate>2015-06-16</Fulldate>
+        <Year>2015</Year>
+        <Month>06</Month>
+        <Day>16</Day>
+        <Time>05:30:58</Time>
+    </DateDescriptor>
+</Attack>
